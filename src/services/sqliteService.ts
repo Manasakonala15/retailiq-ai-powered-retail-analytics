@@ -3,7 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import initSqlJs, { Database } from 'sql.js';
+// @ts-ignore
+import initSqlJs from 'sql.js/dist/sql-wasm-inline.js';
+import type { Database } from 'sql.js';
 import { Transaction } from '../types/retail';
 
 export interface SQLQueryResult {
@@ -271,9 +273,7 @@ let currentTransactionCount = 0;
  * Initializes sql.js in WebAssembly and builds the in-memory SQLite schema
  */
 export async function initializeDatabase(transactions: Transaction[]): Promise<Database> {
-  const SQL = await initSqlJs({
-    locateFile: (file) => `https://sql.js.org/dist/${file}`,
-  });
+  const SQL = await initSqlJs();
 
   const db = new SQL.Database();
 
@@ -339,12 +339,71 @@ export async function initializeDatabase(transactions: Transaction[]): Promise<D
 }
 
 /**
- * Executes an arbitrary SQL query on the active SQLite database
+ * Analytical Guardrail: Validates that SQL statements are read-only analytical queries.
+ * Blocks destructive or schema-mutating statements (DROP, DELETE, INSERT, UPDATE, ALTER, etc.)
+ */
+export function validateReadOnlySQL(sql: string): { isSafe: boolean; reason?: string } {
+  const trimmed = sql.trim();
+  // Strip block and line comments before inspecting tokens
+  const cleanSql = trimmed
+    .replace(/\/\*[\s\S]*?\*\//g, ' ')
+    .replace(/--.*$/gm, ' ')
+    .trim();
+
+  if (!cleanSql) {
+    return { isSafe: false, reason: 'SQL query cannot be empty.' };
+  }
+
+  const forbiddenKeywords = [
+    'DROP', 'DELETE', 'INSERT', 'UPDATE', 'ALTER', 'TRUNCATE', 'REPLACE',
+    'CREATE', 'ATTACH', 'DETACH', 'VACUUM', 'PRAGMA', 'GRANT', 'REVOKE'
+  ];
+
+  // Permitted analytical statements start with SELECT, WITH, or EXPLAIN
+  const firstWordMatch = cleanSql.match(/^\s*([a-zA-Z]+)/);
+  const firstWord = firstWordMatch ? firstWordMatch[1].toUpperCase() : '';
+
+  if (!['SELECT', 'WITH', 'EXPLAIN'].includes(firstWord)) {
+    return {
+      isSafe: false,
+      reason: `Destructive or schema-modifying SQL is restricted. Only read-only analytical queries (SELECT, WITH) are permitted. Blocked statement: ${firstWord}`,
+    };
+  }
+
+  // Check multi-statement injection via semicolons
+  const statements = cleanSql.split(';').map(s => s.trim()).filter(Boolean);
+  for (const stmt of statements) {
+    const word = stmt.match(/^\s*([a-zA-Z]+)/)?.[1]?.toUpperCase() || '';
+    if (forbiddenKeywords.includes(word)) {
+      return {
+        isSafe: false,
+        reason: `Forbidden SQL operation '${word}' detected. RetailIQ SQL Studio operates in strict read-only analytical mode.`,
+      };
+    }
+  }
+
+  return { isSafe: true };
+}
+
+/**
+ * Executes an arbitrary SQL query on the active SQLite database with read-only validation
  */
 export async function executeSQLQuery(sql: string, transactions?: Transaction[]): Promise<SQLQueryResult> {
   const startTime = performance.now();
 
   try {
+    // Security check: restrict custom execution to analytical read-only queries
+    const safetyCheck = validateReadOnlySQL(sql);
+    if (!safetyCheck.isSafe) {
+      return {
+        columns: [],
+        values: [],
+        rowCount: 0,
+        executionTimeMs: 0,
+        error: `Security Guardrail: ${safetyCheck.reason}`,
+      };
+    }
+
     if (!sqlEngine || (transactions && transactions.length !== currentTransactionCount)) {
       if (transactions) {
         await initializeDatabase(transactions);
@@ -383,3 +442,4 @@ export async function executeSQLQuery(sql: string, transactions?: Transaction[])
     };
   }
 }
+

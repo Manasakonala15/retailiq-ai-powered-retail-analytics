@@ -102,7 +102,17 @@ export const ExecutiveOverview: React.FC<ExecutiveOverviewProps> = ({ transactio
 
   return (
     <div className="space-y-6">
-      {/* KPI Cards Row */}
+      {/* Cost Data Notice if unmapped */}
+      {!kpis.profitAvailable && (
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-3.5 flex items-center justify-between text-xs text-amber-900">
+          <span className="font-medium">
+            Wholesale Cost (COGS) data is not mapped or unavailable in the active dataset. Profit and margin metrics are marked as unavailable to avoid misleading figures.
+          </span>
+          <span className="text-[11px] font-mono text-amber-700">Map Cost in Data Management</span>
+        </div>
+      )}
+
+      {/* Primary KPI Cards Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <KPICard
           title="Total Revenue"
@@ -113,54 +123,71 @@ export const ExecutiveOverview: React.FC<ExecutiveOverviewProps> = ({ transactio
         />
         <KPICard
           title="Total Net Profit"
-          value={kpis.totalProfit}
-          prefix="$"
-          changePct={kpis.previousPeriod?.profitChangePct}
-          formulaNote="Sum of transaction profit: Σ(Revenue - Wholesale Cost)"
-        />
-        <KPICard
-          title="Average Order Value (AOV)"
-          value={kpis.averageOrderValue}
-          prefix="$"
-          subtext={`Across ${kpis.totalOrders.toLocaleString()} distinct orders`}
-          formulaNote="Total Revenue ÷ Distinct Order IDs (avoids multi-item double counting)"
+          value={kpis.profitAvailable ? kpis.totalProfit : 'Unavailable'}
+          prefix={kpis.profitAvailable ? '$' : ''}
+          subtext={kpis.profitAvailable ? undefined : 'COGS data required'}
+          changePct={kpis.profitAvailable ? kpis.previousPeriod?.profitChangePct : undefined}
+          formulaNote="Sum of transaction profit: Σ(Revenue - Cost of Goods Sold)"
         />
         <KPICard
           title="Gross Profit Margin"
-          value={kpis.profitMargin}
-          suffix="%"
-          subtext={`Avg spend $${kpis.averageCustomerSpending.toFixed(2)}/customer`}
+          value={kpis.profitAvailable ? kpis.profitMargin : 'N/A'}
+          suffix={kpis.profitAvailable ? '%' : ''}
+          subtext={kpis.profitAvailable ? `Blended gross margin` : 'Incomplete cost data'}
           formulaNote="(Total Profit ÷ Total Revenue) × 100"
+        />
+        <KPICard
+          title="Total Orders"
+          value={kpis.totalOrders}
+          subtext="Distinct deduplicated orders"
+          changePct={kpis.previousPeriod ? Math.round(((kpis.totalOrders - (kpis.previousPeriod.totalOrders || 1)) / (kpis.previousPeriod.totalOrders || 1)) * 1000) / 10 : undefined}
+          formulaNote="Count of unique distinct Order IDs (avoids multi-item double counting)"
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="bg-white border border-slate-200 rounded-lg p-4 flex items-center justify-between">
-          <div>
-            <div className="text-xs text-slate-500 font-medium">Distinct Orders</div>
-            <div className="text-xl font-bold font-mono text-slate-800 tabular-nums">
-              {kpis.totalOrders.toLocaleString()}
-            </div>
+      {/* Secondary KPI Cards Row */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <div className="text-[11px] text-slate-500 font-medium">Average Order Value</div>
+          <div className="text-lg font-bold text-slate-900 tabular-nums font-mono mt-0.5">
+            ${kpis.averageOrderValue.toFixed(2)}
           </div>
-          <span className="text-xs text-slate-400 font-mono">Deduplicated</span>
+          <span className="text-[10px] text-slate-400 block mt-1">Revenue ÷ Orders</span>
         </div>
-        <div className="bg-white border border-slate-200 rounded-lg p-4 flex items-center justify-between">
-          <div>
-            <div className="text-xs text-slate-500 font-medium">Units Sold</div>
-            <div className="text-xl font-bold font-mono text-slate-800 tabular-nums">
-              {kpis.totalUnitsSold.toLocaleString()}
-            </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <div className="text-[11px] text-slate-500 font-medium">Total Units Sold</div>
+          <div className="text-lg font-bold text-slate-900 tabular-nums font-mono mt-0.5">
+            {kpis.totalUnitsSold.toLocaleString()}
           </div>
-          <span className="text-xs text-slate-400 font-mono">Catalog items</span>
+          <span className="text-[10px] text-slate-400 block mt-1">Catalog items</span>
         </div>
-        <div className="bg-white border border-slate-200 rounded-lg p-4 flex items-center justify-between">
-          <div>
-            <div className="text-xs text-slate-500 font-medium">Active Customer Accounts</div>
-            <div className="text-xl font-bold font-mono text-slate-800 tabular-nums">
-              {kpis.uniqueCustomers.toLocaleString()}
-            </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <div className="text-[11px] text-slate-500 font-medium">Unique Customers</div>
+          <div className="text-lg font-bold text-slate-900 tabular-nums font-mono mt-0.5">
+            {kpis.uniqueCustomers.toLocaleString()}
           </div>
-          <span className="text-xs text-slate-400 font-mono">Unique profiles</span>
+          <span className="text-[10px] text-slate-400 block mt-1">Distinct buyer accounts</span>
+        </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <div className="text-[11px] text-slate-500 font-medium">Avg Customer Spend</div>
+          <div className="text-lg font-bold text-slate-900 tabular-nums font-mono mt-0.5">
+            ${kpis.averageCustomerSpending.toFixed(2)}
+          </div>
+          <span className="text-[10px] text-slate-400 block mt-1">Revenue ÷ Customers</span>
+        </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <div className="text-[11px] text-slate-500 font-medium">Avg Selling Price (ASP)</div>
+          <div className="text-lg font-bold text-slate-900 tabular-nums font-mono mt-0.5">
+            ${kpis.averageSellingPrice.toFixed(2)}
+          </div>
+          <span className="text-[10px] text-slate-400 block mt-1">Revenue ÷ Units</span>
+        </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <div className="text-[11px] text-slate-500 font-medium">Return Rate</div>
+          <div className="text-lg font-bold text-slate-900 tabular-nums font-mono mt-0.5">
+            {kpis.returnRatePct}%
+          </div>
+          <span className="text-[10px] text-slate-400 block mt-1">{kpis.returnUnitsCount} units returned</span>
         </div>
       </div>
 

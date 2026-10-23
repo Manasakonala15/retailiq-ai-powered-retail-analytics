@@ -16,6 +16,8 @@ export interface Transaction {
   sales: number;
   cost: number;
   profit: number;
+  costAvailable: boolean;
+  isReturn: boolean;
   region: string;
   state?: string;
   paymentMethod?: string;
@@ -58,6 +60,10 @@ export interface DataQualityIssue {
 export interface DataQualityAudit {
   totalRows: number;
   totalColumns: number;
+  validRowsCount: number;
+  warningRowsCount: number;
+  rejectedRowsCount: number;
+  costDataAvailable: boolean;
   detectedColumns: { name: string; type: string; sample: any; missingPct: number }[];
   missingValuesByCol: Record<string, number>;
   duplicateRowsCount: number;
@@ -74,6 +80,7 @@ export interface DataQualityAudit {
     upperBound: number;
   }[];
   issues: DataQualityIssue[];
+  cleaningActionsLog?: string[];
 }
 
 export interface CleaningOptions {
@@ -87,12 +94,16 @@ export interface CleaningOptions {
 export interface ExecutiveKPIs {
   totalRevenue: number;
   totalProfit: number;
+  profitAvailable: boolean;
   totalOrders: number;
   totalUnitsSold: number;
   averageOrderValue: number;
   profitMargin: number;
   uniqueCustomers: number;
   averageCustomerSpending: number;
+  averageSellingPrice: number;
+  returnRatePct: number;
+  returnUnitsCount: number;
   previousPeriod?: {
     totalRevenue: number;
     totalProfit: number;

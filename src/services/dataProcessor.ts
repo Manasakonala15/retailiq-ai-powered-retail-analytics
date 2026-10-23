@@ -69,52 +69,112 @@ export function autoDetectColumnMapping(headers: string[]): ColumnMapping {
   return mapping as ColumnMapping;
 }
 
-/**
- * Validates and converts raw row objects into structured Transactions
- */
 export function parseRawRecords(rows: Record<string, any>[], mapping: ColumnMapping): Transaction[] {
   return rows.map((row, idx) => {
-    const rawOrderId = row[mapping.orderId] ? String(row[mapping.orderId]).trim() : `ORD-UNKNOWN-${idx}`;
-    const rawDate = row[mapping.orderDate] ? String(row[mapping.orderDate]).trim() : '';
-    const rawCust = row[mapping.customerId] ? String(row[mapping.customerId]).trim() : `CUST-GUEST-${idx}`;
-    const rawProdId = row[mapping.productId] ? String(row[mapping.productId]).trim() : `PROD-UNKNOWN-${idx}`;
-    const rawProdName = row[mapping.productName] ? String(row[mapping.productName]).trim() : 'Uncategorized Item';
-    const rawCategory = row[mapping.category] ? String(row[mapping.category]).trim() : 'General';
-    
-    // Numeric conversions
-    const rawQty = parseFloat(String(row[mapping.quantity] || '1').replace(/[$,]/g, ''));
-    const quantity = isNaN(rawQty) ? 1 : rawQty;
+    // Trim whitespace and clean string fields
+    const rawOrderId = row[mapping.orderId] !== undefined && String(row[mapping.orderId]).trim() !== ''
+      ? String(row[mapping.orderId]).trim()
+      : `ORD-UNKNOWN-${idx + 1}`;
 
-    const rawPrice = parseFloat(String(row[mapping.unitPrice] || '0').replace(/[$,]/g, ''));
+    const rawDate = row[mapping.orderDate] !== undefined && String(row[mapping.orderDate]).trim() !== ''
+      ? String(row[mapping.orderDate]).trim()
+      : '';
+
+    const rawCust = row[mapping.customerId] !== undefined && String(row[mapping.customerId]).trim() !== ''
+      ? String(row[mapping.customerId]).trim()
+      : `CUST-GUEST-${idx + 1}`;
+
+    const rawProdId = row[mapping.productId] !== undefined && String(row[mapping.productId]).trim() !== ''
+      ? String(row[mapping.productId]).trim()
+      : `PROD-UNKNOWN-${idx + 1}`;
+
+    const rawProdName = row[mapping.productName] !== undefined && String(row[mapping.productName]).trim() !== ''
+      ? String(row[mapping.productName]).trim()
+      : 'Uncategorized Item';
+
+    const rawCategory = row[mapping.category] !== undefined && String(row[mapping.category]).trim() !== ''
+      ? String(row[mapping.category]).trim()
+      : 'General';
+
+    // Numeric conversions
+    const rawQtyStr = String(row[mapping.quantity] ?? '1').replace(/[$, ]/g, '').trim();
+    const rawQty = parseFloat(rawQtyStr);
+    const quantity = isNaN(rawQty) ? 1 : rawQty;
+    const isReturn = quantity < 0;
+
+    const rawPriceStr = String(row[mapping.unitPrice] ?? '').replace(/[$, ]/g, '').trim();
+    const rawPrice = parseFloat(rawPriceStr);
     let unitPrice = isNaN(rawPrice) ? 0 : rawPrice;
 
-    const rawSales = parseFloat(String(row[mapping.sales] || '0').replace(/[$,]/g, ''));
+    // Discount percentage (e.g. "15%" or "0.15")
+    const rawDiscStr = String(row[mapping.discount] ?? '0').replace(/[$, ]/g, '').trim();
+    let discount = 0;
+    if (rawDiscStr.includes('%')) {
+      discount = parseFloat(rawDiscStr.replace('%', '')) / 100;
+    } else {
+      const parsedDisc = parseFloat(rawDiscStr);
+      discount = !isNaN(parsedDisc) ? (parsedDisc > 1 ? parsedDisc / 100 : parsedDisc) : 0;
+    }
+    discount = Math.max(0, Math.min(1, isNaN(discount) ? 0 : discount));
+
+    const rawSalesStr = String(row[mapping.sales] ?? '').replace(/[$, ]/g, '').trim();
+    const rawSales = parseFloat(rawSalesStr);
     let sales = isNaN(rawSales) ? 0 : rawSales;
 
-    // Derive sales if missing but price and qty present
-    if (sales === 0 && unitPrice > 0 && quantity > 0) {
-      sales = Math.round(quantity * unitPrice * 100) / 100;
+    // Derive sales if missing from unit price and quantity
+    if (sales === 0 && unitPrice > 0 && quantity !== 0) {
+      sales = Math.round(quantity * unitPrice * (1 - discount) * 100) / 100;
     }
-    // Derive unit price if missing but sales and qty present
-    if (unitPrice === 0 && sales > 0 && quantity > 0) {
-      unitPrice = Math.round((sales / quantity) * 100) / 100;
+    // Derive unit price if missing from sales and quantity
+    if (unitPrice === 0 && sales !== 0 && quantity !== 0) {
+      unitPrice = Math.round(Math.abs(sales / quantity) * 100) / 100;
     }
 
-    const rawCost = parseFloat(String(row[mapping.cost] || '0').replace(/[$,]/g, ''));
-    let cost = isNaN(rawCost) ? 0 : rawCost;
+    // Cost inspection: check if cost column actually exists in row
+    const costColKey = mapping.cost;
+    const rawCostVal = costColKey ? row[costColKey] : undefined;
+    const hasValidCostField = rawCostVal !== undefined && String(rawCostVal).trim() !== '';
+    const rawCost = hasValidCostField ? parseFloat(String(rawCostVal).replace(/[$, ]/g, '')) : NaN;
+    
+    let cost = 0;
+    let costAvailable = false;
+    let profit = 0;
 
-    const rawProfit = parseFloat(String(row[mapping.profit] || '0').replace(/[$,]/g, ''));
-    let profit = isNaN(rawProfit) ? 0 : rawProfit;
-
-    // Derive profit if missing but sales and cost available
-    if (profit === 0 && cost > 0 && sales !== 0) {
+    if (!isNaN(rawCost)) {
+      cost = rawCost;
+      costAvailable = true;
       profit = Math.round((sales - cost) * 100) / 100;
+    } else {
+      // Check if explicit profit was mapped
+      const profitColKey = mapping.profit;
+      const rawProfitVal = profitColKey ? row[profitColKey] : undefined;
+      const rawProf = rawProfitVal !== undefined && String(rawProfitVal).trim() !== ''
+        ? parseFloat(String(rawProfitVal).replace(/[$, ]/g, ''))
+        : NaN;
+
+      if (!isNaN(rawProf)) {
+        profit = rawProf;
+        cost = Math.round((sales - profit) * 100) / 100;
+        costAvailable = true;
+      } else {
+        // No cost provided — DO NOT synthesize cost as zero!
+        cost = 0;
+        profit = 0;
+        costAvailable = false;
+      }
     }
 
-    const region = row[mapping.region] ? String(row[mapping.region]).trim() : 'Standard';
-    const state = row[mapping.state] ? String(row[mapping.state]).trim() : undefined;
-    const paymentMethod = row[mapping.paymentMethod] ? String(row[mapping.paymentMethod]).trim() : undefined;
-    const discount = row[mapping.discount] ? parseFloat(String(row[mapping.discount]).replace(/[%,]/g, '')) : 0;
+    const region = row[mapping.region] !== undefined && String(row[mapping.region]).trim() !== ''
+      ? String(row[mapping.region]).trim()
+      : 'Standard';
+
+    const state = row[mapping.state] !== undefined && String(row[mapping.state]).trim() !== ''
+      ? String(row[mapping.state]).trim()
+      : undefined;
+
+    const paymentMethod = row[mapping.paymentMethod] !== undefined && String(row[mapping.paymentMethod]).trim() !== ''
+      ? String(row[mapping.paymentMethod]).trim()
+      : undefined;
 
     return {
       id: `TX-${idx + 1}`,
@@ -129,10 +189,12 @@ export function parseRawRecords(rows: Record<string, any>[], mapping: ColumnMapp
       sales,
       cost,
       profit,
+      costAvailable,
+      isReturn,
       region,
       state,
       paymentMethod,
-      discount: isNaN(discount) ? 0 : discount,
+      discount,
     };
   });
 }
@@ -311,9 +373,44 @@ export function auditDataQuality(transactions: Transaction[], rawHeaders: string
         { name: 'Region', type: 'string', sample: transactions[0]?.region, missingPct: 0 },
       ];
 
+  // Check cost coverage
+  const costMissingCount = transactions.filter((t) => !t.costAvailable || t.cost === 0).length;
+  const costDataAvailable = totalRows > 0 && ((totalRows - costMissingCount) / totalRows) >= 0.5;
+
+  if (!costDataAvailable) {
+    issues.unshift({
+      id: 'issue-missing-cost',
+      severity: 'warning',
+      type: 'missing_value',
+      field: 'Cost / COGS',
+      message: `Cost information is unavailable or zero for ${costMissingCount} of ${totalRows} records (${Math.round((costMissingCount / totalRows) * 100)}%). Profitability metrics will be marked incomplete.`,
+      affectedRowCount: costMissingCount,
+      affectedRowIndices: transactions.map((t, i) => (!t.costAvailable ? i : -1)).filter((i) => i >= 0),
+      suggestedFix: 'Map the appropriate wholesale Cost or COGS column in Data Management to enable accurate profit analysis.',
+    });
+  }
+
+  // Calculate row counts with issues
+  const rowsWithWarnings = new Set<number>();
+  const rowsWithErrors = new Set<number>();
+  issues.forEach((iss) => {
+    iss.affectedRowIndices.forEach((idx) => {
+      if (iss.severity === 'error') rowsWithErrors.add(idx);
+      else if (iss.severity === 'warning') rowsWithWarnings.add(idx);
+    });
+  });
+
+  const rejectedRowsCount = rowsWithErrors.size;
+  const warningRowsCount = rowsWithWarnings.size;
+  const validRowsCount = Math.max(0, totalRows - rejectedRowsCount);
+
   return {
     totalRows,
     totalColumns: detectedColumns.length,
+    validRowsCount,
+    warningRowsCount,
+    rejectedRowsCount,
+    costDataAvailable,
     detectedColumns,
     missingValuesByCol,
     duplicateRowsCount: duplicateIndices.length,
@@ -342,6 +439,45 @@ export function auditDataQuality(transactions: Transaction[], rawHeaders: string
     ],
     issues,
   };
+}
+
+/**
+ * Generates downloadable Data Quality & Validation Markdown Report
+ */
+export function generateValidationReport(audit: DataQualityAudit, datasetName: string): string {
+  const timestamp = new Date().toISOString();
+  return `# RetailIQ — Data Quality & Validation Audit Report
+
+**Dataset**: ${datasetName}
+**Generated**: ${timestamp}
+**Total Records Audited**: ${audit.totalRows.toLocaleString()}
+**Total Mapped Attributes**: ${audit.totalColumns}
+
+---
+
+## 1. Executive Data Quality Health Summary
+- **Valid Clean Records**: ${audit.validRowsCount.toLocaleString()} (${Math.round((audit.validRowsCount / Math.max(1, audit.totalRows)) * 100)}%)
+- **Records with Warnings / Anomalies**: ${audit.warningRowsCount.toLocaleString()}
+- **Critical Corrupted / Rejected Records**: ${audit.rejectedRowsCount.toLocaleString()}
+- **Cost Data Coverage**: ${audit.costDataAvailable ? 'Sufficient (>= 50% mapped)' : 'INCOMPLETE (< 50% mapped — profit analysis limited)'}
+
+---
+
+## 2. Detected Quality Anomalies & Remediation Log
+- **Duplicate Line Items**: ${audit.duplicateRowsCount} (Composite key: Order ID + Product + Customer)
+- **Invalid / Missing Timestamps**: ${audit.invalidDatesCount} records
+- **Customer Returns (Negative Quantity)**: ${audit.negativeQuantitiesCount} records
+- **Sales IQR Outliers (Tukey 1.5x Fence)**: ${audit.iqrOutliers.find(o => o.column === 'Sales')?.count || 0} records (> $${audit.iqrOutliers.find(o => o.column === 'Sales')?.upperBound.toFixed(2) || '0.00'})
+
+---
+
+## 3. Detected Column Specifications
+| Column Name | Inferred Type | Sample Value | Missing % |
+|---|---|---|---|
+${audit.detectedColumns.map(c => `| ${c.name} | ${c.type} | ${c.sample ?? 'NULL'} | ${c.missingPct}% |`).join('\n')}
+
+---
+*Report generated automatically by RetailIQ Data Quality Engine*`;
 }
 
 /**
@@ -444,12 +580,16 @@ export function calculateExecutiveKPIs(transactions: Transaction[]): ExecutiveKP
     return {
       totalRevenue: 0,
       totalProfit: 0,
+      profitAvailable: false,
       totalOrders: 0,
       totalUnitsSold: 0,
       averageOrderValue: 0,
       profitMargin: 0,
       uniqueCustomers: 0,
       averageCustomerSpending: 0,
+      averageSellingPrice: 0,
+      returnRatePct: 0,
+      returnUnitsCount: 0,
     };
   }
 
@@ -458,13 +598,25 @@ export function calculateExecutiveKPIs(transactions: Transaction[]): ExecutiveKP
   let totalUnitsSold = 0;
   const uniqueOrderIds = new Set<string>();
   const uniqueCustomerIds = new Set<string>();
+  const returnOrderIds = new Set<string>();
+  let returnUnitsCount = 0;
+  let rowsWithCost = 0;
 
   for (const tx of transactions) {
     totalRevenue += tx.sales;
-    totalProfit += tx.profit;
+    if (tx.costAvailable) {
+      totalProfit += tx.profit;
+      rowsWithCost++;
+    }
     totalUnitsSold += tx.quantity;
     if (tx.orderId) uniqueOrderIds.add(tx.orderId);
     if (tx.customerId) uniqueCustomerIds.add(tx.customerId);
+
+    // Track returns
+    if (tx.quantity < 0) {
+      if (tx.orderId) returnOrderIds.add(tx.orderId);
+      returnUnitsCount += Math.abs(tx.quantity);
+    }
   }
 
   totalRevenue = Math.round(totalRevenue * 100) / 100;
@@ -472,11 +624,17 @@ export function calculateExecutiveKPIs(transactions: Transaction[]): ExecutiveKP
 
   const totalOrders = uniqueOrderIds.size;
   const uniqueCustomers = uniqueCustomerIds.size;
+  const profitAvailable = transactions.length > 0 && (rowsWithCost / transactions.length) >= 0.4;
 
   // Safe division
   const averageOrderValue = totalOrders > 0 ? Math.round((totalRevenue / totalOrders) * 100) / 100 : 0;
-  const profitMargin = totalRevenue > 0 ? Math.round((totalProfit / totalRevenue) * 1000) / 10 : 0;
+  const profitMargin = (profitAvailable && totalRevenue > 0) ? Math.round((totalProfit / totalRevenue) * 1000) / 10 : 0;
   const averageCustomerSpending = uniqueCustomers > 0 ? Math.round((totalRevenue / uniqueCustomers) * 100) / 100 : 0;
+  const returnRatePct = totalOrders > 0 ? Math.round((returnOrderIds.size / totalOrders) * 1000) / 10 : 0;
+
+  const positiveSales = transactions.filter((t) => t.sales > 0).reduce((acc, t) => acc + t.sales, 0);
+  const positiveUnits = transactions.filter((t) => t.quantity > 0).reduce((acc, t) => acc + t.quantity, 0);
+  const averageSellingPrice = positiveUnits > 0 ? Math.round((positiveSales / positiveUnits) * 100) / 100 : 0;
 
   // Previous period comparison (e.g., comparing first half of active dates with second half)
   const validDates = transactions.map((t) => t.orderDate).filter(Boolean).sort();
@@ -499,22 +657,22 @@ export function calculateExecutiveKPIs(transactions: Transaction[]): ExecutiveKP
       const prevOrders = new Set<string>();
       for (const t of prevTxs) {
         prevRev += t.sales;
-        prevProf += t.profit;
+        if (t.costAvailable) prevProf += t.profit;
         prevOrders.add(t.orderId);
       }
       let currRev = 0;
       let currProf = 0;
       for (const t of currTxs) {
         currRev += t.sales;
-        currProf += t.profit;
+        if (t.costAvailable) currProf += t.profit;
       }
 
       const revChange = prevRev > 0 ? Math.round(((currRev - prevRev) / prevRev) * 1000) / 10 : 0;
-      const profChange = prevProf > 0 ? Math.round(((currProf - prevProf) / prevProf) * 1000) / 10 : 0;
+      const profChange = (profitAvailable && prevProf > 0) ? Math.round(((currProf - prevProf) / prevProf) * 1000) / 10 : 0;
 
       previousPeriod = {
         totalRevenue: Math.round(prevRev * 100) / 100,
-        totalProfit: Math.round(prevProf * 100) / 100,
+        totalProfit: profitAvailable ? Math.round(prevProf * 100) / 100 : 0,
         totalOrders: prevOrders.size,
         revenueChangePct: revChange,
         profitChangePct: profChange,
@@ -524,13 +682,17 @@ export function calculateExecutiveKPIs(transactions: Transaction[]): ExecutiveKP
 
   return {
     totalRevenue,
-    totalProfit,
+    totalProfit: profitAvailable ? totalProfit : 0,
+    profitAvailable,
     totalOrders,
     totalUnitsSold,
     averageOrderValue,
     profitMargin,
     uniqueCustomers,
     averageCustomerSpending,
+    averageSellingPrice,
+    returnRatePct,
+    returnUnitsCount,
     previousPeriod,
   };
 }

@@ -1,0 +1,1251 @@
+id,order_id,order_date,customer_id,product_id,product_name,category,quantity,unit_price,sales,cost,profit,region,state,payment_method,discount
+TX-1,ORD-2025-10001,2025-06-04,CUST-1087,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,796.0,520.0,276.0,East,Massachusetts,Corporate Invoice,0.0
+TX-2,ORD-2025-10001,2025-06-04,CUST-1087,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,East,Massachusetts,Corporate Invoice,0.0
+TX-3,ORD-2025-10002,2025-10-21,CUST-1155,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,South,Georgia,PayPal,0.0
+TX-4,ORD-2025-10003,2025-11-06,CUST-1136,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,796.0,520.0,276.0,Central,Ohio,PayPal,0.0
+TX-5,ORD-2025-10003,2025-11-06,CUST-1136,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,135.0,54.0,81.0,Central,Ohio,PayPal,0.0
+TX-6,ORD-2025-10004,2025-12-05,CUST-1003,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,East,Pennsylvania,Credit Card,0.0
+TX-7,ORD-2025-10004,2025-12-05,CUST-1003,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,East,Pennsylvania,Credit Card,0.0
+TX-8,ORD-2025-10004,2025-12-05,CUST-1003,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,716.4,520.0,196.4,East,Pennsylvania,Credit Card,0.1
+TX-9,ORD-2025-10005,2025-01-02,CUST-1012,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,50.99,32.0,18.99,West,Colorado,PayPal,0.15
+TX-10,ORD-2025-10005,2025-01-02,CUST-1012,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,West,Colorado,PayPal,0.0
+TX-11,ORD-2025-10006,2025-07-17,CUST-1138,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,Central,Texas,Corporate Invoice,0.0
+TX-12,ORD-2025-10006,2025-07-17,CUST-1138,PROD-113,Performance Chino Trousers,Apparel,1,78.0,67.86,30.0,37.86,Central,Texas,Corporate Invoice,0.13
+TX-13,ORD-2025-10007,2025-04-24,CUST-1053,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,182.6,115.0,67.6,Central,Texas,Apple Pay,0.17
+TX-14,ORD-2025-10007,2025-04-24,CUST-1053,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,89.99,52.0,37.99,Central,Texas,Apple Pay,0.0
+TX-15,ORD-2025-10007,2025-04-24,CUST-1053,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,414.12,272.0,142.12,Central,Texas,Apple Pay,0.13
+TX-16,ORD-2025-10008,2025-12-11,CUST-1032,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,54.0,22.5,31.5,Central,Texas,Debit Card,0.0
+TX-17,ORD-2025-10009,2025-08-08,CUST-1143,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,80.1,36.0,44.1,East,Massachusetts,Credit Card,0.11
+TX-18,ORD-2025-10009,2025-08-08,CUST-1143,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,East,Massachusetts,Credit Card,0.0
+TX-19,ORD-2025-10009,2025-08-08,CUST-1143,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,East,Massachusetts,Credit Card,0.0
+TX-20,ORD-2025-10010,2025-09-20,CUST-1018,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1139.2,840.0,299.2,Central,Michigan,PayPal,0.11
+TX-21,ORD-2025-10010,2025-09-20,CUST-1018,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,Central,Michigan,PayPal,0.0
+TX-22,ORD-2025-10010,2025-09-20,CUST-1018,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,Central,Michigan,PayPal,0.0
+TX-23,ORD-2025-10011,2025-12-27,CUST-1068,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,32.04,15.0,17.04,Central,Michigan,Debit Card,0.11
+TX-24,ORD-2025-10011,2025-12-27,CUST-1068,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,136.0,56.0,80.0,Central,Michigan,Debit Card,0.0
+TX-25,ORD-2025-10011,2025-12-27,CUST-1068,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,Central,Michigan,Debit Card,0.0
+TX-26,ORD-2025-10012,2025-03-01,CUST-1040,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,East,New York,PayPal,0.0
+TX-27,ORD-2025-10013,2025-12-16,CUST-1039,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,129.6,45.0,84.6,West,Colorado,PayPal,0.1
+TX-28,ORD-2025-10013,2025-12-16,CUST-1039,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,796.0,520.0,276.0,West,Colorado,PayPal,0.0
+TX-29,ORD-2025-10014,2025-01-05,CUST-1006,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,Central,Illinois,PayPal,0.0
+TX-30,ORD-2025-10015,2025-12-30,CUST-1100,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,Central,Texas,Credit Card,0.0
+TX-31,ORD-2025-10015,2025-12-30,CUST-1100,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,547.56,440.0,107.56,Central,Texas,Credit Card,0.19
+TX-32,ORD-2025-10015,2025-12-30,CUST-1100,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,436.02,330.0,106.02,Central,Texas,Credit Card,0.14
+TX-33,ORD-2025-10016,2025-06-09,CUST-1017,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,East,Pennsylvania,Corporate Invoice,0.0
+TX-34,ORD-2025-10016,2025-06-09,CUST-1017,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,East,Pennsylvania,Corporate Invoice,0.0
+TX-35,ORD-2025-10016,2025-06-09,CUST-1017,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,East,Pennsylvania,Corporate Invoice,0.0
+TX-36,ORD-2025-10017,2025-05-02,CUST-1037,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,78.29,52.0,26.29,West,Oregon,Debit Card,0.13
+TX-37,ORD-2025-10017,2025-05-02,CUST-1037,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,136.89,110.0,26.89,West,Oregon,Debit Card,0.19
+TX-38,ORD-2025-10018,2025-07-12,CUST-1151,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,East,Pennsylvania,Debit Card,0.0
+TX-39,ORD-2025-10018,2025-07-12,CUST-1151,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,East,Pennsylvania,Debit Card,0.0
+TX-40,ORD-2025-10019,2025-06-08,CUST-1163,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,South,North Carolina,Corporate Invoice,0.0
+TX-41,ORD-2025-10019,2025-06-08,CUST-1163,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1435.16,1040.0,395.16,South,North Carolina,Corporate Invoice,0.08
+TX-42,ORD-2025-10020,2025-02-12,CUST-1011,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,151.3,130.0,21.3,East,Massachusetts,Apple Pay,0.11
+TX-43,ORD-2025-10020,2025-02-12,CUST-1011,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,East,Massachusetts,Apple Pay,0.0
+TX-44,ORD-2025-10020,2025-02-12,CUST-1011,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,41.85,18.0,23.85,East,Massachusetts,Apple Pay,0.07
+TX-45,ORD-2025-10021,2025-12-28,CUST-1033,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,West,Oregon,PayPal,0.0
+TX-46,ORD-2025-10021,2025-12-28,CUST-1033,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,West,Oregon,PayPal,0.0
+TX-47,ORD-2025-10022,2025-05-19,CUST-1183,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,Central,Illinois,Debit Card,0.0
+TX-48,ORD-2025-10022,2025-05-19,CUST-1183,PROD-113,Performance Chino Trousers,Apparel,-1,78.0,-78.0,-30.0,-48.0,Central,Illinois,Debit Card,0.0
+TX-49,ORD-2025-10023,2025-01-08,CUST-1028,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,3,199.0,477.6,390.0,87.6,Central,Illinois,Debit Card,0.2
+TX-50,ORD-2025-10023,2025-01-08,CUST-1028,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,341.88,216.0,125.88,Central,Illinois,Debit Card,0.12
+TX-51,ORD-2025-10023,2025-01-08,CUST-1028,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Illinois,Debit Card,0.0
+TX-52,ORD-2025-10024,2025-12-03,CUST-1073,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,South,Florida,Credit Card,0.0
+TX-53,ORD-2025-10025,2025-09-15,CUST-1032,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,748.0,460.0,288.0,West,Colorado,PayPal,0.15
+TX-54,ORD-2025-10025,2025-09-15,CUST-1032,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1280.0,840.0,440.0,West,Colorado,PayPal,0.0
+TX-55,ORD-2025-10025,2025-09-15,CUST-1032,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,West,Colorado,PayPal,0.0
+TX-56,ORD-2025-10026,2025-11-06,CUST-1011,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,216.75,195.0,21.75,Central,Illinois,Debit Card,0.15
+TX-57,ORD-2025-10026,2025-11-06,CUST-1011,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,Central,Illinois,Debit Card,0.0
+TX-58,ORD-2025-10027,2025-07-25,CUST-1177,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,3,199.0,567.15,390.0,177.15,Central,Ohio,PayPal,0.05
+TX-59,ORD-2025-10027,2025-07-25,CUST-1177,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,289.0,260.0,29.0,Central,Ohio,PayPal,0.15
+TX-60,ORD-2025-10027,2025-07-25,CUST-1177,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,139.4,130.0,9.4,Central,Ohio,PayPal,0.18
+TX-61,ORD-2025-10028,2025-09-03,CUST-1009,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,25.08,37.5,-12.42,South,North Carolina,PayPal,0.07
+TX-62,ORD-2025-10028,2025-09-03,CUST-1009,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,South,North Carolina,PayPal,0.0
+TX-63,ORD-2025-10028,2025-09-03,CUST-1009,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,South,North Carolina,PayPal,0.0
+TX-64,ORD-2025-10029,2025-01-13,CUST-1002,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,120.9,56.0,64.9,South,Florida,Debit Card,0.07
+TX-65,ORD-2025-10029,2025-01-13,CUST-1002,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,South,Florida,Debit Card,0.0
+TX-66,ORD-2025-10030,2025-03-07,CUST-1006,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,South,Virginia,PayPal,0.0
+TX-67,ORD-2025-10030,2025-03-07,CUST-1006,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,59.16,28.0,31.16,South,Virginia,PayPal,0.13
+TX-68,ORD-2025-10031,2025-10-08,CUST-1123,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,South,Georgia,Debit Card,0.0
+TX-69,ORD-2025-10031,2025-10-08,CUST-1123,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,229.5,195.0,34.5,South,Georgia,Debit Card,0.1
+TX-70,ORD-2025-10032,2025-03-26,CUST-1158,PROD-101,"UltraHD 4K Monitor 27""",Electronics,2,389.99,779.98,520.0,259.98,East,Massachusetts,Apple Pay,0.0
+TX-71,ORD-2025-10032,2025-03-26,CUST-1158,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,East,Massachusetts,Apple Pay,0.0
+TX-72,ORD-2025-10033,2025-06-07,CUST-1029,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,190.0,84.0,106.0,South,Georgia,Credit Card,0.0
+TX-73,ORD-2025-10033,2025-06-07,CUST-1029,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,South,Georgia,Credit Card,0.0
+TX-74,ORD-2025-10034,2025-04-25,CUST-1045,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,East,Pennsylvania,Debit Card,0.0
+TX-75,ORD-2025-10035,2025-03-24,CUST-1146,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,East,New Jersey,Debit Card,0.0
+TX-76,ORD-2025-10035,2025-03-24,CUST-1146,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,320.36,208.0,112.36,East,New Jersey,Debit Card,0.11
+TX-77,ORD-2025-10036,2025-09-30,CUST-1028,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,South,Virginia,Apple Pay,0.0
+TX-78,ORD-2025-10037,2025-02-17,CUST-1179,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,357.6,285.0,72.6,Central,Illinois,PayPal,0.2
+TX-79,ORD-2025-10037,2025-02-17,CUST-1179,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,113.4,55.0,58.4,Central,Illinois,PayPal,0.16
+TX-80,ORD-2025-10037,2025-02-17,CUST-1179,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,330.0,135.0,195.0,Central,Illinois,PayPal,0.0
+TX-81,ORD-2025-10038,2025-07-27,CUST-1003,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,West,Oregon,Debit Card,0.0
+TX-82,ORD-2025-10038,2025-07-27,CUST-1003,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,West,Oregon,Debit Card,0.0
+TX-83,ORD-2025-10039,2025-07-16,CUST-1173,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,Central,Texas,Credit Card,0.0
+TX-84,ORD-2025-10039,2025-07-16,CUST-1173,PROD-113,Performance Chino Trousers,Apparel,1,78.0,70.2,30.0,40.2,Central,Texas,Credit Card,0.1
+TX-85,ORD-2025-10039,2025-07-16,CUST-1173,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,982.77,780.0,202.77,Central,Texas,Credit Card,0.16
+TX-86,ORD-2025-10040,2025-10-31,CUST-1010,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,South,North Carolina,Debit Card,0.0
+TX-87,ORD-2025-10040,2025-10-31,CUST-1010,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,73.8,36.0,37.8,South,North Carolina,Debit Card,0.18
+TX-88,ORD-2025-10040,2025-10-31,CUST-1010,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,South,North Carolina,Debit Card,0.0
+TX-89,ORD-2025-10041,2025-03-21,CUST-1008,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,Central,Texas,Apple Pay,0.0
+TX-90,ORD-2025-10041,2025-03-21,CUST-1008,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,Central,Texas,Apple Pay,0.0
+TX-91,ORD-2025-10042,2025-04-04,CUST-1111,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,East,Pennsylvania,Debit Card,0.0
+TX-92,ORD-2025-10043,2025-05-25,CUST-1189,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,359.96,208.0,151.96,East,New York,Apple Pay,0.0
+TX-93,ORD-2025-10043,2025-05-25,CUST-1189,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,East,New York,Apple Pay,0.0
+TX-94,ORD-2025-10044,2025-09-25,CUST-1152,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,22.39,37.5,-15.11,East,New Jersey,Apple Pay,0.17
+TX-95,ORD-2025-10044,2025-09-25,CUST-1152,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,453.6,220.0,233.6,East,New Jersey,Apple Pay,0.16
+TX-96,ORD-2025-10045,2025-12-21,CUST-1154,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,28.22,14.0,14.22,South,North Carolina,Apple Pay,0.17
+TX-97,ORD-2025-10045,2025-12-21,CUST-1154,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,South,North Carolina,Apple Pay,0.0
+TX-98,ORD-2025-10046,2025-05-18,CUST-1014,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,101.64,72.0,29.64,East,New York,PayPal,0.12
+TX-99,ORD-2025-10046,2025-05-18,CUST-1014,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,East,New York,PayPal,0.0
+TX-100,ORD-2025-10047,2025-04-16,CUST-1164,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,451.2,350.0,101.2,East,New York,Apple Pay,0.06
+TX-101,ORD-2025-10047,2025-04-16,CUST-1164,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,East,New York,Apple Pay,0.0
+TX-102,ORD-2025-10047,2025-04-16,CUST-1164,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,East,New York,Apple Pay,0.0
+TX-103,ORD-2025-10048,2025-06-09,CUST-1072,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,451.2,350.0,101.2,West,California,Debit Card,0.06
+TX-104,ORD-2025-10048,2025-06-09,CUST-1072,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,West,California,Debit Card,0.0
+TX-105,ORD-2025-10048,2025-06-09,CUST-1072,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,West,California,Debit Card,0.0
+TX-106,ORD-2025-10049,2025-12-13,CUST-1042,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,77.0,48.0,29.0,East,Massachusetts,Credit Card,0.0
+TX-107,ORD-2025-10050,2025-06-01,CUST-1053,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,East,New York,Corporate Invoice,0.0
+TX-108,ORD-2025-10051,2025-02-14,CUST-1192,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,149.6,130.0,19.6,South,Florida,Credit Card,0.12
+TX-109,ORD-2025-10051,2025-02-14,CUST-1192,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,150.41,110.0,40.41,South,Florida,Credit Card,0.11
+TX-110,ORD-2025-10051,2025-02-14,CUST-1192,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,South,Florida,Credit Card,0.0
+TX-111,ORD-2025-10052,2025-04-02,CUST-1056,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,129.5,72.0,57.5,West,Colorado,PayPal,0.0
+TX-112,ORD-2025-10052,2025-04-02,CUST-1056,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,West,Colorado,PayPal,0.0
+TX-113,ORD-2025-10052,2025-04-02,CUST-1056,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,145.34,110.0,35.34,West,Colorado,PayPal,0.14
+TX-114,ORD-2025-10053,2025-02-23,CUST-1066,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,96.0,30.0,66.0,West,California,Credit Card,0.0
+TX-115,ORD-2025-10053,2025-02-23,CUST-1066,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,45,38.5,1472.62,1080.0,392.62,West,California,Credit Card,0.0
+TX-116,ORD-2025-10053,2025-02-23,CUST-1066,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,West,California,Credit Card,0.0
+TX-117,ORD-2025-10054,2025-06-20,CUST-1081,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,96.0,30.0,66.0,West,Colorado,PayPal,0.0
+TX-118,ORD-2025-10055,2025-10-06,CUST-1019,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,154.8,72.0,82.8,Central,Texas,Debit Card,0.14
+TX-119,ORD-2025-10056,2025-11-07,CUST-1005,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,East,New York,Credit Card,0.0
+TX-120,ORD-2025-10056,2025-11-07,CUST-1005,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,East,New York,Credit Card,0.0
+TX-121,ORD-2025-10056,2025-11-07,CUST-1005,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,291.2,210.0,81.2,East,New York,Credit Card,0.09
+TX-122,ORD-2025-10057,2025-06-21,CUST-1074,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,Central,Michigan,PayPal,0.0
+TX-123,ORD-2025-10057,2025-06-21,CUST-1074,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,Central,Michigan,PayPal,0.0
+TX-124,ORD-2025-10058,2025-05-26,CUST-1177,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,300.3,135.0,165.3,Central,Michigan,Credit Card,0.09
+TX-125,ORD-2025-10058,2025-05-26,CUST-1177,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,739.2,460.0,279.2,Central,Michigan,Credit Card,0.16
+TX-126,ORD-2025-10058,2025-05-26,CUST-1177,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,864.0,630.0,234.0,Central,Michigan,Credit Card,0.1
+TX-127,ORD-2025-10059,2025-10-19,CUST-1038,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,East,Pennsylvania,Credit Card,0.0
+TX-128,ORD-2025-10059,2025-10-19,CUST-1038,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,East,Pennsylvania,Credit Card,0.0
+TX-129,ORD-2025-10059,2025-10-19,CUST-1038,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,East,Pennsylvania,Credit Card,0.0
+TX-130,ORD-2025-10060,2025-09-15,CUST-1015,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,191.4,90.0,101.4,East,Massachusetts,Apple Pay,0.13
+TX-131,ORD-2025-10060,2025-09-15,CUST-1015,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,East,Massachusetts,Apple Pay,0.0
+TX-132,ORD-2025-10061,2025-12-17,CUST-1008,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,Central,Texas,Debit Card,0.0
+TX-133,ORD-2025-10061,2025-12-17,CUST-1008,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,253.8,110.0,143.8,Central,Texas,Debit Card,0.06
+TX-134,ORD-2025-10061,2025-12-17,CUST-1008,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,350.99,260.0,90.99,Central,Texas,Debit Card,0.1
+TX-135,ORD-2025-10062,2025-02-09,CUST-1081,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,East,Massachusetts,Corporate Invoice,0.0
+TX-136,ORD-2025-10062,2025-02-09,CUST-1081,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,East,Massachusetts,Corporate Invoice,0.0
+TX-137,ORD-2025-10062,2025-02-09,CUST-1081,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,East,Massachusetts,Corporate Invoice,0.0
+TX-138,ORD-2025-10063,2025-03-12,CUST-1022,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,88.35,42.0,46.35,South,North Carolina,Debit Card,0.07
+TX-139,ORD-2025-10064,2025-01-28,CUST-1040,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,South,Georgia,PayPal,0.0
+TX-140,ORD-2025-10064,2025-01-28,CUST-1040,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,South,Georgia,PayPal,0.0
+TX-141,ORD-2025-10065,2025-12-15,CUST-1151,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,South,Virginia,Credit Card,0.0
+TX-142,ORD-2025-10065,2025-12-15,CUST-1151,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,South,Virginia,Credit Card,0.0
+TX-143,ORD-2025-10065,2025-12-15,CUST-1151,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,South,Virginia,Credit Card,0.0
+TX-144,ORD-2025-10066,2025-11-17,CUST-1023,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Michigan,PayPal,0.0
+TX-145,ORD-2025-10066,2025-11-17,CUST-1023,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,Central,Michigan,PayPal,0.0
+TX-146,ORD-2025-10066,2025-11-17,CUST-1023,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,32.73,24.0,8.73,Central,Michigan,PayPal,0.15
+TX-147,ORD-2025-10067,2025-03-12,CUST-1082,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,31.64,50.0,-18.36,Central,Michigan,Debit Card,0.12
+TX-148,ORD-2025-10067,2025-03-12,CUST-1082,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,Central,Michigan,Debit Card,0.0
+TX-149,ORD-2025-10068,2025-06-30,CUST-1045,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,East,New York,Corporate Invoice,0.0
+TX-150,ORD-2025-10068,2025-06-30,CUST-1045,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,328.44,204.0,124.44,East,New York,Corporate Invoice,0.08
+TX-151,ORD-2025-10069,2025-04-02,CUST-1059,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,West,Oregon,Debit Card,0.0
+TX-152,ORD-2025-10069,2025-04-02,CUST-1059,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,West,Oregon,Debit Card,0.0
+TX-153,ORD-2025-10070,2025-05-20,CUST-1044,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,East,New York,Corporate Invoice,0.0
+TX-154,ORD-2025-10070,2025-05-20,CUST-1044,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,East,New York,Corporate Invoice,0.0
+TX-155,ORD-2025-10070,2025-05-20,CUST-1044,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,East,New York,Corporate Invoice,0.0
+TX-156,ORD-2025-10071,2025-12-19,CUST-1039,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1296.0,1050.0,246.0,Central,Texas,Credit Card,0.1
+TX-157,ORD-2025-10072,2025-02-03,CUST-1038,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,29.88,15.0,14.88,South,Florida,PayPal,0.17
+TX-158,ORD-2025-10073,2025-07-20,CUST-1119,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,32.36,50.0,-17.64,West,Oregon,Apple Pay,0.1
+TX-159,ORD-2025-10074,2025-09-29,CUST-1145,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1559.96,1040.0,519.96,West,California,Credit Card,0.0
+TX-160,ORD-2025-10074,2025-09-29,CUST-1145,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,West,California,Credit Card,0.0
+TX-161,ORD-2025-10075,2025-01-03,CUST-1008,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,East,Massachusetts,Corporate Invoice,0.0
+TX-162,ORD-2025-10076,2025-05-24,CUST-1159,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,796.0,520.0,276.0,West,Oregon,Apple Pay,0.0
+TX-163,ORD-2025-10076,2025-05-24,CUST-1159,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,149.38,104.0,45.38,West,Oregon,Apple Pay,0.17
+TX-164,ORD-2025-10077,2025-06-02,CUST-1009,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,129.5,72.0,57.5,East,New York,Credit Card,0.0
+TX-165,ORD-2025-10078,2025-06-20,CUST-1103,PROD-113,Performance Chino Trousers,Apparel,4,78.0,290.16,120.0,170.16,East,Pennsylvania,Corporate Invoice,0.07
+TX-166,ORD-2025-10078,2025-06-20,CUST-1103,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,307.8,168.0,139.8,East,Pennsylvania,Corporate Invoice,0.19
+TX-167,ORD-2025-10078,2025-06-20,CUST-1103,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,448.2,310.0,138.2,East,Pennsylvania,Corporate Invoice,0.1
+TX-168,ORD-2025-10079,2025-02-22,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,Central,Ohio,Apple Pay,0.0
+TX-169,ORD-2025-10079,2025-02-22,CUST-1001,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,Central,Ohio,Apple Pay,0.0
+TX-170,ORD-2025-10080,2025-03-10,CUST-1020,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,East,Pennsylvania,Debit Card,0.0
+TX-171,ORD-2025-10080,2025-03-10,CUST-1020,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,East,Pennsylvania,Debit Card,0.0
+TX-172,ORD-2025-10081,2025-10-16,CUST-1003,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,West,Colorado,Credit Card,0.0
+TX-173,ORD-2025-10081,2025-10-16,CUST-1003,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,111.58,64.0,47.58,West,Colorado,Credit Card,0.07
+TX-174,ORD-2025-10081,2025-10-16,CUST-1003,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,109.35,55.0,54.35,West,Colorado,Credit Card,0.19
+TX-175,ORD-2025-10082,2025-12-19,CUST-1107,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,Central,Illinois,Apple Pay,0.0
+TX-176,ORD-2025-10082,2025-12-19,CUST-1107,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,77.0,48.0,29.0,Central,Illinois,Apple Pay,0.0
+TX-177,ORD-2025-10082,2025-12-19,CUST-1107,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,Central,Illinois,Apple Pay,0.0
+TX-178,ORD-2025-10083,2025-08-09,CUST-1098,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,42.72,15.0,27.72,South,North Carolina,Credit Card,0.11
+TX-179,ORD-2025-10083,2025-08-09,CUST-1098,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,South,North Carolina,Credit Card,0.0
+TX-180,ORD-2025-10084,2025-01-22,CUST-1008,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,New Jersey,Corporate Invoice,0.0
+TX-181,ORD-2025-10084,2025-01-22,CUST-1008,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,East,New Jersey,Corporate Invoice,0.0
+TX-182,ORD-2025-10084,2025-01-22,CUST-1008,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,East,New Jersey,Corporate Invoice,0.0
+TX-183,ORD-2025-10085,2025-07-26,CUST-1027,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,204.6,90.0,114.6,Central,Michigan,Credit Card,0.07
+TX-184,ORD-2025-10085,2025-07-26,CUST-1027,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,Central,Michigan,Credit Card,0.0
+TX-185,ORD-2025-10085,2025-07-26,CUST-1027,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,285.0,126.0,159.0,Central,Michigan,Credit Card,0.0
+TX-186,ORD-2025-10086,2025-03-08,CUST-1045,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,South,Georgia,Apple Pay,0.0
+TX-187,ORD-2025-10086,2025-03-08,CUST-1045,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,South,Georgia,Apple Pay,0.0
+TX-188,ORD-2025-10086,2025-03-08,CUST-1045,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,38.5,24.0,14.5,South,Georgia,Apple Pay,0.0
+TX-189,ORD-2025-10087,2025-09-30,CUST-1141,PROD-113,Performance Chino Trousers,Apparel,1,78.0,63.96,30.0,33.96,South,Georgia,Apple Pay,0.18
+TX-190,ORD-2025-10087,2025-09-30,CUST-1141,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,101.98,64.0,37.98,South,Georgia,Apple Pay,0.15
+TX-191,ORD-2025-10088,2025-02-14,CUST-1123,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,156.4,130.0,26.4,West,Colorado,PayPal,0.08
+TX-192,ORD-2025-10088,2025-02-14,CUST-1123,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,114.75,54.0,60.75,West,Colorado,PayPal,0.15
+TX-193,ORD-2025-10088,2025-02-14,CUST-1123,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,106.19,72.0,34.19,West,Colorado,PayPal,0.18
+TX-194,ORD-2025-10089,2025-11-28,CUST-1069,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,East,Pennsylvania,Apple Pay,0.0
+TX-195,ORD-2025-10090,2025-10-11,CUST-1075,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,South,Virginia,Credit Card,0.0
+TX-196,ORD-2025-10091,2025-08-02,CUST-1058,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,50.76,22.5,28.26,West,Washington,PayPal,0.06
+TX-197,ORD-2025-10091,2025-08-02,CUST-1058,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,85.0,65.0,20.0,West,Washington,PayPal,0.0
+TX-198,ORD-2025-10091,2025-08-02,CUST-1058,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,West,Washington,PayPal,0.0
+TX-199,ORD-2025-10092,2025-06-11,CUST-1027,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,Central,Texas,Debit Card,0.0
+TX-200,ORD-2025-10092,2025-06-11,CUST-1027,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,Central,Texas,Debit Card,0.0
+TX-201,ORD-2025-10093,2025-07-25,CUST-1008,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,37.8,18.0,19.8,West,Colorado,PayPal,0.16
+TX-202,ORD-2025-10094,2025-08-08,CUST-1191,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,South,Virginia,Debit Card,0.0
+TX-203,ORD-2025-10095,2025-10-07,CUST-1176,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,236.55,126.0,110.55,West,Oregon,Credit Card,0.17
+TX-204,ORD-2025-10096,2025-12-04,CUST-1031,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,East,New Jersey,Debit Card,0.0
+TX-205,ORD-2025-10096,2025-12-04,CUST-1031,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,East,New Jersey,Debit Card,0.0
+TX-206,ORD-2025-10096,2025-12-04,CUST-1031,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,576.0,420.0,156.0,East,New Jersey,Debit Card,0.1
+TX-207,ORD-2025-10097,2025-09-02,CUST-1166,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,Pennsylvania,PayPal,0.0
+TX-208,ORD-2025-10097,2025-09-02,CUST-1166,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,East,Pennsylvania,PayPal,0.0
+TX-209,ORD-2025-10098,2025-05-23,CUST-1005,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,Central,Illinois,PayPal,0.0
+TX-210,ORD-2025-10098,2025-05-23,CUST-1005,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,190.0,84.0,106.0,Central,Illinois,PayPal,0.0
+TX-211,ORD-2025-10098,2025-05-23,CUST-1005,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,Central,Illinois,PayPal,0.0
+TX-212,ORD-2025-10099,2025-07-18,CUST-1004,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,280.12,190.0,90.12,Central,Michigan,Apple Pay,0.06
+TX-213,ORD-2025-10099,2025-07-18,CUST-1004,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,912.0,700.0,212.0,Central,Michigan,Apple Pay,0.05
+TX-214,ORD-2025-10100,2025-08-01,CUST-1188,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,East,Pennsylvania,PayPal,0.0
+TX-215,ORD-2025-10100,2025-08-01,CUST-1188,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1419.56,1040.0,379.56,East,Pennsylvania,PayPal,0.09
+TX-216,ORD-2025-10101,2025-09-18,CUST-1039,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,Central,Ohio,Apple Pay,0.0
+TX-217,ORD-2025-10102,2025-06-16,CUST-1085,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,85.68,42.0,43.68,Central,Illinois,Debit Card,0.16
+TX-218,ORD-2025-10102,2025-06-16,CUST-1085,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,Central,Illinois,Debit Card,0.0
+TX-219,ORD-2025-10102,2025-06-16,CUST-1085,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,285.0,126.0,159.0,Central,Illinois,Debit Card,0.0
+TX-220,ORD-2025-10103,2025-06-09,CUST-1061,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,Central,Ohio,PayPal,0.0
+TX-221,ORD-2025-10104,2025-06-22,CUST-1131,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,268.8,210.0,58.8,South,Georgia,PayPal,0.16
+TX-222,ORD-2025-10105,2025-12-17,CUST-1154,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,67.76,48.0,19.76,Central,Illinois,Corporate Invoice,0.12
+TX-223,ORD-2025-10106,2025-10-25,CUST-1026,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,West,Colorado,Credit Card,0.0
+TX-224,ORD-2025-10106,2025-10-25,CUST-1026,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,338.36,208.0,130.36,West,Colorado,Credit Card,0.06
+TX-225,ORD-2025-10107,2025-01-01,CUST-1067,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,South,North Carolina,Apple Pay,0.0
+TX-226,ORD-2025-10108,2025-02-15,CUST-1106,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,390.32,272.0,118.32,South,Virginia,PayPal,0.18
+TX-227,ORD-2025-10109,2025-12-19,CUST-1085,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,996.0,620.0,376.0,West,Colorado,Apple Pay,0.0
+TX-228,ORD-2025-10109,2025-12-19,CUST-1085,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,Colorado,Apple Pay,0.0
+TX-229,ORD-2025-10110,2025-07-08,CUST-1165,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,Central,Illinois,Debit Card,0.0
+TX-230,ORD-2025-10111,2025-07-02,CUST-1027,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,54.0,22.5,31.5,West,California,Corporate Invoice,0.0
+TX-231,ORD-2025-10111,2025-07-02,CUST-1027,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,West,California,Corporate Invoice,0.0
+TX-232,ORD-2025-10111,2025-07-02,CUST-1027,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,West,California,Corporate Invoice,0.0
+TX-233,ORD-2025-10112,2025-04-09,CUST-1106,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,Central,Illinois,Corporate Invoice,0.0
+TX-234,ORD-2025-10112,2025-04-09,CUST-1106,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,531.2,420.0,111.2,Central,Illinois,Corporate Invoice,0.17
+TX-235,ORD-2025-10112,2025-04-09,CUST-1106,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,229.08,155.0,74.08,Central,Illinois,Corporate Invoice,0.08
+TX-236,ORD-2025-10113,2025-02-02,CUST-1183,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.18,6.2,-2.02,Central,Texas,Corporate Invoice,0.07
+TX-237,ORD-2025-10114,2025-10-01,CUST-1007,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,East,Massachusetts,Corporate Invoice,0.0
+TX-238,ORD-2025-10114,2025-10-01,CUST-1007,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,East,Massachusetts,Corporate Invoice,0.0
+TX-239,ORD-2025-10115,2025-04-21,CUST-1101,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,East,Massachusetts,Debit Card,0.0
+TX-240,ORD-2025-10116,2025-10-11,CUST-1006,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,3,199.0,597.0,390.0,207.0,West,Colorado,Debit Card,0.0
+TX-241,ORD-2025-10117,2025-07-09,CUST-1004,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1280.0,840.0,440.0,East,Massachusetts,Debit Card,0.0
+TX-242,ORD-2025-10117,2025-07-09,CUST-1004,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,302.6,260.0,42.6,East,Massachusetts,Debit Card,0.11
+TX-243,ORD-2025-10117,2025-07-09,CUST-1004,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,East,Massachusetts,Debit Card,0.0
+TX-244,ORD-2025-10118,2025-02-19,CUST-1014,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,South,North Carolina,Debit Card,0.0
+TX-245,ORD-2025-10118,2025-02-19,CUST-1014,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,South,North Carolina,Debit Card,0.0
+TX-246,ORD-2025-10119,2025-07-12,CUST-1011,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,West,California,Corporate Invoice,0.0
+TX-247,ORD-2025-10119,2025-07-12,CUST-1011,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,293.7,135.0,158.7,West,California,Corporate Invoice,0.11
+TX-248,ORD-2025-10119,2025-07-12,CUST-1011,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,38.88,15.0,23.88,West,California,Corporate Invoice,0.19
+TX-249,ORD-2025-10120,2025-09-20,CUST-1011,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,West,California,Debit Card,0.0
+TX-250,ORD-2025-10121,2025-05-16,CUST-1130,PROD-113,Performance Chino Trousers,Apparel,3,78.0,212.94,90.0,122.94,West,California,Corporate Invoice,0.09
+TX-251,ORD-2025-10121,2025-05-16,CUST-1130,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,West,California,Corporate Invoice,0.0
+TX-252,ORD-2025-10122,2025-05-01,CUST-1004,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,996.0,620.0,376.0,South,Florida,Apple Pay,0.0
+TX-253,ORD-2025-10122,2025-05-01,CUST-1004,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,South,Florida,Apple Pay,0.0
+TX-254,ORD-2025-10123,2025-09-17,CUST-1007,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,96.8,45.0,51.8,Central,Illinois,Apple Pay,0.12
+TX-255,ORD-2025-10123,2025-09-17,CUST-1007,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,Central,Illinois,Apple Pay,0.0
+TX-256,ORD-2025-10124,2025-03-27,CUST-1032,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,West,Washington,Credit Card,0.0
+TX-257,ORD-2025-10124,2025-03-27,CUST-1032,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,3,199.0,597.0,390.0,207.0,West,Washington,Credit Card,0.0
+TX-258,ORD-2025-10125,2025-09-12,CUST-1147,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,198.0,90.0,108.0,West,Washington,PayPal,0.1
+TX-259,ORD-2025-10125,2025-09-12,CUST-1147,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,87.36,30.0,57.36,West,Washington,PayPal,0.09
+TX-260,ORD-2025-10125,2025-09-12,CUST-1147,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,297.44,220.0,77.44,West,Washington,PayPal,0.12
+TX-261,ORD-2025-10126,2025-09-26,CUST-1001,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,East,Massachusetts,PayPal,0.0
+TX-262,ORD-2025-10126,2025-09-26,CUST-1001,PROD-113,Performance Chino Trousers,Apparel,3,78.0,203.58,90.0,113.58,East,Massachusetts,PayPal,0.13
+TX-263,ORD-2025-10126,2025-09-26,CUST-1001,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,184.8,115.0,69.8,East,Massachusetts,PayPal,0.16
+TX-264,ORD-2025-10127,2025-05-19,CUST-1098,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,South,Virginia,Credit Card,0.0
+TX-265,ORD-2025-10128,2025-05-28,CUST-1053,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,East,New York,Corporate Invoice,0.0
+TX-266,ORD-2025-10128,2025-05-28,CUST-1053,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,442.68,272.0,170.68,East,New York,Corporate Invoice,0.07
+TX-267,ORD-2025-10129,2025-08-19,CUST-1072,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,East,Massachusetts,Credit Card,0.0
+TX-268,ORD-2025-10130,2025-04-08,CUST-1003,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,East,Massachusetts,Credit Card,0.0
+TX-269,ORD-2025-10130,2025-04-08,CUST-1003,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,East,Massachusetts,Credit Card,0.0
+TX-270,ORD-2025-10130,2025-04-08,CUST-1003,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,East,Massachusetts,Credit Card,0.0
+TX-271,ORD-2025-10131,2025-04-10,CUST-1155,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,31.68,15.0,16.68,West,Colorado,Credit Card,0.12
+TX-272,ORD-2025-10132,2025-05-13,CUST-1001,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,85.0,65.0,20.0,Central,Texas,Debit Card,0.0
+TX-273,ORD-2025-10132,2025-05-13,CUST-1001,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,Central,Texas,Debit Card,0.0
+TX-274,ORD-2025-10132,2025-05-13,CUST-1001,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,Central,Texas,Debit Card,0.0
+TX-275,ORD-2025-10133,2025-11-06,CUST-1137,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,Central,Illinois,Debit Card,0.0
+TX-276,ORD-2025-10134,2025-04-23,CUST-1013,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,West,Washington,Credit Card,0.0
+TX-277,ORD-2025-10135,2025-11-08,CUST-1098,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,East,Massachusetts,Debit Card,0.0
+TX-278,ORD-2025-10135,2025-11-08,CUST-1098,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,East,Massachusetts,Debit Card,0.0
+TX-279,ORD-2025-10136,2025-07-24,CUST-1068,PROD-113,Performance Chino Trousers,Apparel,3,78.0,219.96,90.0,129.96,West,Colorado,Apple Pay,0.06
+TX-280,ORD-2025-10136,2025-07-24,CUST-1068,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,359.96,208.0,151.96,West,Colorado,Apple Pay,0.0
+TX-281,ORD-2025-10136,2025-07-24,CUST-1068,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,163.78,104.0,59.78,West,Colorado,Apple Pay,0.09
+TX-282,ORD-2025-10137,2025-06-30,CUST-1006,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,433.26,310.0,123.26,West,Washington,Debit Card,0.13
+TX-283,ORD-2025-10137,2025-06-30,CUST-1006,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,West,Washington,Debit Card,0.0
+TX-284,ORD-2025-10138,2025-08-22,CUST-1009,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,South,Florida,Credit Card,0.0
+TX-285,ORD-2025-10139,2025-02-10,CUST-1002,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,East,New Jersey,Credit Card,0.0
+TX-286,ORD-2025-10140,2025-03-10,CUST-1044,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,West,Washington,Credit Card,0.0
+TX-287,ORD-2025-10140,2025-03-10,CUST-1044,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,200.2,90.0,110.2,West,Washington,Credit Card,0.09
+TX-288,ORD-2025-10140,2025-03-10,CUST-1044,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,West,Washington,Credit Card,0.0
+TX-289,ORD-2025-10141,2025-10-31,CUST-1014,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,93.84,42.0,51.84,Central,Texas,Apple Pay,0.08
+TX-290,ORD-2025-10141,2025-10-31,CUST-1014,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,Central,Texas,Apple Pay,0.0
+TX-291,ORD-2025-10142,2025-06-08,CUST-1077,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,Central,Michigan,PayPal,0.0
+TX-292,ORD-2025-10142,2025-06-08,CUST-1077,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,16.38,24.8,-8.42,Central,Michigan,PayPal,0.09
+TX-293,ORD-2025-10142,2025-06-08,CUST-1077,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,Central,Michigan,PayPal,0.0
+TX-294,ORD-2025-10143,2025-03-21,CUST-1072,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,136.89,110.0,26.89,West,California,Apple Pay,0.19
+TX-295,ORD-2025-10143,2025-03-21,CUST-1072,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,West,California,Apple Pay,0.0
+TX-296,ORD-2025-10144,2025-06-12,CUST-1049,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,West,Oregon,Credit Card,0.0
+TX-297,ORD-2025-10144,2025-06-12,CUST-1049,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,West,Oregon,Credit Card,0.0
+TX-298,ORD-2025-10144,2025-06-12,CUST-1049,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,120.9,56.0,64.9,West,Oregon,Credit Card,0.07
+TX-299,ORD-2025-10145,2025-11-10,CUST-1047,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,411.24,285.0,126.24,Central,Texas,PayPal,0.08
+TX-300,ORD-2025-10145,2025-11-10,CUST-1047,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1280.0,840.0,440.0,Central,Texas,PayPal,0.0
+TX-301,ORD-2025-10145,2025-11-10,CUST-1047,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,Central,Texas,PayPal,0.0
+TX-302,ORD-2025-10146,2025-01-23,CUST-1014,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,110.0,45.0,65.0,South,Georgia,Corporate Invoice,0.0
+TX-303,ORD-2025-10147,2025-03-15,CUST-1001,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,West,Colorado,Apple Pay,0.0
+TX-304,ORD-2025-10148,2025-08-08,CUST-1149,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,996.0,620.0,376.0,West,Washington,PayPal,0.0
+TX-305,ORD-2025-10148,2025-08-08,CUST-1149,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1388.36,1040.0,348.36,West,Washington,PayPal,0.11
+TX-306,ORD-2025-10148,2025-08-08,CUST-1149,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,West,Washington,PayPal,0.0
+TX-307,ORD-2025-10149,2025-03-19,CUST-1116,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,West,California,PayPal,0.0
+TX-308,ORD-2025-10150,2025-09-11,CUST-1006,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,360.8,180.0,180.8,Central,Michigan,Corporate Invoice,0.18
+TX-309,ORD-2025-10151,2025-07-04,CUST-1002,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,Central,Michigan,Apple Pay,0.0
+TX-310,ORD-2025-10151,2025-07-04,CUST-1002,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,Central,Michigan,Apple Pay,0.0
+TX-311,ORD-2025-10151,2025-07-04,CUST-1002,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,Central,Michigan,Apple Pay,0.0
+TX-312,ORD-2025-10152,2025-04-09,CUST-1035,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,-2,38.5,-77.0,-48.0,-29.0,Central,Texas,Credit Card,0.0
+TX-313,ORD-2025-10152,2025-04-09,CUST-1035,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,Central,Texas,Credit Card,0.0
+TX-314,ORD-2025-10153,2025-05-04,CUST-1009,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,West,Washington,Debit Card,0.0
+TX-315,ORD-2025-10153,2025-05-04,CUST-1009,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,West,Washington,Debit Card,0.0
+TX-316,ORD-2025-10153,2025-05-04,CUST-1009,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,440.0,180.0,260.0,West,Washington,Debit Card,0.0
+TX-317,ORD-2025-10154,2025-02-19,CUST-1160,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,Central,Illinois,Credit Card,0.0
+TX-318,ORD-2025-10155,2025-05-11,CUST-1030,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,Central,Ohio,Debit Card,0.0
+TX-319,ORD-2025-10155,2025-05-11,CUST-1030,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,50.22,22.5,27.72,Central,Ohio,Debit Card,0.07
+TX-320,ORD-2025-10155,2025-05-11,CUST-1030,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,Central,Ohio,Debit Card,0.0
+TX-321,ORD-2025-10156,2025-06-12,CUST-1003,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,77.0,48.0,29.0,South,Florida,Credit Card,0.0
+TX-322,ORD-2025-10157,2025-07-19,CUST-1102,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,452.2,272.0,180.2,East,New Jersey,Apple Pay,0.05
+TX-323,ORD-2025-10157,2025-07-19,CUST-1102,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,East,New Jersey,Apple Pay,0.0
+TX-324,ORD-2025-10157,2025-07-19,CUST-1102,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,East,New Jersey,Apple Pay,0.0
+TX-325,ORD-2025-10158,2025-06-02,CUST-1006,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,South,Virginia,Corporate Invoice,0.0
+TX-326,ORD-2025-10158,2025-06-02,CUST-1006,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,South,Virginia,Corporate Invoice,0.0
+TX-327,ORD-2025-10158,2025-06-02,CUST-1006,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,54.0,22.5,31.5,South,Virginia,Corporate Invoice,0.0
+TX-328,ORD-2025-10159,2025-07-03,CUST-1025,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,679.77,465.0,214.77,South,Florida,Debit Card,0.09
+TX-329,ORD-2025-10159,2025-07-03,CUST-1025,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,190.0,84.0,106.0,South,Florida,Debit Card,0.0
+TX-330,ORD-2025-10160,2025-05-01,CUST-1022,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,Central,Illinois,Credit Card,0.0
+TX-331,ORD-2025-10160,2025-05-01,CUST-1022,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,Central,Illinois,Credit Card,0.0
+TX-332,ORD-2025-10160,2025-05-01,CUST-1022,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,201.57,128.0,73.57,Central,Illinois,Credit Card,0.16
+TX-333,ORD-2025-10161,2025-11-02,CUST-1130,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,South,Georgia,Debit Card,0.0
+TX-334,ORD-2025-10161,2025-11-02,CUST-1130,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,491.4,220.0,271.4,South,Georgia,Debit Card,0.09
+TX-335,ORD-2025-10161,2025-11-02,CUST-1130,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,South,Georgia,Debit Card,0.0
+TX-336,ORD-2025-10162,2025-11-02,CUST-1016,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,Central,Illinois,Credit Card,0.0
+TX-337,ORD-2025-10163,2025-10-13,CUST-1100,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,129.5,72.0,57.5,West,Oregon,Credit Card,0.0
+TX-338,ORD-2025-10164,2025-01-04,CUST-1101,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,West,Colorado,Credit Card,0.0
+TX-339,ORD-2025-10165,2025-12-24,CUST-1067,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,475.2,220.0,255.2,Central,Illinois,Credit Card,0.12
+TX-340,ORD-2025-10166,2025-10-31,CUST-1003,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1559.96,1040.0,519.96,Central,Michigan,Debit Card,0.0
+TX-341,ORD-2025-10166,2025-10-31,CUST-1003,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,Central,Michigan,Debit Card,0.0
+TX-342,ORD-2025-10167,2025-06-24,CUST-1093,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,West,Washington,Apple Pay,0.0
+TX-343,ORD-2025-10167,2025-06-24,CUST-1093,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,141.55,95.0,46.55,West,Washington,Apple Pay,0.05
+TX-344,ORD-2025-10167,2025-06-24,CUST-1093,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,106.78,64.0,42.78,West,Washington,Apple Pay,0.11
+TX-345,ORD-2025-10168,2025-06-26,CUST-1110,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,East,New Jersey,Debit Card,0.0
+TX-346,ORD-2025-10168,2025-06-26,CUST-1110,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,89.1,45.0,44.1,East,New Jersey,Debit Card,0.19
+TX-347,ORD-2025-10169,2025-09-03,CUST-1055,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,429.94,288.0,141.94,West,Oregon,Corporate Invoice,0.17
+TX-348,ORD-2025-10169,2025-09-03,CUST-1055,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,192.0,60.0,132.0,West,Oregon,Corporate Invoice,0.0
+TX-349,ORD-2025-10170,2025-10-21,CUST-1009,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,Central,Texas,Corporate Invoice,0.0
+TX-350,ORD-2025-10171,2025-03-01,CUST-1002,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,Central,Michigan,Debit Card,0.0
+TX-351,ORD-2025-10172,2025-02-28,CUST-1088,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,440.0,180.0,260.0,East,New York,Apple Pay,0.0
+TX-352,ORD-2025-10173,2025-02-09,CUST-1170,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,Central,Michigan,Debit Card,0.0
+TX-353,ORD-2025-10173,2025-02-09,CUST-1170,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,232.17,156.0,76.17,Central,Michigan,Debit Card,0.14
+TX-354,ORD-2025-10173,2025-02-09,CUST-1170,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,Central,Michigan,Debit Card,0.0
+TX-355,ORD-2025-10174,2025-10-05,CUST-1037,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,103.95,72.0,31.95,East,New Jersey,Apple Pay,0.1
+TX-356,ORD-2025-10174,2025-10-05,CUST-1037,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,East,New Jersey,Apple Pay,0.0
+TX-357,ORD-2025-10174,2025-10-05,CUST-1037,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,433.26,310.0,123.26,East,New Jersey,Apple Pay,0.13
+TX-358,ORD-2025-10175,2025-10-21,CUST-1091,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,West,Washington,Corporate Invoice,0.0
+TX-359,ORD-2025-10175,2025-10-21,CUST-1091,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,West,Washington,Corporate Invoice,0.0
+TX-360,ORD-2025-10176,2025-06-09,CUST-1021,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,234.87,156.0,78.87,East,New Jersey,Apple Pay,0.13
+TX-361,ORD-2025-10176,2025-06-09,CUST-1021,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,East,New Jersey,Apple Pay,0.0
+TX-362,ORD-2025-10177,2025-04-14,CUST-1041,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,East,New York,Corporate Invoice,0.0
+TX-363,ORD-2025-10178,2025-09-26,CUST-1190,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,721.6,460.0,261.6,East,New York,Corporate Invoice,0.18
+TX-364,ORD-2025-10179,2025-09-21,CUST-1009,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,420.81,330.0,90.81,West,Oregon,Credit Card,0.17
+TX-365,ORD-2025-10179,2025-09-21,CUST-1009,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,70.55,65.0,5.55,West,Oregon,Credit Card,0.17
+TX-366,ORD-2025-10180,2025-06-16,CUST-1063,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,East,New York,Apple Pay,0.0
+TX-367,ORD-2025-10181,2025-01-13,CUST-1123,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,3.78,6.2,-2.42,East,New York,Credit Card,0.16
+TX-368,ORD-2025-10181,2025-01-13,CUST-1123,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,314.16,204.0,110.16,East,New York,Credit Card,0.12
+TX-369,ORD-2025-10182,2025-11-24,CUST-1151,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,South,Florida,Credit Card,0.0
+TX-370,ORD-2025-10182,2025-11-24,CUST-1151,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,South,Florida,Credit Card,0.0
+TX-371,ORD-2025-10183,2025-10-01,CUST-1064,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,209.0,115.0,94.0,West,Colorado,Debit Card,0.05
+TX-372,ORD-2025-10184,2025-02-24,CUST-1032,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,East,Massachusetts,Debit Card,0.0
+TX-373,ORD-2025-10184,2025-02-24,CUST-1032,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,42.3,18.0,24.3,East,Massachusetts,Debit Card,0.06
+TX-374,ORD-2025-10184,2025-02-24,CUST-1032,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,154.0,96.0,58.0,East,Massachusetts,Debit Card,0.0
+TX-375,ORD-2025-10185,2025-08-16,CUST-1180,PROD-125,Promotional Branded Tote Bag,Apparel,3,4.5,13.5,18.6,-5.1,South,Virginia,Corporate Invoice,0.0
+TX-376,ORD-2025-10185,2025-08-16,CUST-1180,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,South,Virginia,Corporate Invoice,0.0
+TX-377,ORD-2025-10186,2025-07-19,CUST-1050,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,Central,Ohio,PayPal,0.0
+TX-378,ORD-2025-10186,2025-07-19,CUST-1050,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,61.1,28.0,33.1,Central,Ohio,PayPal,0.06
+TX-379,ORD-2025-10187,2025-08-10,CUST-1025,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,South,Florida,Credit Card,0.0
+TX-380,ORD-2025-10188,2025-06-03,CUST-1087,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,25.35,37.5,-12.15,Central,Illinois,Apple Pay,0.06
+TX-381,ORD-2025-10188,2025-06-03,CUST-1087,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,234.9,110.0,124.9,Central,Illinois,Apple Pay,0.13
+TX-382,ORD-2025-10189,2025-07-13,CUST-1068,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,110.0,45.0,65.0,West,Oregon,Debit Card,0.0
+TX-383,ORD-2025-10189,2025-07-13,CUST-1068,PROD-113,Performance Chino Trousers,Apparel,2,78.0,127.92,60.0,67.92,West,Oregon,Debit Card,0.18
+TX-384,ORD-2025-10190,2025-12-20,CUST-1173,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,West,Oregon,Corporate Invoice,0.0
+TX-385,ORD-2025-10191,2025-06-13,CUST-1007,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,East,Massachusetts,Debit Card,0.0
+TX-386,ORD-2025-10191,2025-06-13,CUST-1007,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,354.22,260.0,94.22,East,Massachusetts,Debit Card,0.11
+TX-387,ORD-2025-10192,2025-08-01,CUST-1127,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,Central,Michigan,Debit Card,0.0
+TX-388,ORD-2025-10193,2025-06-19,CUST-1055,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,393.6,350.0,43.6,West,Oregon,PayPal,0.18
+TX-389,ORD-2025-10193,2025-06-19,CUST-1055,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,158.86,110.0,48.86,West,Oregon,PayPal,0.06
+TX-390,ORD-2025-10193,2025-06-19,CUST-1055,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.27,12.5,-4.23,West,Oregon,PayPal,0.08
+TX-391,ORD-2025-10194,2025-12-16,CUST-1015,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,West,Washington,Debit Card,0.0
+TX-392,ORD-2025-10195,2025-05-15,CUST-1018,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,South,Georgia,Apple Pay,0.0
+TX-393,ORD-2025-10195,2025-05-15,CUST-1018,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,642.2,440.0,202.2,South,Georgia,Apple Pay,0.05
+TX-394,ORD-2025-10195,2025-05-15,CUST-1018,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,360.8,180.0,180.8,South,Georgia,Apple Pay,0.18
+TX-395,ORD-2025-10196,2025-02-13,CUST-1186,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,129.36,96.0,33.36,South,Virginia,Debit Card,0.16
+TX-396,ORD-2025-10196,2025-02-13,CUST-1186,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,South,Virginia,Debit Card,0.0
+TX-397,ORD-2025-10196,2025-02-13,CUST-1186,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,163.8,72.0,91.8,South,Virginia,Debit Card,0.09
+TX-398,ORD-2025-10197,2025-11-24,CUST-1164,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,South,Georgia,PayPal,0.0
+TX-399,ORD-2025-10197,2025-11-24,CUST-1164,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,156.58,104.0,52.58,South,Georgia,PayPal,0.13
+TX-400,ORD-2025-10197,2025-11-24,CUST-1164,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,South,Georgia,PayPal,0.0
+TX-401,ORD-2025-10198,2025-01-14,CUST-1010,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,359.96,208.0,151.96,West,California,Credit Card,0.0
+TX-402,ORD-2025-10198,2025-01-14,CUST-1010,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1064.67,780.0,284.67,West,California,Credit Card,0.09
+TX-403,ORD-2025-10199,2025-03-22,CUST-1037,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,53.95,28.0,25.95,East,Pennsylvania,Credit Card,0.17
+TX-404,ORD-2025-10200,2025-11-29,CUST-1131,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,West,Washington,Debit Card,0.0
+TX-405,ORD-2025-10201,2025-06-17,CUST-1002,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,West,Washington,Debit Card,0.0
+TX-406,ORD-2025-10201,2025-06-17,CUST-1002,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,West,Washington,Debit Card,0.0
+TX-407,ORD-2025-10202,2025-05-21,CUST-1044,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,Central,Texas,Corporate Invoice,0.0
+TX-408,ORD-2025-10202,2025-05-21,CUST-1044,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,163.18,130.0,33.18,Central,Texas,Corporate Invoice,0.18
+TX-409,ORD-2025-10202,2025-05-21,CUST-1044,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,231.4,112.0,119.4,Central,Texas,Corporate Invoice,0.11
+TX-410,ORD-2025-10203,2025-05-02,CUST-1011,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,135.0,54.0,81.0,West,California,Apple Pay,0.0
+TX-411,ORD-2025-10203,2025-05-02,CUST-1011,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,72.89,52.0,20.89,West,California,Apple Pay,0.19
+TX-412,ORD-2025-10204,2025-06-05,CUST-1130,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,East,Pennsylvania,PayPal,0.0
+TX-413,ORD-2025-10204,2025-06-05,CUST-1130,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,East,Pennsylvania,PayPal,0.0
+TX-414,ORD-2025-10204,2025-06-05,CUST-1130,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,38.5,24.0,14.5,East,Pennsylvania,PayPal,0.0
+TX-415,ORD-2025-10205,2025-01-03,CUST-1017,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,South,Florida,Credit Card,0.0
+TX-416,ORD-2025-10205,2025-01-03,CUST-1017,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,South,Florida,Credit Card,0.0
+TX-417,ORD-2025-10206,2025-12-17,CUST-1013,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,East,New York,Credit Card,0.0
+TX-418,ORD-2025-10206,2025-12-17,CUST-1013,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,756.8,460.0,296.8,East,New York,Credit Card,0.14
+TX-419,ORD-2025-10207,2025-05-10,CUST-1063,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,17.98,25.0,-7.02,Central,Ohio,Corporate Invoice,0.0
+TX-420,ORD-2025-10207,2025-05-10,CUST-1063,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,Central,Ohio,Corporate Invoice,0.0
+TX-421,ORD-2025-10208,2025-03-22,CUST-1004,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,112.05,54.0,58.05,West,California,Debit Card,0.17
+TX-422,ORD-2025-10208,2025-03-22,CUST-1004,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,West,California,Debit Card,0.0
+TX-423,ORD-2025-10208,2025-03-22,CUST-1004,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,West,California,Debit Card,0.0
+TX-424,ORD-2025-10209,2025-04-21,CUST-1095,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,170.88,60.0,110.88,South,North Carolina,PayPal,0.11
+TX-425,ORD-2025-10209,2025-04-21,CUST-1095,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,South,North Carolina,PayPal,0.0
+TX-426,ORD-2025-10209,2025-04-21,CUST-1095,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,330.0,135.0,195.0,South,North Carolina,PayPal,0.0
+TX-427,ORD-2025-10210,2025-10-23,CUST-1150,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,158.38,104.0,54.38,South,Virginia,Corporate Invoice,0.12
+TX-428,ORD-2025-10210,2025-10-23,CUST-1150,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,South,Virginia,Corporate Invoice,0.0
+TX-429,ORD-2025-10211,2025-06-28,CUST-1011,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,190.0,84.0,106.0,South,Georgia,Corporate Invoice,0.0
+TX-430,ORD-2025-10211,2025-06-28,CUST-1011,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,South,Georgia,Corporate Invoice,0.0
+TX-431,ORD-2025-10211,2025-06-28,CUST-1011,PROD-113,Performance Chino Trousers,Apparel,1,78.0,73.32,30.0,43.32,South,Georgia,Corporate Invoice,0.06
+TX-432,ORD-2025-10212,2025-05-03,CUST-1165,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,79.9,65.0,14.9,East,Pennsylvania,Corporate Invoice,0.06
+TX-433,ORD-2025-10212,2025-05-03,CUST-1165,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,East,Pennsylvania,Corporate Invoice,0.0
+TX-434,ORD-2025-10213,2025-04-12,CUST-1001,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,605.07,465.0,140.07,East,Pennsylvania,PayPal,0.19
+TX-435,ORD-2025-10213,2025-04-12,CUST-1001,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,East,Pennsylvania,PayPal,0.0
+TX-436,ORD-2025-10214,2025-02-28,CUST-1109,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,East,New York,Apple Pay,0.0
+TX-437,ORD-2025-10215,2025-05-05,CUST-1041,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,312.8,260.0,52.8,Central,Texas,Apple Pay,0.08
+TX-438,ORD-2025-10215,2025-05-05,CUST-1041,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Texas,Apple Pay,0.0
+TX-439,ORD-2025-10215,2025-05-05,CUST-1041,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,Central,Texas,Apple Pay,0.0
+TX-440,ORD-2025-10216,2025-07-22,CUST-1146,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,334.11,216.0,118.11,East,New York,PayPal,0.14
+TX-441,ORD-2025-10216,2025-07-22,CUST-1146,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,East,New York,PayPal,0.0
+TX-442,ORD-2025-10217,2025-10-13,CUST-1106,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,89.99,52.0,37.99,East,Pennsylvania,Debit Card,0.0
+TX-443,ORD-2025-10218,2025-09-10,CUST-1184,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,190.0,84.0,106.0,Central,Texas,Debit Card,0.0
+TX-444,ORD-2025-10218,2025-09-10,CUST-1184,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Texas,Debit Card,0.0
+TX-445,ORD-2025-10219,2025-08-23,CUST-1017,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,East,New Jersey,Apple Pay,0.0
+TX-446,ORD-2025-10220,2025-01-26,CUST-1012,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,192.0,60.0,132.0,East,Massachusetts,Debit Card,0.0
+TX-447,ORD-2025-10221,2025-08-13,CUST-1153,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,209.0,115.0,94.0,South,Florida,Apple Pay,0.05
+TX-448,ORD-2025-10222,2025-12-14,CUST-1138,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,Central,Texas,Corporate Invoice,0.0
+TX-449,ORD-2025-10223,2025-08-08,CUST-1186,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,57.12,28.0,29.12,East,Pennsylvania,Apple Pay,0.16
+TX-450,ORD-2025-10223,2025-08-08,CUST-1186,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,East,Pennsylvania,Apple Pay,0.0
+TX-451,ORD-2025-10224,2025-05-19,CUST-1002,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,West,California,Corporate Invoice,0.0
+TX-452,ORD-2025-10225,2025-01-08,CUST-1024,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,192.0,60.0,132.0,Central,Michigan,Apple Pay,0.0
+TX-453,ORD-2025-10226,2025-11-02,CUST-1009,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,East,New York,Apple Pay,0.0
+TX-454,ORD-2025-10226,2025-11-02,CUST-1009,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,137.08,95.0,42.08,East,New York,Apple Pay,0.08
+TX-455,ORD-2025-10226,2025-11-02,CUST-1009,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,East,New York,Apple Pay,0.0
+TX-456,ORD-2025-10227,2025-04-17,CUST-1093,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,East,New York,Corporate Invoice,0.0
+TX-457,ORD-2025-10228,2025-10-11,CUST-1175,PROD-125,Promotional Branded Tote Bag,Apparel,3,4.5,13.5,18.6,-5.1,South,Florida,Debit Card,0.0
+TX-458,ORD-2025-10228,2025-10-11,CUST-1175,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,South,Florida,Debit Card,0.0
+TX-459,ORD-2025-10229,2025-08-17,CUST-1082,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,Central,Ohio,Corporate Invoice,0.0
+TX-460,ORD-2025-10229,2025-08-17,CUST-1082,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,Central,Ohio,Corporate Invoice,0.0
+TX-461,ORD-2025-10230,2025-11-11,CUST-1105,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,East,Pennsylvania,Credit Card,0.0
+TX-462,ORD-2025-10230,2025-11-11,CUST-1105,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,East,Pennsylvania,Credit Card,0.0
+TX-463,ORD-2025-10230,2025-11-11,CUST-1105,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,East,Pennsylvania,Credit Card,0.0
+TX-464,ORD-2025-10231,2025-01-21,CUST-1171,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,277.2,135.0,142.2,Central,Michigan,Corporate Invoice,0.16
+TX-465,ORD-2025-10231,2025-01-21,CUST-1171,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,Central,Michigan,Corporate Invoice,0.0
+TX-466,ORD-2025-10231,2025-01-21,CUST-1171,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,498.0,310.0,188.0,Central,Michigan,Corporate Invoice,0.0
+TX-467,ORD-2025-10232,2025-06-03,CUST-1001,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,Central,Texas,Credit Card,0.0
+TX-468,ORD-2025-10232,2025-06-03,CUST-1001,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,270.75,126.0,144.75,Central,Texas,Credit Card,0.05
+TX-469,ORD-2025-10233,2025-09-12,CUST-1033,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,214.97,144.0,70.97,South,Georgia,Debit Card,0.17
+TX-470,ORD-2025-10233,2025-09-12,CUST-1033,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,103.95,72.0,31.95,South,Georgia,Debit Card,0.1
+TX-471,ORD-2025-10234,2025-10-09,CUST-1001,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,Central,Illinois,Credit Card,0.0
+TX-472,ORD-2025-10234,2025-10-09,CUST-1001,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,Central,Illinois,Credit Card,0.0
+TX-473,ORD-2025-10234,2025-10-09,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,Central,Illinois,Credit Card,0.0
+TX-474,ORD-2025-10235,2025-09-10,CUST-1165,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,31.57,24.0,7.57,West,Colorado,Apple Pay,0.18
+TX-475,ORD-2025-10235,2025-09-10,CUST-1165,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,West,Colorado,Apple Pay,0.0
+TX-476,ORD-2025-10236,2025-04-16,CUST-1141,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,498.0,310.0,188.0,Central,Ohio,Corporate Invoice,0.0
+TX-477,ORD-2025-10236,2025-04-16,CUST-1141,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,79.19,52.0,27.19,Central,Ohio,Corporate Invoice,0.12
+TX-478,ORD-2025-10236,2025-04-16,CUST-1141,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,Central,Ohio,Corporate Invoice,0.0
+TX-479,ORD-2025-10237,2025-06-24,CUST-1099,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,Central,Michigan,Credit Card,0.0
+TX-480,ORD-2025-10237,2025-06-24,CUST-1099,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,Central,Michigan,Credit Card,0.0
+TX-481,ORD-2025-10237,2025-06-24,CUST-1099,PROD-101,"UltraHD 4K Monitor 27""",Electronics,2,389.99,733.18,520.0,213.18,Central,Michigan,Credit Card,0.06
+TX-482,ORD-2025-10238,2025-07-27,CUST-1170,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,85.0,65.0,20.0,West,California,Debit Card,0.0
+TX-483,ORD-2025-10238,2025-07-27,CUST-1170,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,West,California,Debit Card,0.0
+TX-484,ORD-2025-10238,2025-07-27,CUST-1170,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,391.6,230.0,161.6,West,California,Debit Card,0.11
+TX-485,ORD-2025-10239,2025-07-25,CUST-1093,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,7.65,12.4,-4.75,South,Georgia,Corporate Invoice,0.15
+TX-486,ORD-2025-10239,2025-07-25,CUST-1093,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,South,Georgia,Corporate Invoice,0.0
+TX-487,ORD-2025-10239,2025-07-25,CUST-1093,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,319.6,260.0,59.6,South,Georgia,Corporate Invoice,0.06
+TX-488,ORD-2025-10240,2025-08-11,CUST-1039,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,Central,Illinois,Debit Card,0.0
+TX-489,ORD-2025-10240,2025-08-11,CUST-1039,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,Central,Illinois,Debit Card,0.0
+TX-490,ORD-2025-10241,2025-04-29,CUST-1053,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,324.0,165.0,159.0,East,New York,Apple Pay,0.2
+TX-491,ORD-2025-10242,2025-08-01,CUST-1004,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,916.32,620.0,296.32,Central,Illinois,PayPal,0.08
+TX-492,ORD-2025-10243,2025-04-15,CUST-1073,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,135.36,45.0,90.36,Central,Illinois,Debit Card,0.06
+TX-493,ORD-2025-10244,2025-02-19,CUST-1102,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,South,Georgia,Corporate Invoice,0.0
+TX-494,ORD-2025-10244,2025-02-19,CUST-1102,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,South,Georgia,Corporate Invoice,0.0
+TX-495,ORD-2025-10244,2025-02-19,CUST-1102,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,49.14,22.5,26.64,South,Georgia,Corporate Invoice,0.09
+TX-496,ORD-2025-10245,2025-08-18,CUST-1190,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,319.6,260.0,59.6,East,Pennsylvania,PayPal,0.06
+TX-497,ORD-2025-10245,2025-08-18,CUST-1190,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,17.98,25.0,-7.02,East,Pennsylvania,PayPal,0.0
+TX-498,ORD-2025-10245,2025-08-18,CUST-1190,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,747.0,465.0,282.0,East,Pennsylvania,PayPal,0.0
+TX-499,ORD-2025-10246,2025-10-17,CUST-1169,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,621.92,440.0,181.92,West,Oregon,Apple Pay,0.08
+TX-500,ORD-2025-10247,2025-10-29,CUST-1033,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,West,California,PayPal,0.0
+TX-501,ORD-2025-10247,2025-10-29,CUST-1033,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,California,PayPal,0.0
+TX-502,ORD-2025-10247,2025-10-29,CUST-1033,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,West,California,PayPal,0.0
+TX-503,ORD-2025-10248,2025-06-04,CUST-1016,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,West,Colorado,PayPal,0.0
+TX-504,ORD-2025-10248,2025-06-04,CUST-1016,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,883.2,630.0,253.2,West,Colorado,PayPal,0.08
+TX-505,ORD-2025-10249,2025-02-26,CUST-1003,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,South,Virginia,Credit Card,0.0
+TX-506,ORD-2025-10249,2025-02-26,CUST-1003,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1559.96,1040.0,519.96,South,Virginia,Credit Card,0.0
+TX-507,ORD-2025-10250,2025-08-24,CUST-1001,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1593.6,1400.0,193.6,West,Colorado,Apple Pay,0.17
+TX-508,ORD-2025-10251,2025-01-12,CUST-1008,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,359.96,208.0,151.96,East,New Jersey,Credit Card,0.0
+TX-509,ORD-2025-10252,2025-04-01,CUST-1139,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,East,Pennsylvania,PayPal,0.0
+TX-510,ORD-2025-10253,2025-06-06,CUST-1153,PROD-113,Performance Chino Trousers,Apparel,2,78.0,140.4,60.0,80.4,Central,Texas,Credit Card,0.1
+TX-511,ORD-2025-10253,2025-06-06,CUST-1153,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,Central,Texas,Credit Card,0.0
+TX-512,ORD-2025-10253,2025-06-06,CUST-1153,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,Central,Texas,Credit Card,0.0
+TX-513,ORD-2025-10254,2025-04-23,CUST-1010,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,South,Florida,PayPal,0.0
+TX-514,ORD-2025-10255,2025-11-28,CUST-1060,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,15.3,7.5,7.8,East,New Jersey,Debit Card,0.15
+TX-515,ORD-2025-10255,2025-11-28,CUST-1060,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,East,New Jersey,Debit Card,0.0
+TX-516,ORD-2025-10256,2025-12-24,CUST-1052,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,West,Colorado,PayPal,0.0
+TX-517,ORD-2025-10256,2025-12-24,CUST-1052,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,338.0,220.0,118.0,West,Colorado,PayPal,0.0
+TX-518,ORD-2025-10257,2025-02-03,CUST-1005,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,South,Florida,Corporate Invoice,0.0
+TX-519,ORD-2025-10257,2025-02-03,CUST-1005,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,137.08,95.0,42.08,South,Florida,Corporate Invoice,0.08
+TX-520,ORD-2025-10257,2025-02-03,CUST-1005,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,South,Florida,Corporate Invoice,0.0
+TX-521,ORD-2025-10258,2025-09-19,CUST-1142,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,29.52,15.0,14.52,Central,Ohio,Corporate Invoice,0.18
+TX-522,ORD-2025-10259,2025-04-05,CUST-1052,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,West,California,Corporate Invoice,0.0
+TX-523,ORD-2025-10259,2025-04-05,CUST-1052,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,338.0,220.0,118.0,West,California,Corporate Invoice,0.0
+TX-524,ORD-2025-10259,2025-04-05,CUST-1052,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,West,California,Corporate Invoice,0.0
+TX-525,ORD-2025-10260,2025-09-05,CUST-1086,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,New York,Debit Card,0.0
+TX-526,ORD-2025-10260,2025-09-05,CUST-1086,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,East,New York,Debit Card,0.0
+TX-527,ORD-2025-10261,2025-02-12,CUST-1161,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,Central,Michigan,Corporate Invoice,0.0
+TX-528,ORD-2025-10262,2025-11-27,CUST-1120,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,291.2,210.0,81.2,West,Oregon,Debit Card,0.09
+TX-529,ORD-2025-10262,2025-11-27,CUST-1120,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,135.0,54.0,81.0,West,Oregon,Debit Card,0.0
+TX-530,ORD-2025-10262,2025-11-27,CUST-1120,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,West,Oregon,Debit Card,0.0
+TX-531,ORD-2025-10263,2025-05-07,CUST-1008,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,33.11,24.0,9.11,Central,Michigan,Corporate Invoice,0.14
+TX-532,ORD-2025-10263,2025-05-07,CUST-1008,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,Central,Michigan,Corporate Invoice,0.0
+TX-533,ORD-2025-10263,2025-05-07,CUST-1008,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,136.0,56.0,80.0,Central,Michigan,Corporate Invoice,0.0
+TX-534,ORD-2025-10264,2025-11-25,CUST-1086,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,56.44,28.0,28.44,West,Colorado,PayPal,0.17
+TX-535,ORD-2025-10264,2025-11-25,CUST-1086,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,West,Colorado,PayPal,0.0
+TX-536,ORD-2025-10265,2025-10-29,CUST-1022,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,135.0,54.0,81.0,West,Colorado,Apple Pay,0.0
+TX-537,ORD-2025-10265,2025-10-29,CUST-1022,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,West,Colorado,Apple Pay,0.0
+TX-538,ORD-2025-10266,2025-09-27,CUST-1067,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,West,California,Debit Card,0.0
+TX-539,ORD-2025-10267,2025-06-02,CUST-1148,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,South,Virginia,Credit Card,0.0
+TX-540,ORD-2025-10267,2025-06-02,CUST-1148,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,359.96,208.0,151.96,South,Virginia,Credit Card,0.0
+TX-541,ORD-2025-10267,2025-06-02,CUST-1148,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,136.0,56.0,80.0,South,Virginia,Credit Card,0.0
+TX-542,ORD-2025-10268,2025-08-25,CUST-1090,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,East,Massachusetts,Corporate Invoice,0.0
+TX-543,ORD-2025-10269,2025-12-18,CUST-1152,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,South,Georgia,Corporate Invoice,0.0
+TX-544,ORD-2025-10270,2025-03-10,CUST-1008,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,214.2,195.0,19.2,West,Washington,Apple Pay,0.16
+TX-545,ORD-2025-10270,2025-03-10,CUST-1008,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,West,Washington,Apple Pay,0.0
+TX-546,ORD-2025-10270,2025-03-10,CUST-1008,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,West,Washington,Apple Pay,0.0
+TX-547,ORD-2025-10271,2025-07-19,CUST-1085,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,96.0,30.0,66.0,East,New York,Debit Card,0.0
+TX-548,ORD-2025-10272,2025-03-05,CUST-1176,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,Central,Ohio,Corporate Invoice,0.0
+TX-549,ORD-2025-10272,2025-03-05,CUST-1176,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,176.0,90.0,86.0,Central,Ohio,Corporate Invoice,0.2
+TX-550,ORD-2025-10273,2025-07-25,CUST-1007,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,Central,Illinois,Credit Card,0.0
+TX-551,ORD-2025-10273,2025-07-25,CUST-1007,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,24.0,37.5,-13.5,Central,Illinois,Credit Card,0.11
+TX-552,ORD-2025-10274,2025-04-16,CUST-1009,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,747.0,465.0,282.0,Central,Michigan,Apple Pay,0.0
+TX-553,ORD-2025-10274,2025-04-16,CUST-1009,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,321.3,204.0,117.3,Central,Michigan,Apple Pay,0.1
+TX-554,ORD-2025-10274,2025-04-16,CUST-1009,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,86.4,30.0,56.4,Central,Michigan,Apple Pay,0.1
+TX-555,ORD-2025-10275,2025-12-14,CUST-1014,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,747.0,465.0,282.0,Central,Texas,Debit Card,0.0
+TX-556,ORD-2025-10275,2025-12-14,CUST-1014,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,Central,Texas,Debit Card,0.0
+TX-557,ORD-2025-10275,2025-12-14,CUST-1014,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,Central,Texas,Debit Card,0.0
+TX-558,ORD-2025-10276,2025-04-09,CUST-1170,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,398.4,350.0,48.4,South,North Carolina,Corporate Invoice,0.17
+TX-559,ORD-2025-10276,2025-04-09,CUST-1170,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,South,North Carolina,Corporate Invoice,0.0
+TX-560,ORD-2025-10276,2025-04-09,CUST-1170,PROD-101,"UltraHD 4K Monitor 27""",Electronics,2,389.99,647.38,520.0,127.38,South,North Carolina,Corporate Invoice,0.17
+TX-561,ORD-2025-10277,2025-10-20,CUST-1017,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,461.37,330.0,131.37,East,New Jersey,Apple Pay,0.09
+TX-562,ORD-2025-10277,2025-10-20,CUST-1017,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,159.6,84.0,75.6,East,New Jersey,Apple Pay,0.16
+TX-563,ORD-2025-10277,2025-10-20,CUST-1017,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,East,New Jersey,Apple Pay,0.0
+TX-564,ORD-2025-10278,2025-03-12,CUST-1169,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,153.9,84.0,69.9,Central,Illinois,Credit Card,0.19
+TX-565,ORD-2025-10278,2025-03-12,CUST-1169,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,303.6,135.0,168.6,Central,Illinois,Credit Card,0.08
+TX-566,ORD-2025-10279,2025-10-15,CUST-1036,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,309.57,208.0,101.57,West,Colorado,Apple Pay,0.14
+TX-567,ORD-2025-10280,2025-02-27,CUST-1191,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,South,Virginia,Corporate Invoice,0.0
+TX-568,ORD-2025-10280,2025-02-27,CUST-1191,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,229.47,156.0,73.47,South,Virginia,Corporate Invoice,0.15
+TX-569,ORD-2025-10281,2025-04-20,CUST-1111,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,West,Oregon,PayPal,0.0
+TX-570,ORD-2025-10282,2025-10-25,CUST-1032,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,77.0,48.0,29.0,West,Oregon,Credit Card,0.0
+TX-571,ORD-2025-10283,2025-12-16,CUST-1070,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,South,Florida,Apple Pay,0.0
+TX-572,ORD-2025-10283,2025-12-16,CUST-1070,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,South,Florida,Apple Pay,0.0
+TX-573,ORD-2025-10284,2025-07-19,CUST-1080,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,Central,Michigan,Debit Card,0.0
+TX-574,ORD-2025-10284,2025-07-19,CUST-1080,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,169.1,84.0,85.1,Central,Michigan,Debit Card,0.11
+TX-575,ORD-2025-10284,2025-07-19,CUST-1080,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,Central,Michigan,Debit Card,0.0
+TX-576,ORD-2025-10285,2025-07-22,CUST-1051,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,Central,Ohio,Apple Pay,0.0
+TX-577,ORD-2025-10285,2025-07-22,CUST-1051,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,300.3,135.0,165.3,Central,Ohio,Apple Pay,0.09
+TX-578,ORD-2025-10285,2025-07-22,CUST-1051,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,Central,Ohio,Apple Pay,0.0
+TX-579,ORD-2025-10286,2025-03-09,CUST-1123,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,Central,Texas,Apple Pay,0.0
+TX-580,ORD-2025-10286,2025-03-09,CUST-1123,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,Central,Texas,Apple Pay,0.0
+TX-581,ORD-2025-10287,2025-04-18,CUST-1012,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,127.84,56.0,71.84,West,Washington,Credit Card,0.06
+TX-582,ORD-2025-10288,2025-06-05,CUST-1058,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,38.5,24.0,14.5,East,New Jersey,Corporate Invoice,0.0
+TX-583,ORD-2025-10288,2025-06-05,CUST-1058,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,East,New Jersey,Corporate Invoice,0.0
+TX-584,ORD-2025-10288,2025-06-05,CUST-1058,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1088.0,840.0,248.0,East,New Jersey,Corporate Invoice,0.15
+TX-585,ORD-2025-10289,2025-11-15,CUST-1103,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,Central,Ohio,PayPal,0.0
+TX-586,ORD-2025-10290,2025-07-01,CUST-1118,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,440.0,230.0,210.0,Central,Ohio,Apple Pay,0.0
+TX-587,ORD-2025-10290,2025-07-01,CUST-1118,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,73.8,36.0,37.8,Central,Ohio,Apple Pay,0.18
+TX-588,ORD-2025-10290,2025-07-01,CUST-1118,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,Central,Ohio,Apple Pay,0.0
+TX-589,ORD-2025-10291,2025-08-12,CUST-1153,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,187.0,115.0,72.0,East,Pennsylvania,Apple Pay,0.15
+TX-590,ORD-2025-10291,2025-08-12,CUST-1153,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,16.0,25.0,-9.0,East,Pennsylvania,Apple Pay,0.11
+TX-591,ORD-2025-10291,2025-08-12,CUST-1153,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,East,Pennsylvania,Apple Pay,0.0
+TX-592,ORD-2025-10292,2025-02-05,CUST-1084,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,South,North Carolina,Credit Card,0.0
+TX-593,ORD-2025-10292,2025-02-05,CUST-1084,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,South,North Carolina,Credit Card,0.0
+TX-594,ORD-2025-10293,2025-03-16,CUST-1048,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,East,New York,Corporate Invoice,0.0
+TX-595,ORD-2025-10293,2025-03-16,CUST-1048,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,East,New York,Corporate Invoice,0.0
+TX-596,ORD-2025-10294,2025-06-13,CUST-1047,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,West,Colorado,Apple Pay,0.0
+TX-597,ORD-2025-10294,2025-06-13,CUST-1047,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,West,Colorado,Apple Pay,0.0
+TX-598,ORD-2025-10295,2025-05-03,CUST-1182,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,191.4,90.0,101.4,West,Oregon,Corporate Invoice,0.13
+TX-599,ORD-2025-10295,2025-05-03,CUST-1182,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,West,Oregon,Corporate Invoice,0.0
+TX-600,ORD-2025-10296,2025-12-09,CUST-1073,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,125.55,54.0,71.55,West,Colorado,Corporate Invoice,0.07
+TX-601,ORD-2025-10296,2025-12-09,CUST-1073,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,111.52,56.0,55.52,West,Colorado,Corporate Invoice,0.18
+TX-602,ORD-2025-10296,2025-12-09,CUST-1073,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,154.0,96.0,58.0,West,Colorado,Corporate Invoice,0.0
+TX-603,ORD-2025-10297,2025-07-04,CUST-1073,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,Central,Michigan,Debit Card,0.0
+TX-604,ORD-2025-10297,2025-07-04,CUST-1073,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,78.2,65.0,13.2,Central,Michigan,Debit Card,0.08
+TX-605,ORD-2025-10297,2025-07-04,CUST-1073,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,Central,Michigan,Debit Card,0.0
+TX-606,ORD-2025-10298,2025-12-04,CUST-1078,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,Central,Ohio,Credit Card,0.0
+TX-607,ORD-2025-10298,2025-12-04,CUST-1078,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,130.0,56.0,74.0,Central,Ohio,Credit Card,0.0
+TX-608,ORD-2025-10298,2025-12-04,CUST-1078,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,137.06,96.0,41.06,Central,Ohio,Credit Card,0.11
+TX-609,ORD-2025-10299,2025-11-10,CUST-1132,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,80.64,30.0,50.64,Central,Michigan,Credit Card,0.16
+TX-610,ORD-2025-10299,2025-11-10,CUST-1132,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,Central,Michigan,Credit Card,0.0
+TX-611,ORD-2025-10299,2025-11-10,CUST-1132,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,158.86,110.0,48.86,Central,Michigan,Credit Card,0.06
+TX-612,ORD-2025-10300,2025-01-25,CUST-1169,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,West,Colorado,Corporate Invoice,0.0
+TX-613,ORD-2025-10300,2025-01-25,CUST-1169,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,262.24,190.0,72.24,West,Colorado,Corporate Invoice,0.12
+TX-614,ORD-2025-10301,2025-04-05,CUST-1090,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,South,Georgia,Corporate Invoice,0.0
+TX-615,ORD-2025-10302,2025-08-17,CUST-1053,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1279.17,1040.0,239.17,West,California,Credit Card,0.18
+TX-616,ORD-2025-10302,2025-08-17,CUST-1053,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,996.0,620.0,376.0,West,California,Credit Card,0.0
+TX-617,ORD-2025-10303,2025-09-29,CUST-1045,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,South,Florida,Corporate Invoice,0.0
+TX-618,ORD-2025-10303,2025-09-29,CUST-1045,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,South,Florida,Corporate Invoice,0.0
+TX-619,ORD-2025-10304,2025-11-01,CUST-1093,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,587.4,345.0,242.4,Central,Michigan,Debit Card,0.11
+TX-620,ORD-2025-10304,2025-11-01,CUST-1093,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,Central,Michigan,Debit Card,0.0
+TX-621,ORD-2025-10304,2025-11-01,CUST-1093,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Michigan,Debit Card,0.0
+TX-622,ORD-2025-10305,2025-10-16,CUST-1121,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,East,New Jersey,PayPal,0.0
+TX-623,ORD-2025-10305,2025-10-16,CUST-1121,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,East,New Jersey,PayPal,0.0
+TX-624,ORD-2025-10305,2025-10-16,CUST-1121,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,38.5,24.0,14.5,East,New Jersey,PayPal,0.0
+TX-625,ORD-2025-10306,2025-08-07,CUST-1041,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,338.0,220.0,118.0,South,Virginia,Corporate Invoice,0.0
+TX-626,ORD-2025-10306,2025-08-07,CUST-1041,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,67.68,30.0,37.68,South,Virginia,Corporate Invoice,0.06
+TX-627,ORD-2025-10306,2025-08-07,CUST-1041,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,300.8,210.0,90.8,South,Virginia,Corporate Invoice,0.06
+TX-628,ORD-2025-10307,2025-02-08,CUST-1160,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,54.4,28.0,26.4,East,New York,PayPal,0.2
+TX-629,ORD-2025-10307,2025-02-08,CUST-1160,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,East,New York,PayPal,0.0
+TX-630,ORD-2025-10308,2025-11-03,CUST-1176,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,West,Washington,Credit Card,0.0
+TX-631,ORD-2025-10309,2025-09-24,CUST-1193,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,East,Massachusetts,Corporate Invoice,0.0
+TX-632,ORD-2025-10310,2025-01-15,CUST-1101,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,253.8,110.0,143.8,Central,Ohio,PayPal,0.06
+TX-633,ORD-2025-10310,2025-01-15,CUST-1101,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,128.16,45.0,83.16,Central,Ohio,PayPal,0.11
+TX-634,ORD-2025-10310,2025-01-15,CUST-1101,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,Central,Ohio,PayPal,0.0
+TX-635,ORD-2025-10311,2025-06-26,CUST-1075,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,East,Pennsylvania,PayPal,0.0
+TX-636,ORD-2025-10311,2025-06-26,CUST-1075,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,East,Pennsylvania,PayPal,0.0
+TX-637,ORD-2025-10311,2025-06-26,CUST-1075,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,154.0,96.0,58.0,East,Pennsylvania,PayPal,0.0
+TX-638,ORD-2025-10312,2025-11-27,CUST-1070,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,104.9,72.0,32.9,Central,Illinois,Debit Card,0.19
+TX-639,ORD-2025-10312,2025-11-27,CUST-1070,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,Central,Illinois,Debit Card,0.0
+TX-640,ORD-2025-10312,2025-11-27,CUST-1070,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,Central,Illinois,Debit Card,0.0
+TX-641,ORD-2025-10313,2025-01-27,CUST-1153,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,130.0,56.0,74.0,Central,Illinois,Credit Card,0.0
+TX-642,ORD-2025-10314,2025-03-12,CUST-1037,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,122.18,95.0,27.18,East,New York,Debit Card,0.18
+TX-643,ORD-2025-10314,2025-03-12,CUST-1037,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,East,New York,Debit Card,0.0
+TX-644,ORD-2025-10314,2025-03-12,CUST-1037,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,152.98,104.0,48.98,East,New York,Debit Card,0.15
+TX-645,ORD-2025-10315,2025-05-02,CUST-1148,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,70.07,48.0,22.07,South,North Carolina,PayPal,0.09
+TX-646,ORD-2025-10316,2025-02-13,CUST-1082,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,West,California,Apple Pay,0.0
+TX-647,ORD-2025-10316,2025-02-13,CUST-1082,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,West,California,Apple Pay,0.0
+TX-648,ORD-2025-10317,2025-08-12,CUST-1035,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,716.4,520.0,196.4,South,Georgia,PayPal,0.1
+TX-649,ORD-2025-10317,2025-08-12,CUST-1035,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,South,Georgia,PayPal,0.0
+TX-650,ORD-2025-10317,2025-08-12,CUST-1035,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,692.52,520.0,172.52,South,Georgia,PayPal,0.13
+TX-651,ORD-2025-10318,2025-06-10,CUST-1070,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,154.78,104.0,50.78,Central,Illinois,Apple Pay,0.14
+TX-652,ORD-2025-10318,2025-06-10,CUST-1070,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,39.36,15.0,24.36,Central,Illinois,Apple Pay,0.18
+TX-653,ORD-2025-10319,2025-09-23,CUST-1033,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,West,Colorado,Corporate Invoice,0.0
+TX-654,ORD-2025-10320,2025-01-26,CUST-1086,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,East,New Jersey,Debit Card,0.0
+TX-655,ORD-2025-10320,2025-01-26,CUST-1086,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,East,New Jersey,Debit Card,0.0
+TX-656,ORD-2025-10321,2025-10-02,CUST-1007,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,241.8,112.0,129.8,Central,Ohio,Debit Card,0.07
+TX-657,ORD-2025-10321,2025-10-02,CUST-1007,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,154.77,96.0,58.77,Central,Ohio,Debit Card,0.14
+TX-658,ORD-2025-10322,2025-01-18,CUST-1022,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,76.49,52.0,24.49,East,Massachusetts,PayPal,0.15
+TX-659,ORD-2025-10322,2025-01-18,CUST-1022,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,307.8,168.0,139.8,East,Massachusetts,PayPal,0.19
+TX-660,ORD-2025-10322,2025-01-18,CUST-1022,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,96.0,30.0,66.0,East,Massachusetts,PayPal,0.0
+TX-661,ORD-2025-10323,2025-10-05,CUST-1190,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,South,North Carolina,Apple Pay,0.0
+TX-662,ORD-2025-10323,2025-10-05,CUST-1190,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,South,North Carolina,Apple Pay,0.0
+TX-663,ORD-2025-10323,2025-10-05,CUST-1190,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,South,North Carolina,Apple Pay,0.0
+TX-664,ORD-2025-10324,2025-04-10,CUST-1017,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,West,Washington,Corporate Invoice,0.0
+TX-665,ORD-2025-10325,2025-09-28,CUST-1073,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,17.98,25.0,-7.02,Central,Michigan,PayPal,0.0
+TX-666,ORD-2025-10326,2025-11-28,CUST-1110,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Ohio,PayPal,0.0
+TX-667,ORD-2025-10327,2025-02-02,CUST-1035,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,South,Florida,Credit Card,0.0
+TX-668,ORD-2025-10328,2025-09-21,CUST-1003,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,East,Pennsylvania,Apple Pay,0.0
+TX-669,ORD-2025-10328,2025-09-21,CUST-1003,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,747.0,465.0,282.0,East,Pennsylvania,Apple Pay,0.0
+TX-670,ORD-2025-10329,2025-11-12,CUST-1009,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,55.25,28.0,27.25,West,Oregon,PayPal,0.15
+TX-671,ORD-2025-10330,2025-02-06,CUST-1118,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,West,Washington,Credit Card,0.0
+TX-672,ORD-2025-10330,2025-02-06,CUST-1118,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1280.0,840.0,440.0,West,Washington,Credit Card,0.0
+TX-673,ORD-2025-10330,2025-02-06,CUST-1118,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,209.44,136.0,73.44,West,Washington,Credit Card,0.12
+TX-674,ORD-2025-10331,2025-07-08,CUST-1008,PROD-113,Performance Chino Trousers,Apparel,1,78.0,74.1,30.0,44.1,South,Florida,Corporate Invoice,0.05
+TX-675,ORD-2025-10332,2025-10-13,CUST-1001,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,63.91,48.0,15.91,South,Virginia,Debit Card,0.17
+TX-676,ORD-2025-10332,2025-10-13,CUST-1001,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,109.18,64.0,45.18,South,Virginia,Debit Card,0.09
+TX-677,ORD-2025-10332,2025-10-13,CUST-1001,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,South,Virginia,Debit Card,0.0
+TX-678,ORD-2025-10333,2025-06-27,CUST-1160,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,369.6,230.0,139.6,West,California,PayPal,0.16
+TX-679,ORD-2025-10333,2025-06-27,CUST-1160,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,West,California,PayPal,0.0
+TX-680,ORD-2025-10333,2025-06-27,CUST-1160,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,115.7,56.0,59.7,West,California,PayPal,0.11
+TX-681,ORD-2025-10334,2025-11-23,CUST-1150,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,959.38,780.0,179.38,South,Virginia,Debit Card,0.18
+TX-682,ORD-2025-10334,2025-11-23,CUST-1150,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,South,Virginia,Debit Card,0.0
+TX-683,ORD-2025-10335,2025-11-14,CUST-1014,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,South,Florida,Apple Pay,0.0
+TX-684,ORD-2025-10335,2025-11-14,CUST-1014,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,South,Florida,Apple Pay,0.0
+TX-685,ORD-2025-10335,2025-11-14,CUST-1014,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,338.3,260.0,78.3,South,Florida,Apple Pay,0.15
+TX-686,ORD-2025-10336,2025-12-01,CUST-1037,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,440.0,180.0,260.0,South,Virginia,Apple Pay,0.0
+TX-687,ORD-2025-10337,2025-02-24,CUST-1124,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,East,New York,Debit Card,0.0
+TX-688,ORD-2025-10338,2025-11-19,CUST-1078,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,West,California,Apple Pay,0.0
+TX-689,ORD-2025-10339,2025-12-19,CUST-1119,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,458.16,310.0,148.16,East,Pennsylvania,Debit Card,0.08
+TX-690,ORD-2025-10339,2025-12-19,CUST-1119,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,East,Pennsylvania,Debit Card,0.0
+TX-691,ORD-2025-10339,2025-12-19,CUST-1119,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,East,Pennsylvania,Debit Card,0.0
+TX-692,ORD-2025-10340,2025-07-19,CUST-1037,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,80.1,36.0,44.1,West,Oregon,PayPal,0.11
+TX-693,ORD-2025-10340,2025-07-19,CUST-1037,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,469.8,220.0,249.8,West,Oregon,PayPal,0.13
+TX-694,ORD-2025-10341,2025-08-06,CUST-1053,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,East,Massachusetts,PayPal,0.0
+TX-695,ORD-2025-10341,2025-08-06,CUST-1053,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,East,Massachusetts,PayPal,0.0
+TX-696,ORD-2025-10341,2025-08-06,CUST-1053,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,182.4,60.0,122.4,East,Massachusetts,PayPal,0.05
+TX-697,ORD-2025-10342,2025-01-19,CUST-1139,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,68.53,48.0,20.53,West,Oregon,PayPal,0.11
+TX-698,ORD-2025-10342,2025-01-19,CUST-1139,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,West,Oregon,PayPal,0.0
+TX-699,ORD-2025-10342,2025-01-19,CUST-1139,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,West,Oregon,PayPal,0.0
+TX-700,ORD-2025-10343,2025-05-26,CUST-1005,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,Pennsylvania,PayPal,0.0
+TX-701,ORD-2025-10344,2025-07-03,CUST-1046,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,Central,Michigan,Debit Card,0.0
+TX-702,ORD-2025-10345,2025-08-04,CUST-1153,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,131.12,95.0,36.12,East,New Jersey,PayPal,0.12
+TX-703,ORD-2025-10346,2025-10-10,CUST-1032,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,West,Washington,PayPal,0.0
+TX-704,ORD-2025-10347,2025-04-03,CUST-1159,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,379.95,285.0,94.95,East,Pennsylvania,Credit Card,0.15
+TX-705,ORD-2025-10347,2025-04-03,CUST-1159,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,Pennsylvania,Credit Card,0.0
+TX-706,ORD-2025-10348,2025-12-04,CUST-1019,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,16.02,7.5,8.52,South,North Carolina,Corporate Invoice,0.11
+TX-707,ORD-2025-10348,2025-12-04,CUST-1019,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,South,North Carolina,Corporate Invoice,0.0
+TX-708,ORD-2025-10349,2025-05-28,CUST-1001,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,West,Washington,Credit Card,0.0
+TX-709,ORD-2025-10349,2025-05-28,CUST-1001,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,Washington,Credit Card,0.0
+TX-710,ORD-2025-10349,2025-05-28,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,15.3,24.8,-9.5,West,Washington,Credit Card,0.15
+TX-711,ORD-2025-10350,2025-12-25,CUST-1118,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,112.05,55.0,57.05,West,Colorado,PayPal,0.17
+TX-712,ORD-2025-10351,2025-03-11,CUST-1113,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,35.04,24.0,11.04,West,Colorado,PayPal,0.09
+TX-713,ORD-2025-10351,2025-03-11,CUST-1113,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,West,Colorado,PayPal,0.0
+TX-714,ORD-2025-10351,2025-03-11,CUST-1113,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,85.0,65.0,20.0,West,Colorado,PayPal,0.0
+TX-715,ORD-2025-10352,2025-03-07,CUST-1188,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,199.92,136.0,63.92,West,California,Debit Card,0.16
+TX-716,ORD-2025-10353,2025-05-17,CUST-1092,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,East,Pennsylvania,Corporate Invoice,0.0
+TX-717,ORD-2025-10354,2025-07-16,CUST-1092,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,East,New York,Apple Pay,0.0
+TX-718,ORD-2025-10354,2025-07-16,CUST-1092,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,East,New York,Apple Pay,0.0
+TX-719,ORD-2025-10354,2025-07-16,CUST-1092,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,East,New York,Apple Pay,0.0
+TX-720,ORD-2025-10355,2025-08-22,CUST-1100,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,East,Pennsylvania,Debit Card,0.0
+TX-721,ORD-2025-10355,2025-08-22,CUST-1100,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,102.3,45.0,57.3,East,Pennsylvania,Debit Card,0.07
+TX-722,ORD-2025-10355,2025-08-22,CUST-1100,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,East,Pennsylvania,Debit Card,0.0
+TX-723,ORD-2025-10356,2025-10-23,CUST-1185,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,West,Oregon,Credit Card,0.0
+TX-724,ORD-2025-10356,2025-10-23,CUST-1185,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,Oregon,Credit Card,0.0
+TX-725,ORD-2025-10356,2025-10-23,CUST-1185,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,136.0,56.0,80.0,West,Oregon,Credit Card,0.0
+TX-726,ORD-2025-10357,2025-07-11,CUST-1167,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,Central,Michigan,Credit Card,0.0
+TX-727,ORD-2025-10357,2025-07-11,CUST-1167,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,Central,Michigan,Credit Card,0.0
+TX-728,ORD-2025-10358,2025-06-20,CUST-1167,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,South,Virginia,PayPal,0.0
+TX-729,ORD-2025-10358,2025-06-20,CUST-1167,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,33.8,50.0,-16.2,South,Virginia,PayPal,0.06
+TX-730,ORD-2025-10359,2025-10-07,CUST-1007,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,109.48,68.0,41.48,West,California,Debit Card,0.08
+TX-731,ORD-2025-10360,2025-06-20,CUST-1128,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,West,California,Credit Card,0.0
+TX-732,ORD-2025-10360,2025-06-20,CUST-1128,PROD-125,Promotional Branded Tote Bag,Apparel,3,4.5,11.21,18.6,-7.39,West,California,Credit Card,0.17
+TX-733,ORD-2025-10360,2025-06-20,CUST-1128,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,West,California,Credit Card,0.0
+TX-734,ORD-2025-10361,2025-09-18,CUST-1087,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,South,Georgia,Apple Pay,0.0
+TX-735,ORD-2025-10361,2025-09-18,CUST-1087,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,South,Georgia,Apple Pay,0.0
+TX-736,ORD-2025-10362,2025-05-23,CUST-1120,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,East,New York,Apple Pay,0.0
+TX-737,ORD-2025-10362,2025-05-23,CUST-1120,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,East,New York,Apple Pay,0.0
+TX-738,ORD-2025-10362,2025-05-23,CUST-1120,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,East,New York,Apple Pay,0.0
+TX-739,ORD-2025-10363,2025-11-04,CUST-1161,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,East,New York,PayPal,0.0
+TX-740,ORD-2025-10363,2025-11-04,CUST-1161,PROD-107,"Electric Standing Desk 55""",Office Supplies,45,480.0,18360.0,15750.0,2610.0,East,New York,PayPal,0.13
+TX-741,ORD-2025-10363,2025-11-04,CUST-1161,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,East,New York,PayPal,0.0
+TX-742,ORD-2025-10364,2025-04-30,CUST-1027,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,117.45,54.0,63.45,South,Virginia,Apple Pay,0.13
+TX-743,ORD-2025-10364,2025-04-30,CUST-1027,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,South,Virginia,Apple Pay,0.0
+TX-744,ORD-2025-10365,2025-11-06,CUST-1167,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,Central,Illinois,Credit Card,0.0
+TX-745,ORD-2025-10366,2025-01-18,CUST-1066,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,Central,Ohio,PayPal,0.0
+TX-746,ORD-2025-10366,2025-01-18,CUST-1066,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,Central,Ohio,PayPal,0.0
+TX-747,ORD-2025-10366,2025-01-18,CUST-1066,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,167.2,84.0,83.2,Central,Ohio,PayPal,0.12
+TX-748,ORD-2025-10367,2025-09-28,CUST-1004,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,South,Virginia,Debit Card,0.0
+TX-749,ORD-2025-10367,2025-09-28,CUST-1004,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,South,Virginia,Debit Card,0.0
+TX-750,ORD-2025-10367,2025-09-28,CUST-1004,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,676.0,440.0,236.0,South,Virginia,Debit Card,0.0
+TX-751,ORD-2025-10368,2025-06-27,CUST-1011,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,East,Pennsylvania,Corporate Invoice,0.0
+TX-752,ORD-2025-10369,2025-09-01,CUST-1195,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,East,New Jersey,Debit Card,0.0
+TX-753,ORD-2025-10369,2025-09-01,CUST-1195,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,63.92,28.0,35.92,East,New Jersey,Debit Card,0.06
+TX-754,ORD-2025-10369,2025-09-01,CUST-1195,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,East,New Jersey,Debit Card,0.0
+TX-755,ORD-2025-10370,2025-05-29,CUST-1142,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,82.79,52.0,30.79,West,Washington,Debit Card,0.08
+TX-756,ORD-2025-10371,2025-12-07,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,West,California,PayPal,0.0
+TX-757,ORD-2025-10372,2025-03-16,CUST-1194,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,East,Pennsylvania,Debit Card,0.0
+TX-758,ORD-2025-10373,2025-05-14,CUST-1041,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,West,Oregon,Apple Pay,0.0
+TX-759,ORD-2025-10374,2025-06-23,CUST-1101,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,78.85,42.0,36.85,West,Oregon,Credit Card,0.17
+TX-760,ORD-2025-10374,2025-06-23,CUST-1101,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,Oregon,Credit Card,0.0
+TX-761,ORD-2025-10374,2025-06-23,CUST-1101,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,West,Oregon,Credit Card,0.0
+TX-762,ORD-2025-10375,2025-06-18,CUST-1012,PROD-101,"UltraHD 4K Monitor 27""",Electronics,2,389.99,779.98,520.0,259.98,East,New Jersey,Debit Card,0.0
+TX-763,ORD-2025-10376,2025-09-29,CUST-1088,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,West,Colorado,Apple Pay,0.0
+TX-764,ORD-2025-10376,2025-09-29,CUST-1088,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,West,Colorado,Apple Pay,0.0
+TX-765,ORD-2025-10377,2025-08-15,CUST-1095,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,South,Virginia,Credit Card,0.0
+TX-766,ORD-2025-10377,2025-08-15,CUST-1095,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,192.0,60.0,132.0,South,Virginia,Credit Card,0.0
+TX-767,ORD-2025-10378,2025-05-03,CUST-1028,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,338.0,220.0,118.0,Central,Illinois,PayPal,0.0
+TX-768,ORD-2025-10378,2025-05-03,CUST-1028,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,163.8,84.0,79.8,Central,Illinois,PayPal,0.16
+TX-769,ORD-2025-10378,2025-05-03,CUST-1028,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Illinois,PayPal,0.0
+TX-770,ORD-2025-10379,2025-02-23,CUST-1013,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,440.0,180.0,260.0,West,Oregon,PayPal,0.0
+TX-771,ORD-2025-10379,2025-02-23,CUST-1013,PROD-125,Promotional Branded Tote Bag,Apparel,3,4.5,12.02,18.6,-6.58,West,Oregon,PayPal,0.11
+TX-772,ORD-2025-10379,2025-02-23,CUST-1013,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.27,12.5,-4.23,West,Oregon,PayPal,0.08
+TX-773,ORD-2025-10380,2025-10-26,CUST-1164,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,South,North Carolina,PayPal,0.0
+TX-774,ORD-2025-10380,2025-10-26,CUST-1164,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,77.9,42.0,35.9,South,North Carolina,PayPal,0.18
+TX-775,ORD-2025-10381,2025-09-26,CUST-1080,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,81.7,42.0,39.7,Central,Texas,PayPal,0.14
+TX-776,ORD-2025-10382,2025-03-12,CUST-1042,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,89.99,52.0,37.99,East,Massachusetts,Apple Pay,0.0
+TX-777,ORD-2025-10383,2025-06-06,CUST-1001,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,414.12,272.0,142.12,West,California,Corporate Invoice,0.13
+TX-778,ORD-2025-10383,2025-06-06,CUST-1001,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,796.0,520.0,276.0,West,California,Corporate Invoice,0.0
+TX-779,ORD-2025-10384,2025-10-19,CUST-1050,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,110.0,45.0,65.0,South,North Carolina,Credit Card,0.0
+TX-780,ORD-2025-10384,2025-10-19,CUST-1050,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,South,North Carolina,Credit Card,0.0
+TX-781,ORD-2025-10384,2025-10-19,CUST-1050,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,400.4,230.0,170.4,South,North Carolina,Credit Card,0.09
+TX-782,ORD-2025-10385,2025-12-18,CUST-1008,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,South,Florida,Credit Card,0.0
+TX-783,ORD-2025-10385,2025-12-18,CUST-1008,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,South,Florida,Credit Card,0.0
+TX-784,ORD-2025-10385,2025-12-18,CUST-1008,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,99.33,72.0,27.33,South,Florida,Credit Card,0.14
+TX-785,ORD-2025-10386,2025-04-17,CUST-1001,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,West,Oregon,Credit Card,0.0
+TX-786,ORD-2025-10386,2025-04-17,CUST-1001,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,326.36,260.0,66.36,West,Oregon,Credit Card,0.18
+TX-787,ORD-2025-10387,2025-08-16,CUST-1054,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,836.64,620.0,216.64,Central,Illinois,PayPal,0.16
+TX-788,ORD-2025-10387,2025-08-16,CUST-1054,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,Central,Illinois,PayPal,0.0
+TX-789,ORD-2025-10387,2025-08-16,CUST-1054,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,Central,Illinois,PayPal,0.0
+TX-790,ORD-2025-10388,2025-11-13,CUST-1061,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,East,New York,Credit Card,0.0
+TX-791,ORD-2025-10389,2025-10-01,CUST-1007,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,Central,Illinois,Debit Card,0.0
+TX-792,ORD-2025-10390,2025-07-25,CUST-1167,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,292.4,260.0,32.4,South,North Carolina,PayPal,0.14
+TX-793,ORD-2025-10391,2025-04-08,CUST-1108,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,West,Colorado,Apple Pay,0.0
+TX-794,ORD-2025-10391,2025-04-08,CUST-1108,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,West,Colorado,Apple Pay,0.0
+TX-795,ORD-2025-10391,2025-04-08,CUST-1108,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,West,Colorado,Apple Pay,0.0
+TX-796,ORD-2025-10392,2025-08-14,CUST-1070,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,West,Colorado,Corporate Invoice,0.0
+TX-797,ORD-2025-10393,2025-12-04,CUST-1165,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,East,Pennsylvania,PayPal,0.0
+TX-798,ORD-2025-10393,2025-12-04,CUST-1165,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,East,Pennsylvania,PayPal,0.0
+TX-799,ORD-2025-10394,2025-07-23,CUST-1017,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,886.44,620.0,266.44,Central,Texas,Corporate Invoice,0.11
+TX-800,ORD-2025-10395,2025-02-15,CUST-1116,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,Central,Illinois,Credit Card,0.0
+TX-801,ORD-2025-10396,2025-01-30,CUST-1014,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,West,Colorado,Apple Pay,0.0
+TX-802,ORD-2025-10396,2025-01-30,CUST-1014,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,97.18,64.0,33.18,West,Colorado,Apple Pay,0.19
+TX-803,ORD-2025-10396,2025-01-30,CUST-1014,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,West,Colorado,Apple Pay,0.0
+TX-804,ORD-2025-10397,2025-11-07,CUST-1050,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,West,Washington,Apple Pay,0.0
+TX-805,ORD-2025-10398,2025-08-26,CUST-1107,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,South,Florida,PayPal,0.0
+TX-806,ORD-2025-10398,2025-08-26,CUST-1107,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,South,Florida,PayPal,0.0
+TX-807,ORD-2025-10399,2025-04-20,CUST-1032,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,49.14,22.5,26.64,West,Oregon,Credit Card,0.09
+TX-808,ORD-2025-10399,2025-04-20,CUST-1032,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,160.18,104.0,56.18,West,Oregon,Credit Card,0.11
+TX-809,ORD-2025-10399,2025-04-20,CUST-1032,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,West,Oregon,Credit Card,0.0
+TX-810,ORD-2025-10400,2025-02-24,CUST-1002,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,285.0,126.0,159.0,Central,Illinois,Credit Card,0.0
+TX-811,ORD-2025-10400,2025-02-24,CUST-1002,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,89.99,52.0,37.99,Central,Illinois,Credit Card,0.0
+TX-812,ORD-2025-10400,2025-02-24,CUST-1002,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,32.73,24.0,8.73,Central,Illinois,Credit Card,0.15
+TX-813,ORD-2025-10401,2025-04-28,CUST-1062,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,9.0,12.4,-3.4,West,Oregon,Credit Card,0.0
+TX-814,ORD-2025-10401,2025-04-28,CUST-1062,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,West,Oregon,Credit Card,0.0
+TX-815,ORD-2025-10402,2025-03-04,CUST-1194,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,East,New York,Credit Card,0.0
+TX-816,ORD-2025-10403,2025-12-20,CUST-1023,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,South,Florida,Apple Pay,0.0
+TX-817,ORD-2025-10404,2025-11-18,CUST-1167,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,730.4,460.0,270.4,West,Oregon,Corporate Invoice,0.17
+TX-818,ORD-2025-10404,2025-11-18,CUST-1167,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,West,Oregon,Corporate Invoice,0.0
+TX-819,ORD-2025-10405,2025-10-04,CUST-1001,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,South,Georgia,Debit Card,0.0
+TX-820,ORD-2025-10405,2025-10-04,CUST-1001,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,South,Georgia,Debit Card,0.0
+TX-821,ORD-2025-10406,2025-06-07,CUST-1041,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,359.96,208.0,151.96,South,Virginia,PayPal,0.0
+TX-822,ORD-2025-10406,2025-06-07,CUST-1041,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,South,Virginia,PayPal,0.0
+TX-823,ORD-2025-10407,2025-11-11,CUST-1153,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,836.0,460.0,376.0,Central,Ohio,PayPal,0.05
+TX-824,ORD-2025-10407,2025-11-11,CUST-1153,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,Central,Ohio,PayPal,0.0
+TX-825,ORD-2025-10407,2025-11-11,CUST-1153,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,Central,Ohio,PayPal,0.0
+TX-826,ORD-2025-10408,2025-09-12,CUST-1057,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,Central,Texas,Apple Pay,0.0
+TX-827,ORD-2025-10408,2025-09-12,CUST-1057,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,130.0,56.0,74.0,Central,Texas,Apple Pay,0.0
+TX-828,ORD-2025-10408,2025-09-12,CUST-1057,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,582.4,420.0,162.4,Central,Texas,Apple Pay,0.09
+TX-829,ORD-2025-10409,2025-11-30,CUST-1049,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,209.79,144.0,65.79,West,Oregon,Apple Pay,0.19
+TX-830,ORD-2025-10410,2025-06-02,CUST-1003,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,West,Washington,Corporate Invoice,0.0
+TX-831,ORD-2025-10410,2025-06-02,CUST-1003,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,432.0,350.0,82.0,West,Washington,Corporate Invoice,0.1
+TX-832,ORD-2025-10410,2025-06-02,CUST-1003,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,202.3,136.0,66.3,West,Washington,Corporate Invoice,0.15
+TX-833,ORD-2025-10411,2025-09-30,CUST-1008,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,747.0,465.0,282.0,West,Colorado,PayPal,0.0
+TX-834,ORD-2025-10411,2025-09-30,CUST-1008,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,West,Colorado,PayPal,0.0
+TX-835,ORD-2025-10411,2025-09-30,CUST-1008,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,West,Colorado,PayPal,0.0
+TX-836,ORD-2025-10412,2025-07-12,CUST-1062,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,38.5,24.0,14.5,South,North Carolina,Apple Pay,0.0
+TX-837,ORD-2025-10413,2025-09-21,CUST-1180,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,229.47,156.0,73.47,East,Pennsylvania,Debit Card,0.15
+TX-838,ORD-2025-10413,2025-09-21,CUST-1180,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,285.0,126.0,159.0,East,Pennsylvania,Debit Card,0.0
+TX-839,ORD-2025-10414,2025-08-10,CUST-1086,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,West,Oregon,Debit Card,0.0
+TX-840,ORD-2025-10414,2025-08-10,CUST-1086,PROD-103,Noise-Cancelling Headphones,Electronics,2,249.0,498.0,310.0,188.0,West,Oregon,Debit Card,0.0
+TX-841,ORD-2025-10414,2025-08-10,CUST-1086,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,360.45,165.0,195.45,West,Oregon,Debit Card,0.11
+TX-842,ORD-2025-10415,2025-06-03,CUST-1172,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,South,Florida,PayPal,0.0
+TX-843,ORD-2025-10415,2025-06-03,CUST-1172,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,375.48,285.0,90.48,South,Florida,PayPal,0.16
+TX-844,ORD-2025-10416,2025-11-03,CUST-1190,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,566.2,380.0,186.2,Central,Texas,Apple Pay,0.05
+TX-845,ORD-2025-10417,2025-08-14,CUST-1113,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,East,Massachusetts,Apple Pay,0.0
+TX-846,ORD-2025-10418,2025-10-03,CUST-1083,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,East,New Jersey,Credit Card,0.0
+TX-847,ORD-2025-10418,2025-10-03,CUST-1083,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,126.9,54.0,72.9,East,New Jersey,Credit Card,0.06
+TX-848,ORD-2025-10418,2025-10-03,CUST-1083,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,129.5,72.0,57.5,East,New Jersey,Credit Card,0.0
+TX-849,ORD-2025-10419,2025-04-02,CUST-1041,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,144.0,45.0,99.0,Central,Ohio,Apple Pay,0.0
+TX-850,ORD-2025-10419,2025-04-02,CUST-1041,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,16.74,7.5,9.24,Central,Ohio,Apple Pay,0.07
+TX-851,ORD-2025-10419,2025-04-02,CUST-1041,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,Central,Ohio,Apple Pay,0.0
+TX-852,ORD-2025-10420,2025-10-21,CUST-1035,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,South,Georgia,PayPal,0.0
+TX-853,ORD-2025-10420,2025-10-21,CUST-1035,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,366.59,260.0,106.59,South,Georgia,PayPal,0.06
+TX-854,ORD-2025-10420,2025-10-21,CUST-1035,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,South,Georgia,PayPal,0.0
+TX-855,ORD-2025-10421,2025-12-30,CUST-1009,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,Washington,Debit Card,0.0
+TX-856,ORD-2025-10422,2025-03-14,CUST-1064,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,East,Massachusetts,Debit Card,0.0
+TX-857,ORD-2025-10422,2025-03-14,CUST-1064,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,101.98,64.0,37.98,East,Massachusetts,Debit Card,0.15
+TX-858,ORD-2025-10422,2025-03-14,CUST-1064,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,East,Massachusetts,Debit Card,0.0
+TX-859,ORD-2025-10423,2025-05-25,CUST-1155,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,466.2,288.0,178.2,East,Massachusetts,Apple Pay,0.1
+TX-860,ORD-2025-10423,2025-05-25,CUST-1155,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,135.0,54.0,81.0,East,Massachusetts,Apple Pay,0.0
+TX-861,ORD-2025-10424,2025-05-09,CUST-1149,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,226.1,136.0,90.1,Central,Texas,Corporate Invoice,0.05
+TX-862,ORD-2025-10424,2025-05-09,CUST-1149,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,Central,Texas,Corporate Invoice,0.0
+TX-863,ORD-2025-10424,2025-05-09,CUST-1149,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,Central,Texas,Corporate Invoice,0.0
+TX-864,ORD-2025-10425,2025-01-22,CUST-1076,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,108.57,72.0,36.57,Central,Texas,Credit Card,0.06
+TX-865,ORD-2025-10425,2025-01-22,CUST-1076,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,Central,Texas,Credit Card,0.0
+TX-866,ORD-2025-10426,2025-10-04,CUST-1043,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,89.28,30.0,59.28,South,Georgia,Credit Card,0.07
+TX-867,ORD-2025-10427,2025-04-28,CUST-1001,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,East,Massachusetts,Apple Pay,0.0
+TX-868,ORD-2025-10427,2025-04-28,CUST-1001,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,32.72,50.0,-17.28,East,Massachusetts,Apple Pay,0.09
+TX-869,ORD-2025-10427,2025-04-28,CUST-1001,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1280.0,840.0,440.0,East,Massachusetts,Apple Pay,0.0
+TX-870,ORD-2025-10428,2025-08-13,CUST-1084,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,South,Florida,PayPal,0.0
+TX-871,ORD-2025-10428,2025-08-13,CUST-1084,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,South,Florida,PayPal,0.0
+TX-872,ORD-2025-10429,2025-05-18,CUST-1032,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,South,Florida,Debit Card,0.0
+TX-873,ORD-2025-10430,2025-10-05,CUST-1087,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,77.4,36.0,41.4,South,North Carolina,Credit Card,0.14
+TX-874,ORD-2025-10431,2025-10-24,CUST-1043,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1372.76,1040.0,332.76,Central,Texas,Credit Card,0.12
+TX-875,ORD-2025-10431,2025-10-24,CUST-1043,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,Central,Texas,Credit Card,0.0
+TX-876,ORD-2025-10432,2025-08-22,CUST-1057,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,154.0,96.0,58.0,West,Oregon,Apple Pay,0.0
+TX-877,ORD-2025-10432,2025-08-22,CUST-1057,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,102.3,45.0,57.3,West,Oregon,Apple Pay,0.07
+TX-878,ORD-2025-10433,2025-09-14,CUST-1168,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,West,Oregon,PayPal,0.0
+TX-879,ORD-2025-10433,2025-09-14,CUST-1168,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,West,Oregon,PayPal,0.0
+TX-880,ORD-2025-10433,2025-09-14,CUST-1168,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,61.88,28.0,33.88,West,Oregon,PayPal,0.09
+TX-881,ORD-2025-10434,2025-06-26,CUST-1107,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,334.4,168.0,166.4,Central,Illinois,Debit Card,0.12
+TX-882,ORD-2025-10435,2025-05-28,CUST-1001,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,East,New York,Apple Pay,0.0
+TX-883,ORD-2025-10435,2025-05-28,CUST-1001,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1574.4,1400.0,174.4,East,New York,Apple Pay,0.18
+TX-884,ORD-2025-10435,2025-05-28,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,East,New York,Apple Pay,0.0
+TX-885,ORD-2025-10436,2025-02-17,CUST-1115,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,East,New York,Credit Card,0.0
+TX-886,ORD-2025-10436,2025-02-17,CUST-1115,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,East,New York,Credit Card,0.0
+TX-887,ORD-2025-10436,2025-02-17,CUST-1115,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,330.6,168.0,162.6,East,New York,Credit Card,0.13
+TX-888,ORD-2025-10437,2025-01-06,CUST-1004,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,South,Florida,Corporate Invoice,0.0
+TX-889,ORD-2025-10437,2025-01-06,CUST-1004,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,319.6,260.0,59.6,South,Florida,Corporate Invoice,0.06
+TX-890,ORD-2025-10438,2025-03-04,CUST-1065,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,124.2,54.0,70.2,West,California,PayPal,0.08
+TX-891,ORD-2025-10439,2025-06-03,CUST-1075,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,West,Oregon,Corporate Invoice,0.0
+TX-892,ORD-2025-10439,2025-06-03,CUST-1075,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,West,Oregon,Corporate Invoice,0.0
+TX-893,ORD-2025-10439,2025-06-03,CUST-1075,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,West,Oregon,Corporate Invoice,0.0
+TX-894,ORD-2025-10440,2025-06-02,CUST-1145,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,293.7,135.0,158.7,South,Florida,PayPal,0.11
+TX-895,ORD-2025-10441,2025-05-25,CUST-1180,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,South,Florida,Corporate Invoice,0.0
+TX-896,ORD-2025-10441,2025-05-25,CUST-1180,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1920.0,1400.0,520.0,South,Florida,Corporate Invoice,0.0
+TX-897,ORD-2025-10442,2025-08-14,CUST-1067,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1559.96,1040.0,519.96,Central,Ohio,Credit Card,0.0
+TX-898,ORD-2025-10442,2025-08-14,CUST-1067,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Ohio,Credit Card,0.0
+TX-899,ORD-2025-10443,2025-07-18,CUST-1134,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,118.8,54.0,64.8,Central,Illinois,Credit Card,0.12
+TX-900,ORD-2025-10443,2025-07-18,CUST-1134,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,30.8,24.0,6.8,Central,Illinois,Credit Card,0.2
+TX-901,ORD-2025-10444,2025-03-03,CUST-1010,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,South,Florida,Credit Card,0.0
+TX-902,ORD-2025-10445,2025-09-01,CUST-1080,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,129.5,72.0,57.5,East,New Jersey,Debit Card,0.0
+TX-903,ORD-2025-10446,2025-10-01,CUST-1044,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,South,Florida,PayPal,0.0
+TX-904,ORD-2025-10446,2025-10-01,CUST-1044,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,South,Florida,PayPal,0.0
+TX-905,ORD-2025-10447,2025-05-16,CUST-1175,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,156.57,96.0,60.57,East,Pennsylvania,Corporate Invoice,0.13
+TX-906,ORD-2025-10447,2025-05-16,CUST-1175,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,95.88,42.0,53.88,East,Pennsylvania,Corporate Invoice,0.06
+TX-907,ORD-2025-10448,2025-11-06,CUST-1180,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,193.6,115.0,78.6,Central,Michigan,Apple Pay,0.12
+TX-908,ORD-2025-10449,2025-05-01,CUST-1116,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,South,Georgia,Corporate Invoice,0.0
+TX-909,ORD-2025-10449,2025-05-01,CUST-1116,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,283.92,220.0,63.92,South,Georgia,Corporate Invoice,0.16
+TX-910,ORD-2025-10449,2025-05-01,CUST-1116,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,South,Georgia,Corporate Invoice,0.0
+TX-911,ORD-2025-10450,2025-09-01,CUST-1190,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,South,North Carolina,Corporate Invoice,0.0
+TX-912,ORD-2025-10450,2025-09-01,CUST-1190,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,816.0,630.0,186.0,South,North Carolina,Corporate Invoice,0.15
+TX-913,ORD-2025-10451,2025-10-19,CUST-1112,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,Central,Michigan,Credit Card,0.0
+TX-914,ORD-2025-10451,2025-10-19,CUST-1112,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,Central,Michigan,Credit Card,0.0
+TX-915,ORD-2025-10452,2025-06-08,CUST-1023,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,334.32,260.0,74.32,South,Virginia,Credit Card,0.16
+TX-916,ORD-2025-10452,2025-06-08,CUST-1023,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,South,Virginia,Credit Card,0.0
+TX-917,ORD-2025-10453,2025-07-25,CUST-1027,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Michigan,PayPal,0.0
+TX-918,ORD-2025-10453,2025-07-25,CUST-1027,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,223.72,136.0,87.72,Central,Michigan,PayPal,0.06
+TX-919,ORD-2025-10454,2025-05-10,CUST-1017,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,West,California,PayPal,0.0
+TX-920,ORD-2025-10455,2025-05-22,CUST-1054,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,39.6,18.0,21.6,Central,Texas,PayPal,0.12
+TX-921,ORD-2025-10456,2025-09-18,CUST-1153,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,Central,Michigan,PayPal,0.0
+TX-922,ORD-2025-10456,2025-09-18,CUST-1153,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,117.45,54.0,63.45,Central,Michigan,PayPal,0.13
+TX-923,ORD-2025-10456,2025-09-18,CUST-1153,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,285.0,126.0,159.0,Central,Michigan,PayPal,0.0
+TX-924,ORD-2025-10457,2025-08-30,CUST-1170,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,East,New York,Debit Card,0.0
+TX-925,ORD-2025-10457,2025-08-30,CUST-1170,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,476.58,330.0,146.58,East,New York,Debit Card,0.06
+TX-926,ORD-2025-10458,2025-05-20,CUST-1146,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,Central,Texas,Corporate Invoice,0.0
+TX-927,ORD-2025-10458,2025-05-20,CUST-1146,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,1,119.0,119.0,68.0,51.0,Central,Texas,Corporate Invoice,0.0
+TX-928,ORD-2025-10458,2025-05-20,CUST-1146,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,Central,Texas,Corporate Invoice,0.0
+TX-929,ORD-2025-10459,2025-09-19,CUST-1014,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,136.0,56.0,80.0,South,Florida,PayPal,0.0
+TX-930,ORD-2025-10460,2025-03-14,CUST-1005,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,West,Colorado,Debit Card,0.0
+TX-931,ORD-2025-10460,2025-03-14,CUST-1005,PROD-113,Performance Chino Trousers,Apparel,4,78.0,277.68,120.0,157.68,West,Colorado,Debit Card,0.11
+TX-932,ORD-2025-10460,2025-03-14,CUST-1005,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,262.4,210.0,52.4,West,Colorado,Debit Card,0.18
+TX-933,ORD-2025-10461,2025-08-12,CUST-1007,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,South,Georgia,Credit Card,0.0
+TX-934,ORD-2025-10462,2025-11-22,CUST-1188,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1559.96,1040.0,519.96,West,Washington,Credit Card,0.0
+TX-935,ORD-2025-10463,2025-02-10,CUST-1004,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,West,Colorado,Debit Card,0.0
+TX-936,ORD-2025-10464,2025-10-05,CUST-1070,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,Massachusetts,Credit Card,0.0
+TX-937,ORD-2025-10464,2025-10-05,CUST-1070,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,53.39,32.0,21.39,East,Massachusetts,Credit Card,0.11
+TX-938,ORD-2025-10464,2025-10-05,CUST-1070,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,East,Massachusetts,Credit Card,0.0
+TX-939,ORD-2025-10465,2025-10-03,CUST-1152,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,West,California,Corporate Invoice,0.0
+TX-940,ORD-2025-10465,2025-10-03,CUST-1152,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,89.99,52.0,37.99,West,California,Corporate Invoice,0.0
+TX-941,ORD-2025-10466,2025-10-11,CUST-1144,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,7.82,12.5,-4.68,East,Pennsylvania,Corporate Invoice,0.13
+TX-942,ORD-2025-10467,2025-06-16,CUST-1013,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,Central,Illinois,Credit Card,0.0
+TX-943,ORD-2025-10468,2025-09-07,CUST-1006,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,1,110.0,103.4,45.0,58.4,East,New York,Corporate Invoice,0.06
+TX-944,ORD-2025-10469,2025-05-27,CUST-1107,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,South,Georgia,Debit Card,0.0
+TX-945,ORD-2025-10469,2025-05-27,CUST-1107,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,89.99,52.0,37.99,South,Georgia,Debit Card,0.0
+TX-946,ORD-2025-10470,2025-04-22,CUST-1012,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,230.51,144.0,86.51,West,Oregon,PayPal,0.11
+TX-947,ORD-2025-10471,2025-03-31,CUST-1016,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1388.36,1040.0,348.36,Central,Illinois,Credit Card,0.11
+TX-948,ORD-2025-10472,2025-06-07,CUST-1185,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,330.0,135.0,195.0,West,California,PayPal,0.0
+TX-949,ORD-2025-10472,2025-06-07,CUST-1185,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,West,California,PayPal,0.0
+TX-950,ORD-2025-10473,2025-09-24,CUST-1050,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,35.96,50.0,-14.04,Central,Michigan,Apple Pay,0.0
+TX-951,ORD-2025-10473,2025-09-24,CUST-1050,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,3,110.0,330.0,135.0,195.0,Central,Michigan,Apple Pay,0.0
+TX-952,ORD-2025-10473,2025-09-24,CUST-1050,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,154.0,96.0,58.0,Central,Michigan,Apple Pay,0.0
+TX-953,ORD-2025-10474,2025-04-18,CUST-1189,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,165.17,130.0,35.17,South,North Carolina,Apple Pay,0.17
+TX-954,ORD-2025-10475,2025-12-03,CUST-1018,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,West,Oregon,Debit Card,0.0
+TX-955,ORD-2025-10475,2025-12-03,CUST-1018,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,574.2,345.0,229.2,West,Oregon,Debit Card,0.13
+TX-956,ORD-2025-10476,2025-04-08,CUST-1113,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,Central,Illinois,PayPal,0.0
+TX-957,ORD-2025-10476,2025-04-08,CUST-1113,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,Central,Illinois,PayPal,0.0
+TX-958,ORD-2025-10476,2025-04-08,CUST-1113,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,102.0,42.0,60.0,Central,Illinois,PayPal,0.0
+TX-959,ORD-2025-10477,2025-09-22,CUST-1057,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,Central,Michigan,PayPal,0.0
+TX-960,ORD-2025-10477,2025-09-22,CUST-1057,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,Central,Michigan,PayPal,0.0
+TX-961,ORD-2025-10477,2025-09-22,CUST-1057,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,Central,Michigan,PayPal,0.0
+TX-962,ORD-2025-10478,2025-04-04,CUST-1001,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,South,Georgia,PayPal,0.0
+TX-963,ORD-2025-10479,2025-05-12,CUST-1127,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,Central,Texas,Corporate Invoice,0.0
+TX-964,ORD-2025-10479,2025-05-12,CUST-1127,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,Central,Texas,Corporate Invoice,0.0
+TX-965,ORD-2025-10479,2025-05-12,CUST-1127,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,388.5,216.0,172.5,Central,Texas,Corporate Invoice,0.0
+TX-966,ORD-2025-10480,2025-07-26,CUST-1165,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,37.8,18.0,19.8,East,Massachusetts,PayPal,0.16
+TX-967,ORD-2025-10480,2025-07-26,CUST-1165,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,68.0,65.0,3.0,East,Massachusetts,PayPal,0.2
+TX-968,ORD-2025-10481,2025-02-16,CUST-1021,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,South,Georgia,PayPal,0.0
+TX-969,ORD-2025-10482,2025-04-15,CUST-1118,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,Central,Illinois,Corporate Invoice,0.0
+TX-970,ORD-2025-10483,2025-09-29,CUST-1018,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,80.09,52.0,28.09,Central,Illinois,PayPal,0.11
+TX-971,ORD-2025-10484,2025-05-18,CUST-1089,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,331.16,208.0,123.16,Central,Ohio,PayPal,0.08
+TX-972,ORD-2025-10484,2025-05-18,CUST-1089,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,66.99,48.0,18.99,Central,Ohio,PayPal,0.13
+TX-973,ORD-2025-10484,2025-05-18,CUST-1089,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1190.4,840.0,350.4,Central,Ohio,PayPal,0.07
+TX-974,ORD-2025-10485,2025-08-16,CUST-1079,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,Central,Ohio,Corporate Invoice,0.0
+TX-975,ORD-2025-10486,2025-02-01,CUST-1134,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,58.48,28.0,30.48,South,Georgia,Apple Pay,0.14
+TX-976,ORD-2025-10486,2025-02-01,CUST-1134,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,180.4,90.0,90.4,South,Georgia,Apple Pay,0.18
+TX-977,ORD-2025-10487,2025-04-05,CUST-1052,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,52.65,28.0,24.65,West,Oregon,Debit Card,0.19
+TX-978,ORD-2025-10487,2025-04-05,CUST-1052,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,West,Oregon,Debit Card,0.0
+TX-979,ORD-2025-10488,2025-12-03,CUST-1001,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,340.2,165.0,175.2,Central,Michigan,Apple Pay,0.16
+TX-980,ORD-2025-10488,2025-12-03,CUST-1001,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,Central,Michigan,Apple Pay,0.0
+TX-981,ORD-2025-10488,2025-12-03,CUST-1001,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,14.76,7.5,7.26,Central,Michigan,Apple Pay,0.18
+TX-982,ORD-2025-10489,2025-04-21,CUST-1054,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,4,199.0,676.6,520.0,156.6,South,North Carolina,Corporate Invoice,0.15
+TX-983,ORD-2025-10490,2025-09-05,CUST-1032,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,West,Washington,Debit Card,0.0
+TX-984,ORD-2025-10490,2025-09-05,CUST-1032,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,West,Washington,Debit Card,0.0
+TX-985,ORD-2025-10491,2025-03-05,CUST-1080,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,86.4,30.0,56.4,West,Washington,PayPal,0.1
+TX-986,ORD-2025-10492,2025-06-28,CUST-1105,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,South,North Carolina,PayPal,0.0
+TX-987,ORD-2025-10492,2025-06-28,CUST-1105,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,876.48,620.0,256.48,South,North Carolina,PayPal,0.12
+TX-988,ORD-2025-10493,2025-04-04,CUST-1012,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,West,Washington,Apple Pay,0.0
+TX-989,ORD-2025-10493,2025-04-04,CUST-1012,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,389.99,260.0,129.99,West,Washington,Apple Pay,0.0
+TX-990,ORD-2025-10494,2025-10-04,CUST-1004,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,East,Pennsylvania,Credit Card,0.0
+TX-991,ORD-2025-10494,2025-10-04,CUST-1004,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,77.0,48.0,29.0,East,Pennsylvania,Credit Card,0.0
+TX-992,ORD-2025-10495,2025-02-10,CUST-1121,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,South,Georgia,Apple Pay,0.0
+TX-993,ORD-2025-10495,2025-02-10,CUST-1121,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1559.96,1040.0,519.96,South,Georgia,Apple Pay,0.0
+TX-994,ORD-2025-10495,2025-02-10,CUST-1121,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,4,38.5,154.0,96.0,58.0,South,Georgia,Apple Pay,0.0
+TX-995,ORD-2025-10496,2025-12-15,CUST-1192,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,West,Oregon,Debit Card,0.0
+TX-996,ORD-2025-10496,2025-12-15,CUST-1192,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,West,Oregon,Debit Card,0.0
+TX-997,ORD-2025-10496,2025-12-15,CUST-1192,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,886.44,620.0,266.44,West,Oregon,Debit Card,0.11
+TX-998,ORD-2025-10497,2025-12-01,CUST-1115,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,South,Georgia,Credit Card,0.0
+TX-999,ORD-2025-10497,2025-12-01,CUST-1115,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,239.7,195.0,44.7,South,Georgia,Credit Card,0.06
+TX-1000,ORD-2025-10498,2025-08-25,CUST-1132,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,Central,Illinois,Corporate Invoice,0.0
+TX-1001,ORD-2025-10498,2025-08-25,CUST-1132,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,4,89.99,305.97,208.0,97.97,Central,Illinois,Corporate Invoice,0.15
+TX-1002,ORD-2025-10498,2025-08-25,CUST-1132,PROD-113,Performance Chino Trousers,Apparel,4,78.0,312.0,120.0,192.0,Central,Illinois,Corporate Invoice,0.0
+TX-1003,ORD-2025-10499,2025-01-13,CUST-1096,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,206.37,128.0,78.37,East,New York,PayPal,0.14
+TX-1004,ORD-2025-10500,2025-04-20,CUST-1002,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,Central,Michigan,Credit Card,0.0
+TX-1005,ORD-2025-10500,2025-04-20,CUST-1002,PROD-114,Breathable Running Athletic Shoes,Apparel,3,135.0,405.0,165.0,240.0,Central,Michigan,Credit Card,0.0
+TX-1006,ORD-2025-10501,2025-12-30,CUST-1009,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,Central,Ohio,PayPal,0.0
+TX-1007,ORD-2025-10501,2025-12-30,CUST-1009,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,Central,Ohio,PayPal,0.0
+TX-1008,ORD-2025-10502,2025-02-20,CUST-1059,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,West,Washington,PayPal,0.0
+TX-1009,ORD-2025-10502,2025-02-20,CUST-1059,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,95.0,42.0,53.0,West,Washington,PayPal,0.0
+TX-1010,ORD-2025-10502,2025-02-20,CUST-1059,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,West,Washington,PayPal,0.0
+TX-1011,ORD-2025-10503,2025-09-22,CUST-1159,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,547.56,440.0,107.56,West,Washington,PayPal,0.19
+TX-1012,ORD-2025-10503,2025-09-22,CUST-1159,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,255.0,195.0,60.0,West,Washington,PayPal,0.0
+TX-1013,ORD-2025-10504,2025-03-07,CUST-1178,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,East,Pennsylvania,Apple Pay,0.0
+TX-1014,ORD-2025-10505,2025-05-23,CUST-1186,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,West,California,Credit Card,0.0
+TX-1015,ORD-2025-10505,2025-05-23,CUST-1186,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,West,California,Credit Card,0.0
+TX-1016,ORD-2025-10505,2025-05-23,CUST-1186,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,West,California,Credit Card,0.0
+TX-1017,ORD-2025-10506,2025-07-26,CUST-1050,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1435.16,1040.0,395.16,Central,Michigan,Debit Card,0.08
+TX-1018,ORD-2025-10507,2025-03-05,CUST-1124,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,South,Virginia,Corporate Invoice,0.0
+TX-1019,ORD-2025-10507,2025-03-05,CUST-1124,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,16.02,24.8,-8.78,South,Virginia,Corporate Invoice,0.11
+TX-1020,ORD-2025-10507,2025-03-05,CUST-1124,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,285.0,126.0,159.0,South,Virginia,Corporate Invoice,0.0
+TX-1021,ORD-2025-10508,2025-06-20,CUST-1092,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,314.34,220.0,94.34,Central,Illinois,PayPal,0.07
+TX-1022,ORD-2025-10509,2025-06-19,CUST-1016,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,340.0,260.0,80.0,Central,Illinois,PayPal,0.0
+TX-1023,ORD-2025-10509,2025-06-19,CUST-1016,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,90.24,30.0,60.24,Central,Illinois,PayPal,0.06
+TX-1024,ORD-2025-10510,2025-12-11,CUST-1046,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,107.41,72.0,35.41,East,New Jersey,Apple Pay,0.07
+TX-1025,ORD-2025-10510,2025-12-11,CUST-1046,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,189.2,90.0,99.2,East,New Jersey,Apple Pay,0.14
+TX-1026,ORD-2025-10511,2025-12-26,CUST-1019,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,154.77,96.0,58.77,Central,Illinois,Debit Card,0.14
+TX-1027,ORD-2025-10511,2025-12-26,CUST-1019,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,Central,Illinois,Debit Card,0.0
+TX-1028,ORD-2025-10512,2025-12-13,CUST-1004,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,338.0,220.0,118.0,East,Massachusetts,Apple Pay,0.0
+TX-1029,ORD-2025-10512,2025-12-13,CUST-1004,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,East,Massachusetts,Apple Pay,0.0
+TX-1030,ORD-2025-10512,2025-12-13,CUST-1004,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,167.4,72.0,95.4,East,Massachusetts,Apple Pay,0.07
+TX-1031,ORD-2025-10513,2025-03-29,CUST-1193,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,835.2,700.0,135.2,Central,Illinois,Apple Pay,0.13
+TX-1032,ORD-2025-10513,2025-03-29,CUST-1193,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,Central,Illinois,Apple Pay,0.0
+TX-1033,ORD-2025-10514,2025-09-06,CUST-1112,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,West,Colorado,Apple Pay,0.0
+TX-1034,ORD-2025-10514,2025-09-06,CUST-1112,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,West,Colorado,Apple Pay,0.0
+TX-1035,ORD-2025-10514,2025-09-06,CUST-1112,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,West,Colorado,Apple Pay,0.0
+TX-1036,ORD-2025-10515,2025-06-24,CUST-1162,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,298.0,190.0,108.0,East,Massachusetts,Corporate Invoice,0.0
+TX-1037,ORD-2025-10515,2025-06-24,CUST-1162,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,16.36,25.0,-8.64,East,Massachusetts,Corporate Invoice,0.09
+TX-1038,ORD-2025-10516,2025-09-01,CUST-1143,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,103.18,64.0,39.18,Central,Ohio,Debit Card,0.14
+TX-1039,ORD-2025-10516,2025-09-01,CUST-1143,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,40.05,18.0,22.05,Central,Ohio,Debit Card,0.11
+TX-1040,ORD-2025-10516,2025-09-01,CUST-1143,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,39.15,18.0,21.15,Central,Ohio,Debit Card,0.13
+TX-1041,ORD-2025-10517,2025-01-25,CUST-1043,PROD-104,USB-C Dual Display Dock,Electronics,1,169.0,169.0,110.0,59.0,West,California,Apple Pay,0.0
+TX-1042,ORD-2025-10517,2025-01-25,CUST-1043,PROD-102,Wireless Mechanical Keyboard,Electronics,4,129.5,518.0,288.0,230.0,West,California,Apple Pay,0.0
+TX-1043,ORD-2025-10517,2025-01-25,CUST-1043,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,15.48,7.5,7.98,West,California,Apple Pay,0.14
+TX-1044,ORD-2025-10518,2025-07-10,CUST-1169,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1310.37,1040.0,270.37,West,Washington,Apple Pay,0.16
+TX-1045,ORD-2025-10519,2025-06-09,CUST-1191,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,Central,Michigan,Apple Pay,0.0
+TX-1046,ORD-2025-10520,2025-11-07,CUST-1156,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,West,California,Apple Pay,0.0
+TX-1047,ORD-2025-10520,2025-11-07,CUST-1156,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,605.07,465.0,140.07,West,California,Apple Pay,0.19
+TX-1048,ORD-2025-10521,2025-03-30,CUST-1001,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,440.0,230.0,210.0,South,Virginia,Credit Card,0.0
+TX-1049,ORD-2025-10522,2025-03-15,CUST-1050,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,300.8,210.0,90.8,West,Colorado,Credit Card,0.06
+TX-1050,ORD-2025-10522,2025-03-15,CUST-1050,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,West,Colorado,Credit Card,0.0
+TX-1051,ORD-2025-10523,2025-01-12,CUST-1009,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,Central,Michigan,PayPal,0.0
+TX-1052,ORD-2025-10523,2025-01-12,CUST-1009,PROD-103,Noise-Cancelling Headphones,Electronics,4,249.0,996.0,620.0,376.0,Central,Michigan,PayPal,0.0
+TX-1053,ORD-2025-10523,2025-01-12,CUST-1009,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,Central,Michigan,PayPal,0.0
+TX-1054,ORD-2025-10524,2025-06-25,CUST-1162,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,554.4,345.0,209.4,East,Pennsylvania,Apple Pay,0.16
+TX-1055,ORD-2025-10525,2025-08-24,CUST-1030,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,640.0,420.0,220.0,East,Massachusetts,Corporate Invoice,0.0
+TX-1056,ORD-2025-10525,2025-08-24,CUST-1030,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,7.74,12.4,-4.66,East,Massachusetts,Corporate Invoice,0.14
+TX-1057,ORD-2025-10526,2025-08-02,CUST-1004,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,190.0,84.0,106.0,West,Washington,Corporate Invoice,0.0
+TX-1058,ORD-2025-10526,2025-08-02,CUST-1004,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,149.0,95.0,54.0,West,Washington,Corporate Invoice,0.0
+TX-1059,ORD-2025-10527,2025-07-05,CUST-1103,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,West,Colorado,PayPal,0.0
+TX-1060,ORD-2025-10527,2025-07-05,CUST-1103,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,660.0,345.0,315.0,West,Colorado,PayPal,0.0
+TX-1061,ORD-2025-10527,2025-07-05,CUST-1103,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,73.95,65.0,8.95,West,Colorado,PayPal,0.13
+TX-1062,ORD-2025-10528,2025-01-05,CUST-1127,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,East,New Jersey,Apple Pay,0.0
+TX-1063,ORD-2025-10528,2025-01-05,CUST-1127,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,320.0,210.0,110.0,East,New Jersey,Apple Pay,0.0
+TX-1064,ORD-2025-10528,2025-01-05,CUST-1127,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,29.24,14.0,15.24,East,New Jersey,Apple Pay,0.14
+TX-1065,ORD-2025-10529,2025-12-07,CUST-1085,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,332.01,204.0,128.01,West,Oregon,Corporate Invoice,0.07
+TX-1066,ORD-2025-10530,2025-04-30,CUST-1040,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,54.6,28.0,26.6,West,California,Corporate Invoice,0.16
+TX-1067,ORD-2025-10531,2025-09-30,CUST-1001,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Michigan,Credit Card,0.0
+TX-1068,ORD-2025-10532,2025-05-26,CUST-1010,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,135.0,55.0,80.0,South,Florida,Debit Card,0.0
+TX-1069,ORD-2025-10533,2025-04-10,CUST-1018,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Illinois,Debit Card,0.0
+TX-1070,ORD-2025-10533,2025-04-10,CUST-1018,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,Central,Illinois,Debit Card,0.0
+TX-1071,ORD-2025-10533,2025-04-10,CUST-1018,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,216.58,136.0,80.58,Central,Illinois,Debit Card,0.09
+TX-1072,ORD-2025-10534,2025-08-07,CUST-1019,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,2,320.0,531.2,420.0,111.2,East,New Jersey,Corporate Invoice,0.17
+TX-1073,ORD-2025-10534,2025-08-07,CUST-1019,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,East,New Jersey,Corporate Invoice,0.0
+TX-1074,ORD-2025-10534,2025-08-07,CUST-1019,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,East,New Jersey,Corporate Invoice,0.0
+TX-1075,ORD-2025-10535,2025-07-13,CUST-1120,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,South,North Carolina,Credit Card,0.0
+TX-1076,ORD-2025-10536,2025-07-09,CUST-1016,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,East,New Jersey,Credit Card,0.0
+TX-1077,ORD-2025-10537,2025-01-29,CUST-1114,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,1,38.5,38.5,24.0,14.5,Central,Ohio,Credit Card,0.0
+TX-1078,ORD-2025-10537,2025-01-29,CUST-1114,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,165.58,104.0,61.58,Central,Ohio,Credit Card,0.08
+TX-1079,ORD-2025-10538,2025-04-24,CUST-1080,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,73.8,36.0,37.8,West,Colorado,Corporate Invoice,0.18
+TX-1080,ORD-2025-10538,2025-04-24,CUST-1080,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,220.0,115.0,105.0,West,Colorado,Corporate Invoice,0.0
+TX-1081,ORD-2025-10538,2025-04-24,CUST-1080,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,3,149.0,447.0,285.0,162.0,West,Colorado,Corporate Invoice,0.0
+TX-1082,ORD-2025-10539,2025-07-16,CUST-1136,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,West,Oregon,Credit Card,0.0
+TX-1083,ORD-2025-10539,2025-07-16,CUST-1136,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,554.32,440.0,114.32,West,Oregon,Credit Card,0.18
+TX-1084,ORD-2025-10539,2025-07-16,CUST-1136,PROD-125,Promotional Branded Tote Bag,Apparel,2,4.5,8.37,12.4,-4.03,West,Oregon,Credit Card,0.07
+TX-1085,ORD-2025-10540,2025-10-06,CUST-1005,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,507.0,330.0,177.0,East,Pennsylvania,Apple Pay,0.0
+TX-1086,ORD-2025-10541,2025-08-06,CUST-1168,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1036.8,840.0,196.8,South,Virginia,Credit Card,0.19
+TX-1087,ORD-2025-10542,2025-08-22,CUST-1002,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,3,199.0,597.0,390.0,207.0,Central,Texas,Debit Card,0.0
+TX-1088,ORD-2025-10543,2025-04-08,CUST-1054,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,2,45.0,90.0,36.0,54.0,East,New Jersey,Credit Card,0.0
+TX-1089,ORD-2025-10543,2025-04-08,CUST-1054,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,567.84,440.0,127.84,East,New Jersey,Credit Card,0.16
+TX-1090,ORD-2025-10543,2025-04-08,CUST-1054,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,676.0,440.0,236.0,East,New Jersey,Credit Card,0.0
+TX-1091,ORD-2025-10544,2025-07-02,CUST-1086,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,482.76,380.0,102.76,Central,Texas,PayPal,0.19
+TX-1092,ORD-2025-10544,2025-07-02,CUST-1086,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,4,85.0,285.6,260.0,25.6,Central,Texas,PayPal,0.16
+TX-1093,ORD-2025-10544,2025-07-02,CUST-1086,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,Central,Texas,PayPal,0.0
+TX-1094,ORD-2025-10545,2025-11-07,CUST-1022,PROD-112,Water-Resistant All-Weather Parka,Apparel,3,220.0,561.0,345.0,216.0,West,Oregon,Corporate Invoice,0.15
+TX-1095,ORD-2025-10545,2025-11-07,CUST-1022,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,33.08,50.0,-16.92,West,Oregon,Corporate Invoice,0.08
+TX-1096,ORD-2025-10546,2025-07-30,CUST-1001,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,90.24,30.0,60.24,Central,Ohio,Credit Card,0.06
+TX-1097,ORD-2025-10546,2025-07-30,CUST-1001,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,418.0,180.0,238.0,Central,Ohio,Credit Card,0.05
+TX-1098,ORD-2025-10547,2025-04-11,CUST-1137,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,South,Virginia,Corporate Invoice,0.0
+TX-1099,ORD-2025-10547,2025-04-11,CUST-1137,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1593.6,1400.0,193.6,South,Virginia,Corporate Invoice,0.17
+TX-1100,ORD-2025-10548,2025-01-10,CUST-1057,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,Central,Texas,Debit Card,0.0
+TX-1101,ORD-2025-10548,2025-01-10,CUST-1057,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,Central,Texas,Debit Card,0.0
+TX-1102,ORD-2025-10549,2025-06-03,CUST-1007,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,South,North Carolina,Debit Card,0.0
+TX-1103,ORD-2025-10549,2025-06-03,CUST-1007,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,2,199.0,398.0,260.0,138.0,South,North Carolina,Debit Card,0.0
+TX-1104,ORD-2025-10550,2025-07-28,CUST-1013,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,42.3,18.0,24.3,East,Pennsylvania,Corporate Invoice,0.06
+TX-1105,ORD-2025-10550,2025-07-28,CUST-1013,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,55.08,28.0,27.08,East,Pennsylvania,Corporate Invoice,0.19
+TX-1106,ORD-2025-10550,2025-07-28,CUST-1013,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,East,Pennsylvania,Corporate Invoice,0.0
+TX-1107,ORD-2025-10551,2025-10-03,CUST-1092,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,West,Washington,Corporate Invoice,0.0
+TX-1108,ORD-2025-10551,2025-10-03,CUST-1092,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,1,95.0,86.45,42.0,44.45,West,Washington,Corporate Invoice,0.09
+TX-1109,ORD-2025-10552,2025-06-03,CUST-1055,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,South,Georgia,PayPal,0.0
+TX-1110,ORD-2025-10552,2025-06-03,CUST-1055,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,South,Georgia,PayPal,0.0
+TX-1111,ORD-2025-10552,2025-06-03,CUST-1055,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,South,Georgia,PayPal,0.0
+TX-1112,ORD-2025-10553,2025-04-09,CUST-1065,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,Central,Illinois,Apple Pay,0.0
+TX-1113,ORD-2025-10553,2025-04-09,CUST-1065,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,45.0,18.0,27.0,Central,Illinois,Apple Pay,0.0
+TX-1114,ORD-2025-10554,2025-05-17,CUST-1067,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,South,Virginia,Apple Pay,0.0
+TX-1115,ORD-2025-10554,2025-05-17,CUST-1067,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,68.0,28.0,40.0,South,Virginia,Apple Pay,0.0
+TX-1116,ORD-2025-10555,2025-07-09,CUST-1081,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,Central,Ohio,Corporate Invoice,0.0
+TX-1117,ORD-2025-10555,2025-07-09,CUST-1081,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,Central,Ohio,Corporate Invoice,0.0
+TX-1118,ORD-2025-10555,2025-07-09,CUST-1081,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Ohio,Corporate Invoice,0.0
+TX-1119,ORD-2025-10556,2025-04-05,CUST-1175,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,180.0,72.0,108.0,South,Florida,Credit Card,0.0
+TX-1120,ORD-2025-10556,2025-04-05,CUST-1175,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,South,Florida,Credit Card,0.0
+TX-1121,ORD-2025-10556,2025-04-05,CUST-1175,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1440.0,1050.0,390.0,South,Florida,Credit Card,0.0
+TX-1122,ORD-2025-10557,2025-03-25,CUST-1003,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,1,89.99,72.89,52.0,20.89,South,North Carolina,Apple Pay,0.19
+TX-1123,ORD-2025-10558,2025-05-16,CUST-1061,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,West,Oregon,Debit Card,0.0
+TX-1124,ORD-2025-10558,2025-05-16,CUST-1061,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,338.0,220.0,118.0,West,Oregon,Debit Card,0.0
+TX-1125,ORD-2025-10559,2025-01-29,CUST-1062,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,124.2,55.0,69.2,East,Massachusetts,Corporate Invoice,0.08
+TX-1126,ORD-2025-10559,2025-01-29,CUST-1062,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,East,Massachusetts,Corporate Invoice,0.0
+TX-1127,ORD-2025-10560,2025-03-22,CUST-1019,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,West,California,Apple Pay,0.0
+TX-1128,ORD-2025-10560,2025-03-22,CUST-1019,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,396.0,230.0,166.0,West,California,Apple Pay,0.1
+TX-1129,ORD-2025-10561,2025-09-15,CUST-1129,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,Central,Ohio,Corporate Invoice,0.0
+TX-1130,ORD-2025-10562,2025-05-13,CUST-1143,PROD-113,Performance Chino Trousers,Apparel,3,78.0,191.88,90.0,101.88,East,Massachusetts,PayPal,0.18
+TX-1131,ORD-2025-10562,2025-05-13,CUST-1143,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,120.9,56.0,64.9,East,Massachusetts,PayPal,0.07
+TX-1132,ORD-2025-10563,2025-04-05,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,16.02,24.8,-8.78,South,Florida,Debit Card,0.11
+TX-1133,ORD-2025-10564,2025-02-05,CUST-1151,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,277.14,190.0,87.14,Central,Ohio,Apple Pay,0.07
+TX-1134,ORD-2025-10564,2025-02-05,CUST-1151,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,Central,Ohio,Apple Pay,0.0
+TX-1135,ORD-2025-10565,2025-11-08,CUST-1001,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,South,Florida,Corporate Invoice,0.0
+TX-1136,ORD-2025-10565,2025-11-08,CUST-1001,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,350.99,260.0,90.99,South,Florida,Corporate Invoice,0.1
+TX-1137,ORD-2025-10565,2025-11-08,CUST-1001,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,4,95.0,380.0,168.0,212.0,South,Florida,Corporate Invoice,0.0
+TX-1138,ORD-2025-10566,2025-04-09,CUST-1013,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,Central,Michigan,PayPal,0.0
+TX-1139,ORD-2025-10566,2025-04-09,CUST-1013,PROD-105,Smart LED Desk Lamp,Electronics,3,59.99,179.97,96.0,83.97,Central,Michigan,PayPal,0.0
+TX-1140,ORD-2025-10567,2025-07-16,CUST-1068,PROD-107,"Electric Standing Desk 55""",Office Supplies,1,480.0,480.0,350.0,130.0,East,Massachusetts,Credit Card,0.0
+TX-1141,ORD-2025-10567,2025-07-16,CUST-1068,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,East,Massachusetts,Credit Card,0.0
+TX-1142,ORD-2025-10568,2025-04-10,CUST-1111,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1216.0,840.0,376.0,Central,Texas,Debit Card,0.05
+TX-1143,ORD-2025-10568,2025-04-10,CUST-1111,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,4,48.0,192.0,60.0,132.0,Central,Texas,Debit Card,0.0
+TX-1144,ORD-2025-10569,2025-08-13,CUST-1112,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,96.0,30.0,66.0,Central,Texas,Corporate Invoice,0.0
+TX-1145,ORD-2025-10569,2025-08-13,CUST-1112,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Texas,Corporate Invoice,0.0
+TX-1146,ORD-2025-10570,2025-05-16,CUST-1081,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,South,Georgia,Corporate Invoice,0.0
+TX-1147,ORD-2025-10570,2025-05-16,CUST-1081,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,165.6,72.0,93.6,South,Georgia,Corporate Invoice,0.08
+TX-1148,ORD-2025-10571,2025-05-04,CUST-1046,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,Central,Illinois,Apple Pay,0.0
+TX-1149,ORD-2025-10572,2025-11-08,CUST-1183,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,2,85.0,170.0,130.0,40.0,Central,Texas,Corporate Invoice,0.0
+TX-1150,ORD-2025-10572,2025-11-08,CUST-1183,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,202.4,115.0,87.4,Central,Texas,Corporate Invoice,0.08
+TX-1151,ORD-2025-10572,2025-11-08,CUST-1183,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,2,110.0,220.0,90.0,130.0,Central,Texas,Corporate Invoice,0.0
+TX-1152,ORD-2025-10573,2025-06-24,CUST-1055,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,2,65.0,118.3,56.0,62.3,Central,Illinois,Apple Pay,0.09
+TX-1153,ORD-2025-10573,2025-06-24,CUST-1055,PROD-101,"UltraHD 4K Monitor 27""",Electronics,2,389.99,655.18,520.0,135.18,Central,Illinois,Apple Pay,0.16
+TX-1154,ORD-2025-10573,2025-06-24,CUST-1055,PROD-124,Clearance Discount USB Cable,Electronics,4,8.99,32.0,50.0,-18.0,Central,Illinois,Apple Pay,0.11
+TX-1155,ORD-2025-10574,2025-07-08,CUST-1005,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,440.0,230.0,210.0,East,New Jersey,Corporate Invoice,0.0
+TX-1156,ORD-2025-10574,2025-07-08,CUST-1005,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,East,New Jersey,Corporate Invoice,0.0
+TX-1157,ORD-2025-10574,2025-07-08,CUST-1005,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,892.8,700.0,192.8,East,New Jersey,Corporate Invoice,0.07
+TX-1158,ORD-2025-10575,2025-09-14,CUST-1049,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,East,New Jersey,Debit Card,0.0
+TX-1159,ORD-2025-10576,2025-06-28,CUST-1014,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,Central,Michigan,PayPal,0.0
+TX-1160,ORD-2025-10577,2025-12-10,CUST-1176,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,159.9,84.0,75.9,East,Pennsylvania,Credit Card,0.18
+TX-1161,ORD-2025-10578,2025-12-03,CUST-1056,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,Central,Illinois,PayPal,0.0
+TX-1162,ORD-2025-10578,2025-12-03,CUST-1056,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,3,65.0,195.0,84.0,111.0,Central,Illinois,PayPal,0.0
+TX-1163,ORD-2025-10579,2025-04-21,CUST-1009,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,Central,Texas,PayPal,0.0
+TX-1164,ORD-2025-10580,2025-02-28,CUST-1111,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,131.04,45.0,86.04,South,Virginia,Credit Card,0.09
+TX-1165,ORD-2025-10581,2025-09-11,CUST-1084,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,4,119.0,476.0,272.0,204.0,South,Florida,Corporate Invoice,0.0
+TX-1166,ORD-2025-10581,2025-09-11,CUST-1084,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,1,320.0,259.2,210.0,49.2,South,Florida,Corporate Invoice,0.19
+TX-1167,ORD-2025-10581,2025-09-11,CUST-1084,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,South,Florida,Corporate Invoice,0.0
+TX-1168,ORD-2025-10582,2025-03-10,CUST-1146,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,3,38.5,115.5,72.0,43.5,East,New York,Credit Card,0.0
+TX-1169,ORD-2025-10582,2025-03-10,CUST-1146,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,4,149.0,596.0,380.0,216.0,East,New York,Credit Card,0.0
+TX-1170,ORD-2025-10582,2025-03-10,CUST-1146,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,East,New York,Credit Card,0.0
+TX-1171,ORD-2025-10583,2025-01-06,CUST-1150,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1294.77,1040.0,254.77,East,New York,Credit Card,0.17
+TX-1172,ORD-2025-10583,2025-01-06,CUST-1150,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,3,119.0,357.0,204.0,153.0,East,New York,Credit Card,0.0
+TX-1173,ORD-2025-10583,2025-01-06,CUST-1150,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,270.0,110.0,160.0,East,New York,Credit Card,0.0
+TX-1174,ORD-2025-10584,2025-12-30,CUST-1147,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,3,320.0,960.0,630.0,330.0,South,North Carolina,Apple Pay,0.0
+TX-1175,ORD-2025-10584,2025-12-30,CUST-1147,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,3,85.0,211.65,195.0,16.65,South,North Carolina,Apple Pay,0.17
+TX-1176,ORD-2025-10584,2025-12-30,CUST-1147,PROD-112,Water-Resistant All-Weather Parka,Apparel,4,220.0,880.0,460.0,420.0,South,North Carolina,Apple Pay,0.0
+TX-1177,ORD-2025-10585,2025-04-01,CUST-1175,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,3,48.0,135.36,45.0,90.36,East,New York,Corporate Invoice,0.06
+TX-1178,ORD-2025-10585,2025-04-01,CUST-1175,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,East,New York,Corporate Invoice,0.0
+TX-1179,ORD-2025-10586,2025-04-27,CUST-1156,PROD-105,Smart LED Desk Lamp,Electronics,1,59.99,59.99,32.0,27.99,Central,Ohio,Apple Pay,0.0
+TX-1180,ORD-2025-10587,2025-06-25,CUST-1031,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,440.0,230.0,210.0,South,Virginia,Debit Card,0.0
+TX-1181,ORD-2025-10588,2025-06-13,CUST-1002,PROD-101,"UltraHD 4K Monitor 27""",Electronics,4,389.99,1435.16,1040.0,395.16,West,Colorado,Credit Card,0.08
+TX-1182,ORD-2025-10588,2025-06-13,CUST-1002,PROD-125,Promotional Branded Tote Bag,Apparel,4,4.5,18.0,24.8,-6.8,West,Colorado,Credit Card,0.0
+TX-1183,ORD-2025-10589,2025-05-21,CUST-1143,PROD-114,Breathable Running Athletic Shoes,Apparel,2,135.0,221.4,110.0,111.4,South,Florida,PayPal,0.18
+TX-1184,ORD-2025-10590,2025-06-22,CUST-1007,PROD-106,Ergonomic Mesh Task Chair,Office Supplies,4,320.0,1280.0,840.0,440.0,Central,Michigan,Debit Card,0.0
+TX-1185,ORD-2025-10590,2025-06-22,CUST-1007,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,2,48.0,96.0,30.0,66.0,Central,Michigan,Debit Card,0.0
+TX-1186,ORD-2025-10591,2025-12-23,CUST-1106,PROD-112,Water-Resistant All-Weather Parka,Apparel,1,220.0,202.4,115.0,87.4,South,North Carolina,Corporate Invoice,0.08
+TX-1187,ORD-2025-10591,2025-12-23,CUST-1106,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,2,149.0,259.26,190.0,69.26,South,North Carolina,Corporate Invoice,0.13
+TX-1188,ORD-2025-10592,2025-03-26,CUST-1085,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,17.98,25.0,-7.02,East,Pennsylvania,Corporate Invoice,0.0
+TX-1189,ORD-2025-10592,2025-03-26,CUST-1085,PROD-104,USB-C Dual Display Dock,Electronics,2,169.0,321.1,220.0,101.1,East,Pennsylvania,Corporate Invoice,0.05
+TX-1190,ORD-2025-10593,2025-02-13,CUST-1065,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,15.46,25.0,-9.54,East,New Jersey,Credit Card,0.14
+TX-1191,ORD-2025-10593,2025-02-13,CUST-1065,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,4,45.0,169.2,72.0,97.2,East,New Jersey,Credit Card,0.06
+TX-1192,ORD-2025-10594,2025-12-08,CUST-1001,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,Central,Michigan,PayPal,0.0
+TX-1193,ORD-2025-10594,2025-12-08,CUST-1001,PROD-122,Deep Tissue Percussion Massager,Health & Beauty,2,119.0,238.0,136.0,102.0,Central,Michigan,PayPal,0.0
+TX-1194,ORD-2025-10595,2025-09-24,CUST-1001,PROD-125,Promotional Branded Tote Bag,Apparel,1,4.5,4.5,6.2,-1.7,East,Pennsylvania,Debit Card,0.0
+TX-1195,ORD-2025-10595,2025-09-24,CUST-1001,PROD-114,Breathable Running Athletic Shoes,Apparel,1,135.0,112.05,55.0,57.05,East,Pennsylvania,Debit Card,0.17
+TX-1196,ORD-2025-10596,2025-01-25,CUST-1193,PROD-104,USB-C Dual Display Dock,Electronics,3,169.0,456.3,330.0,126.3,South,Florida,Apple Pay,0.1
+TX-1197,ORD-2025-10597,2025-05-09,CUST-1002,PROD-102,Wireless Mechanical Keyboard,Electronics,3,129.5,349.65,216.0,133.65,South,North Carolina,Apple Pay,0.1
+TX-1198,ORD-2025-10597,2025-05-09,CUST-1002,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,4,65.0,260.0,112.0,148.0,South,North Carolina,Apple Pay,0.0
+TX-1199,ORD-2025-10597,2025-05-09,CUST-1002,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,South,North Carolina,Apple Pay,0.0
+TX-1200,ORD-2025-10598,2025-07-10,CUST-1104,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,South,Virginia,Debit Card,0.0
+TX-1201,ORD-2025-10599,2025-10-30,CUST-1055,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,3,45.0,135.0,54.0,81.0,East,New Jersey,Corporate Invoice,0.0
+TX-1202,ORD-2025-10599,2025-10-30,CUST-1055,PROD-107,"Electric Standing Desk 55""",Office Supplies,4,480.0,1651.2,1400.0,251.2,East,New Jersey,Corporate Invoice,0.14
+TX-1203,ORD-2025-10599,2025-10-30,CUST-1055,PROD-124,Clearance Discount USB Cable,Electronics,2,8.99,16.9,25.0,-8.1,East,New Jersey,Corporate Invoice,0.06
+TX-1204,ORD-2025-10600,2025-06-12,CUST-1179,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,1,34.0,34.0,14.0,20.0,East,New York,Debit Card,0.0
+TX-1205,ORD-2025-10600,2025-06-12,CUST-1179,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,3,34.0,85.68,42.0,43.68,East,New York,Debit Card,0.16
+TX-1206,ORD-2025-10600,2025-06-12,CUST-1179,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,129.5,72.0,57.5,East,New York,Debit Card,0.0
+TX-1207,ORD-2025-10601,2025-10-24,CUST-1137,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,2,95.0,161.5,84.0,77.5,South,Georgia,Credit Card,0.15
+TX-1208,ORD-2025-10602,2025-08-29,CUST-1004,PROD-101,"UltraHD 4K Monitor 27""",Electronics,3,389.99,1169.97,780.0,389.97,West,California,Debit Card,0.0
+TX-1209,ORD-2025-10602,2025-08-29,CUST-1004,PROD-102,Wireless Mechanical Keyboard,Electronics,2,129.5,259.0,144.0,115.0,West,California,Debit Card,0.0
+TX-1210,ORD-2025-10602,2025-08-29,CUST-1004,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,3,18.0,54.0,22.5,31.5,West,California,Debit Card,0.0
+TX-1211,ORD-2025-10603,2025-04-29,CUST-1001,PROD-119,"Stainless Steel Chef Knife 8""",Home & Kitchen,1,65.0,65.0,28.0,37.0,West,Oregon,Debit Card,0.0
+TX-1212,ORD-2025-10603,2025-04-29,CUST-1001,PROD-113,Performance Chino Trousers,Apparel,1,78.0,78.0,30.0,48.0,West,Oregon,Debit Card,0.0
+TX-1213,ORD-2025-10603,2025-04-29,CUST-1001,PROD-118,Smart Air Purifier HEPA 400,Home & Kitchen,1,199.0,199.0,130.0,69.0,West,Oregon,Debit Card,0.0
+TX-1214,ORD-2025-10604,2025-10-14,CUST-1011,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,South,Virginia,Credit Card,0.0
+TX-1215,ORD-2025-10605,2025-06-13,CUST-1024,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,77.0,48.0,29.0,East,New York,Apple Pay,0.0
+TX-1216,ORD-2025-10605,2025-06-13,CUST-1024,PROD-113,Performance Chino Trousers,Apparel,3,78.0,234.0,90.0,144.0,East,New York,Apple Pay,0.0
+TX-1217,ORD-2025-10605,2025-06-13,CUST-1024,PROD-102,Wireless Mechanical Keyboard,Electronics,1,129.5,103.6,72.0,31.6,East,New York,Apple Pay,0.2
+TX-1218,ORD-2025-10606,2025-07-05,CUST-1008,PROD-105,Smart LED Desk Lamp,Electronics,4,59.99,239.96,128.0,111.96,Central,Illinois,PayPal,0.0
+TX-1219,ORD-2025-10606,2025-07-05,CUST-1008,PROD-124,Clearance Discount USB Cable,Electronics,3,8.99,26.97,37.5,-10.53,Central,Illinois,PayPal,0.0
+TX-1220,ORD-2025-10606,2025-07-05,CUST-1008,PROD-125,Promotional Branded Tote Bag,Apparel,3,4.5,11.21,18.6,-7.39,Central,Illinois,PayPal,0.17
+TX-1221,ORD-2025-10607,2025-09-16,CUST-1056,PROD-103,Noise-Cancelling Headphones,Electronics,1,249.0,249.0,155.0,94.0,East,New Jersey,PayPal,0.0
+TX-1222,ORD-2025-10607,2025-09-16,CUST-1056,PROD-114,Breathable Running Athletic Shoes,Apparel,4,135.0,540.0,220.0,320.0,East,New Jersey,PayPal,0.0
+TX-1223,ORD-2025-10608,2025-03-07,CUST-1001,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,4,34.0,136.0,56.0,80.0,Central,Michigan,PayPal,0.0
+TX-1224,ORD-2025-10608,2025-03-07,CUST-1001,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,1,18.0,18.0,7.5,10.5,Central,Michigan,PayPal,0.0
+TX-1225,ORD-2025-10609,2025-09-12,CUST-1110,PROD-101,"UltraHD 4K Monitor 27""",Electronics,1,389.99,366.59,260.0,106.59,West,Oregon,PayPal,0.06
+TX-1226,ORD-2025-10610,2025-01-19,CUST-1024,PROD-108,Recycled Heavy Copier Paper (5-Ream),Office Supplies,2,38.5,69.3,48.0,21.3,Central,Michigan,Corporate Invoice,0.1
+TX-1227,ORD-2025-10610,2025-01-19,CUST-1024,PROD-115,Organic Cotton Crewneck Tee 3-Pack,Apparel,1,45.0,38.25,18.0,20.25,Central,Michigan,Corporate Invoice,0.15
+TX-1228,ORD-2025-10611,2025-06-28,CUST-1110,PROD-113,Performance Chino Trousers,Apparel,3,78.0,203.58,90.0,113.58,Central,Michigan,Credit Card,0.13
+TX-1229,ORD-2025-10612,2025-12-04,CUST-1031,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,South,Florida,Debit Card,0.0
+TX-1230,ORD-2025-10613,2025-01-31,CUST-1035,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,2,18.0,36.0,15.0,21.0,West,Oregon,Credit Card,0.0
+TX-1231,ORD-2025-10613,2025-01-31,CUST-1035,PROD-112,Water-Resistant All-Weather Parka,Apparel,2,220.0,352.0,230.0,122.0,West,Oregon,Credit Card,0.2
+TX-1232,ORD-2025-10614,2025-12-16,CUST-1067,PROD-120,Ceramic Pour-Over Dripper Set,Home & Kitchen,2,34.0,55.76,28.0,27.76,Central,Illinois,PayPal,0.18
+TX-1233,ORD-2025-10614,2025-12-16,CUST-1067,PROD-110,Acoustic Desk Privacy Panel,Office Supplies,1,85.0,85.0,65.0,20.0,Central,Illinois,PayPal,0.0
+TX-1234,ORD-2025-10614,2025-12-16,CUST-1067,PROD-125,Promotional Branded Tote Bag,Apparel,3,4.5,13.5,18.6,-5.1,Central,Illinois,PayPal,0.0
+TX-1235,ORD-2025-10615,2025-03-19,CUST-1029,PROD-109,Executive Gel Pen Pack (12ct),Office Supplies,4,18.0,72.0,30.0,42.0,Central,Ohio,Corporate Invoice,0.0
+TX-1236,ORD-2025-10615,2025-03-19,CUST-1029,PROD-113,Performance Chino Trousers,Apparel,2,78.0,156.0,60.0,96.0,Central,Ohio,Corporate Invoice,0.0
+TX-1237,ORD-2025-10616,2025-07-10,CUST-1151,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,642.42,465.0,177.42,West,Washington,Corporate Invoice,0.14
+TX-1238,ORD-2025-10616,2025-07-10,CUST-1151,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,2,89.99,179.98,104.0,75.98,West,Washington,Corporate Invoice,0.0
+TX-1239,ORD-2025-10616,2025-07-10,CUST-1151,PROD-124,Clearance Discount USB Cable,Electronics,1,8.99,8.99,12.5,-3.51,West,Washington,Corporate Invoice,0.0
+TX-1240,ORD-2025-10617,2025-01-21,CUST-1001,PROD-107,"Electric Standing Desk 55""",Office Supplies,2,480.0,960.0,700.0,260.0,Central,Ohio,Debit Card,0.0
+TX-1241,ORD-2025-10617,2025-01-21,CUST-1001,PROD-103,Noise-Cancelling Headphones,Electronics,3,249.0,747.0,465.0,282.0,Central,Ohio,Debit Card,0.0
+TX-1242,ORD-2025-10618,2025-02-23,CUST-1051,PROD-123,Organic Cold-Pressed Skincare Serum,Health & Beauty,1,48.0,48.0,15.0,33.0,South,Virginia,Debit Card,0.0
+TX-1243,ORD-2025-10618,2025-02-23,CUST-1051,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,440.0,180.0,260.0,South,Virginia,Debit Card,0.0
+TX-1244,ORD-2025-10618,2025-02-23,CUST-1051,PROD-121,Sonic Electric Toothbrush Elite,Health & Beauty,3,95.0,267.9,126.0,141.9,South,Virginia,Debit Card,0.06
+TX-1245,ORD-2025-10619,2025-10-14,CUST-1190,PROD-104,USB-C Dual Display Dock,Electronics,4,169.0,676.0,440.0,236.0,South,Virginia,Corporate Invoice,0.0
+TX-1246,ORD-2025-10619,2025-10-14,CUST-1190,PROD-116,Precision Burr Coffee Grinder,Home & Kitchen,1,149.0,122.18,95.0,27.18,South,Virginia,Corporate Invoice,0.18
+TX-1247,ORD-2025-10620,2025-06-01,CUST-1136,PROD-107,"Electric Standing Desk 55""",Office Supplies,3,480.0,1310.4,1050.0,260.4,Central,Ohio,PayPal,0.09
+TX-1248,ORD-2025-10621,2025-10-18,CUST-1006,PROD-117,Cast Iron Dutch Oven 6-Quart,Home & Kitchen,3,89.99,269.97,156.0,113.97,East,New York,Apple Pay,0.0
+TX-1249,ORD-2025-10621,2025-10-18,CUST-1006,PROD-111,Merino Wool Quarter-Zip Pullover,Apparel,4,110.0,440.0,180.0,260.0,East,New York,Apple Pay,0.0
+TX-1250,ORD-2025-10622,2025-05-11,CUST-1069,PROD-105,Smart LED Desk Lamp,Electronics,2,59.99,119.98,64.0,55.98,East,New York,Credit Card,0.0

@@ -1,0 +1,868 @@
+# RETAILIQ — COMPLETE PROJECT ENHANCEMENT PROMPT
+
+## 1. YOUR ROLE
+
+Act as a senior Data Analytics Engineer, Business Intelligence Developer, Python Data Scientist, SQL Developer, React/TypeScript Engineer, UI/UX Designer, and Software Testing Engineer.
+
+I have already developed an application named:
+
+**RetailIQ — AI-Powered Retail Analytics & Decision Intelligence Platform**
+
+This is an existing project intended for my Data Analytics portfolio and resume as a third-year B.Tech Computer Science student specializing in Big Data Analytics.
+
+Your task is to inspect, improve, test, and polish the existing project so that it demonstrates practical data analytics skills, reliable business calculations, professional dashboard design, and maintainable software engineering.
+
+IMPORTANT: Do not generate an entirely new application from scratch. Work with the existing source code, preserve functioning features, and improve the current implementation.
+
+Do not remove working features simply to make implementation easier.
+
+---
+
+## 2. FIRST: INSPECT THE EXISTING PROJECT
+
+Before modifying anything:
+
+1. Inspect the complete project structure.
+2. Identify the frontend framework, backend, analytics modules, database, API integrations, tests, and documentation.
+3. Identify how data moves from CSV upload through cleaning, processing, database storage, analytics, and dashboard visualization.
+4. Identify which calculations run in the browser, which run on the server, and which run through Python scripts.
+5. Identify incomplete, duplicated, inconsistent, or incorrectly implemented features.
+6. Inspect the existing CSS, typography, color palette, layout, and responsive behavior.
+7. Review the existing Python tests, SQL queries, forecasting implementation, RFM segmentation, and Gemini integration.
+8. Inspect package configuration and dependency files.
+9. Compare the README's claims against the actual source code.
+10. Create a prioritized list of improvements based on correctness, analytical value, usability, security, and maintainability.
+
+Do not assume a feature works merely because it appears in the interface.
+
+Do not claim that a test passed unless you actually ran it and observed the result.
+
+After the initial inspection, implement the improvements systematically.
+
+---
+
+## 3. DATA INGESTION AND CSV VALIDATION
+
+Make the CSV upload functionality reliable for different retail datasets.
+
+### Required functionality
+
+* Upload CSV files through the existing interface.
+* Validate file type, file size, headers, and data types.
+* Preview the uploaded data before processing.
+* Display the number of rows and columns.
+* Show column names, inferred data types, missing values, and duplicate rows.
+* Allow users to map their dataset's columns to standard analytical fields.
+* Support reasonable variations in column names, such as:
+
+  * Order ID, Invoice ID, Transaction ID.
+  * Order Date, Invoice Date, Transaction Date.
+  * Customer ID, Client ID, Customer Number.
+  * Product Name, Item, Product.
+  * Quantity, Units Sold.
+  * Unit Price, Selling Price, Price.
+  * Cost, COGS, Cost of Goods Sold.
+  * Category, Product Category.
+  * Region, Territory, Location.
+* Provide clear validation messages when required fields are unavailable.
+* Do not silently discard records.
+* Show a summary of records accepted, rejected, corrected, or flagged.
+* Provide a downloadable validation report when practical.
+
+### Data cleaning
+
+Handle the following carefully:
+
+* Missing values.
+* Duplicate transaction lines.
+* Invalid numeric values.
+* Invalid or inconsistent dates.
+* Negative quantities.
+* Zero quantities.
+* Negative prices.
+* Missing cost information.
+* Inconsistent category labels.
+* Leading or trailing whitespace.
+* Empty files and malformed CSV files.
+
+Do not automatically remove every row containing a negative quantity. Negative quantities may represent returns.
+
+Do not treat multiple rows with the same Order ID as duplicates by default. An order can contain multiple product lines.
+
+Where a cleaning decision could change business results, explain the decision and let the user review it.
+
+Provide a clear distinction between raw data and cleaned analytical data.
+
+Never replace missing cost values with zero without explicitly informing the user.
+
+If cost is unavailable, show profitability as unavailable or incomplete rather than presenting a misleading profit figure.
+
+---
+
+## 4. ACCURATE BUSINESS KPI CALCULATIONS
+
+Audit every KPI calculation across the application.
+
+Implement or verify consistent definitions for the following metrics.
+
+### Total Revenue
+
+Calculate revenue from the appropriate transaction-level sales field or derive it from quantity multiplied by unit price when appropriate.
+
+Account for discounts, taxes, shipping, and returns only when the dataset's fields and business definitions support doing so.
+
+Clearly document the revenue definition.
+
+### Total Cost
+
+Calculate the total cost using the available cost data and a clearly documented cost convention.
+
+Determine whether the input cost represents unit cost or total line-item cost. Do not multiply total line-item cost by quantity again.
+
+### Total Profit
+
+Profit = Revenue − Cost of Goods Sold.
+
+Only calculate this metric when the required data is available and sufficiently complete.
+
+### Profit Margin
+
+Profit Margin (%) = Total Profit / Total Revenue × 100.
+
+Handle zero revenue and missing profit data safely.
+
+### Average Order Value
+
+AOV = Total Revenue / Number of Distinct Valid Orders.
+
+Count distinct orders, not transaction lines.
+
+### Other metrics
+
+Implement or validate:
+
+* Distinct Orders.
+* Units Sold.
+* Unique Customers.
+* Average Revenue per Customer.
+* Average Selling Price.
+* Revenue Growth.
+* Profit Growth.
+* Return Rate, if return information is available.
+* Category Revenue Contribution.
+* Regional Revenue Contribution.
+* Product Profitability.
+
+### Critical correctness requirements
+
+1. Use consistent metric definitions throughout the application.
+2. Prevent duplicate order counting.
+3. Avoid double-counting records after joins.
+4. Distinguish missing data from genuine zero values.
+5. Handle division by zero.
+6. Prevent invalid numeric values from entering calculations.
+7. Explain any assumptions made when interpreting an uploaded dataset.
+8. Ensure the same dataset produces consistent results across relevant dashboard modules.
+9. Recalculate dependent metrics when the dataset or active filters change.
+10. Do not display fabricated metrics or placeholder results as real analytical results.
+
+Add unit tests for all important KPI calculations.
+
+Create small, manually verifiable datasets with known expected results. Use them to validate the implementation.
+
+---
+
+## 5. EXECUTIVE OVERVIEW DASHBOARD
+
+Improve the existing Executive Overview without unnecessarily changing the established visual identity.
+
+### Primary KPI cards
+
+Display:
+
+* Total Revenue.
+* Total Profit.
+* Profit Margin.
+* Total Orders.
+
+### Secondary KPI cards
+
+Display:
+
+* Average Order Value.
+* Units Sold.
+* Unique Customers.
+* Average Revenue per Customer.
+
+Only display metrics that can be calculated reliably from the active dataset.
+
+### Charts
+
+Include or improve:
+
+1. Revenue trend over time.
+2. Profit trend over time.
+3. Revenue versus profit.
+4. Revenue by category.
+5. Profit by category.
+6. Regional sales performance.
+7. Top products by revenue.
+8. Top products by profit.
+
+Avoid unnecessary charts that repeat the same information.
+
+Every chart must have:
+
+* A meaningful title.
+* Correct labels.
+* Readable axes.
+* Appropriate units.
+* Tooltips where useful.
+* Empty-state handling.
+* Consistent date and currency formatting.
+
+Allow users to filter the dashboard by available date, category, region, and other relevant fields.
+
+All applicable KPIs, tables, and charts must respond consistently to active filters.
+
+Add a clear reset-filters option.
+
+Display the dataset name and reporting period where appropriate.
+
+---
+
+## 6. PROFESSIONAL TYPOGRAPHY AND UI/UX
+
+Improve the existing dashboard design while preserving its current blue, white, and slate-gray visual identity.
+
+The application should resemble a professional business intelligence product rather than a generic AI-generated dashboard.
+
+### Fonts
+
+Keep the existing fonts:
+
+* Plus Jakarta Sans for the main interface.
+* JetBrains Mono for SQL queries, code, and selected technical values.
+
+Apply them consistently.
+
+Recommended typography:
+
+* Main page headings: 26–30 px, bold.
+* Section headings: 17–20 px, semibold.
+* Primary KPI values: 26–32 px, bold.
+* KPI labels: 12–14 px.
+* Body text: 14–15 px.
+* Chart labels: 12–13 px.
+* Table content: 13–14 px.
+* SQL and code: 12–13 px.
+
+Avoid using monospace typography for every KPI, table, date, and descriptive label.
+
+### Layout
+
+* Maintain consistent card padding and spacing.
+* Align KPI cards and chart containers.
+* Establish a clear visual hierarchy.
+* Avoid excessive borders, shadows, gradients, and decorative effects.
+* Use consistent border radii.
+* Make important numbers visually prominent.
+* Ensure long labels do not overlap.
+* Format large numbers consistently.
+* Add tooltips to explain non-obvious metrics.
+* Make loading, error, empty, and success states visually consistent.
+
+### Colors
+
+Use colors consistently:
+
+* Blue for primary information.
+* Green for positive performance.
+* Red for losses and serious data-quality issues.
+* Amber for warnings.
+* Gray for secondary information.
+
+Do not communicate status using color alone. Include text labels or other visual indicators.
+
+### Responsive behavior
+
+Ensure the application works well on:
+
+* Desktop.
+* Laptop.
+* Tablet.
+* Mobile.
+
+Prevent horizontal overflow, overlapping cards, unreadable tables, and clipped charts.
+
+Preserve accessible contrast and keyboard navigation.
+
+Do not redesign everything unnecessarily. Prioritize readability, consistency, and professional presentation.
+
+---
+
+## 7. EXPLORATORY DATA ANALYSIS
+
+Strengthen the EDA module so that it demonstrates genuine analytical reasoning.
+
+Use the existing architecture where possible.
+
+### Required analyses
+
+1. Dataset dimensions.
+2. Data types.
+3. Descriptive statistics.
+4. Missing-value analysis.
+5. Duplicate analysis.
+6. Numerical variable distributions.
+7. Outlier investigation.
+8. Correlation analysis.
+9. Category-level comparisons.
+10. Time-based trend analysis.
+11. Revenue and profit distributions.
+12. Relationships between available numerical variables.
+
+Use suitable statistical and visualization methods.
+
+For Python-based analysis, use:
+
+* Pandas.
+* NumPy.
+* Matplotlib.
+* Seaborn.
+
+Do not add libraries unnecessarily if equivalent existing functionality is already implemented.
+
+### Interpretation
+
+For every major analytical result, provide a concise interpretation of what the result means.
+
+For example, explain whether a distribution is skewed, whether an apparent outlier needs investigation, or whether a category contributes disproportionately to revenue.
+
+Generate interpretations from actual computed statistics.
+
+Do not make claims that are unsupported by the dataset.
+
+Clearly distinguish correlation from causation.
+
+Where sample size or data quality limits interpretation, disclose the limitation.
+
+### Reproducible Python notebook
+
+Ensure the repository contains a useful Jupyter notebook demonstrating:
+
+* Loading the sample dataset.
+* Inspecting the dataset.
+* Cleaning and validating data.
+* Performing descriptive analysis.
+* Exploring distributions and outliers.
+* Calculating revenue and profit.
+* Performing category and regional analysis.
+* Conducting customer analysis where customer fields exist.
+* Visualizing findings.
+* Writing evidence-based conclusions.
+
+The notebook must contain meaningful code and explanations, not merely import statements or empty chart cells.
+
+Include a reproducible sample dataset or clear instructions for obtaining one.
+
+---
+
+## 8. CUSTOMER INTELLIGENCE AND RFM SEGMENTATION
+
+Improve the existing Recency, Frequency, and Monetary analysis.
+
+### Definitions
+
+* Recency: Time since the customer's most recent purchase.
+* Frequency: Number of distinct orders placed by the customer.
+* Monetary: Total qualifying customer spend.
+
+Calculate these metrics from the appropriate cleaned transaction data.
+
+Use distinct orders for frequency rather than counting individual product lines.
+
+Document the reference date used for recency calculations.
+
+### Customer segments
+
+Support useful segments where the data permits, such as:
+
+* High-Value Customers.
+* Loyal Customers.
+* Potential Loyalists.
+* Recent Customers.
+* Customers Needing Attention.
+* At-Risk Customers.
+
+Use a documented and consistent scoring strategy.
+
+Handle ties, missing values, small datasets, and insufficient transaction history without crashing.
+
+Do not assign meaningful segments when the data is inadequate to support them.
+
+### Dashboard outputs
+
+Display:
+
+* Customers per segment.
+* Percentage of customers per segment.
+* Revenue per segment.
+* Average customer spending.
+* Segment contribution to total revenue.
+* Relevant segment comparisons.
+
+Include customer-level details when appropriate without exposing unnecessary personal information.
+
+### Recommendations
+
+Offer practical, evidence-based actions for each segment.
+
+Clearly explain that RFM segments are analytical groupings rather than definitive predictions of customer behavior.
+
+Add unit tests for RFM calculations and segment assignments.
+
+---
+
+## 9. SQL ANALYTICS STUDIO
+
+Improve the existing SQL Studio while preserving its current architecture.
+
+Support analytical queries relevant to retail decision-making.
+
+Provide clear examples for:
+
+1. Monthly revenue and profit.
+2. Revenue by category.
+3. Profit by category.
+4. Top products by revenue.
+5. Top products by profit.
+6. Regional performance.
+7. Customer spending rankings.
+8. Customer purchase frequency.
+9. Month-over-month growth.
+10. Products with negative margins.
+11. Repeat-purchase analysis where appropriate.
+12. Revenue concentration among top customers.
+
+Use appropriate SQL features, including:
+
+* SELECT.
+* WHERE.
+* GROUP BY.
+* HAVING.
+* ORDER BY.
+* JOIN.
+* Subqueries.
+* Common Table Expressions.
+* Window functions where supported.
+
+Each example should include:
+
+* The business question.
+* The SQL query.
+* The query result.
+* A concise explanation.
+
+Use parameterized queries for application-generated database operations.
+
+If custom SQL execution is supported, restrict it to read-only operations when appropriate, and prevent destructive statements from modifying or deleting data.
+
+Apply query limits and clear error handling.
+
+Do not falsely claim that the application supports a SQL feature unless the actual database engine supports it.
+
+---
+
+## 10. DATA QUALITY AND VALIDATION REPORT
+
+Create a useful Data Quality section or improve the existing one.
+
+Display:
+
+* Total uploaded records.
+* Valid records.
+* Records with warnings.
+* Rejected records.
+* Missing-value counts.
+* Duplicate counts.
+* Invalid date counts.
+* Invalid numeric values.
+* Missing-cost coverage.
+* Unrecognized categories.
+* Data-cleaning actions performed.
+
+Where possible, let users inspect affected rows.
+
+Allow users to download a data-quality report.
+
+Clearly distinguish:
+
+* Information that was detected.
+* Information that was automatically corrected.
+* Information that requires user review.
+* Information that was excluded from calculations.
+
+Never silently modify data in a way that materially changes analytical results.
+
+---
+
+## 11. AI-POWERED BUSINESS INSIGHTS
+
+Improve the Gemini-powered insights without making AI the sole source of analytical truth.
+
+Use verified, structured analytical results as inputs to the AI service.
+
+The AI should help explain findings and suggest possible business actions.
+
+### Required behavior
+
+* Base insights on actual calculated values.
+* Include relevant figures when available.
+* Identify the time period and comparison basis.
+* Explain uncertainty and missing information.
+* Avoid fabricated statistics.
+* Avoid claiming causation from correlation.
+* Avoid presenting unsupported predictions as facts.
+* Do not expose API keys or secrets to the frontend.
+* Handle API failures gracefully.
+* Preserve a functioning fallback if one exists.
+* Identify whether an insight came from Gemini or a rule-based engine.
+
+Use the existing server-side API integration if it is correctly implemented.
+
+Verify the configured model identifier against the available API configuration rather than assuming it is valid.
+
+### Insight examples
+
+* A category contributing strongly to revenue but weakly to profit.
+* A region experiencing a decline in sales.
+* A small group of customers contributing a large share of revenue.
+* Products with high sales volume but low profitability.
+* Unusual changes in order value.
+
+Only generate an insight when the data supports it.
+
+Provide useful error messages without exposing credentials, stack traces, or sensitive server details.
+
+---
+
+## 12. SALES FORECASTING
+
+Audit the existing forecasting implementation before changing it.
+
+Preserve the current Holt's linear trend approach if appropriate.
+
+Improve reliability and explainability.
+
+### Requirements
+
+* Use chronological train/test splits.
+* Prevent data leakage.
+* Aggregate data to a consistent time frequency.
+* Handle missing time periods explicitly.
+* Validate minimum data requirements.
+* Handle irregular and sparse time series.
+* Compare the forecasting model with a simple baseline.
+* Calculate MAE and RMSE when the test data permits.
+* Display the evaluation period and number of observations.
+* Show actual and predicted values clearly.
+* Explain that historical trends do not guarantee future results.
+
+Do not calculate accuracy metrics using training data as though it were unseen test data.
+
+Do not report invented accuracy percentages.
+
+If there is insufficient historical data, display an explanatory message instead of generating misleading forecasts.
+
+Do not introduce complex forecasting models unless they provide a justified improvement.
+
+---
+
+## 13. BACKEND, DEPENDENCIES, AND SECURITY
+
+Review the existing backend and configuration.
+
+Make minimal, justified changes.
+
+### Requirements
+
+* Keep API credentials on the server.
+* Use environment variables for secrets.
+* Provide an `.env.example` with placeholder values only.
+* Ensure `.env` and sensitive files are excluded from Git.
+* Validate uploaded files on the server where applicable.
+* Apply sensible upload size limits.
+* Handle API and database failures gracefully.
+* Avoid logging secrets or sensitive customer data.
+* Review CORS configuration.
+* Prevent destructive SQL execution where read-only access is intended.
+* Use appropriate error handling.
+* Remove unused or incorrect dependency declarations.
+* Ensure package metadata uses a project-specific name.
+
+SQLite is part of Python's standard library and should not be listed as a separate pip dependency unless a specific third-party package is intentionally required.
+
+Do not change database architecture merely for the sake of adding more technologies.
+
+Do not claim that a Python backend is serving frontend analytics if the actual calculations are performed elsewhere.
+
+Document the actual architecture accurately.
+
+---
+
+## 14. AUTOMATED TESTING
+
+Expand the existing tests instead of replacing working tests unnecessarily.
+
+Create tests for:
+
+* Revenue calculations.
+* Profit calculations.
+* Profit margin.
+* Average order value.
+* Distinct order counting.
+* Multiple product lines per order.
+* Missing cost.
+* Missing values.
+* Duplicate handling.
+* Negative quantities and returns.
+* Invalid dates.
+* Empty datasets.
+* Column mapping.
+* RFM calculations.
+* RFM segment assignments.
+* Forecasting with insufficient observations.
+* Forecasting evaluation.
+* SQL query restrictions.
+* API fallback behavior where practical.
+
+Use small datasets with manually calculated expected outputs.
+
+Run the available tests and fix genuine failures.
+
+Add frontend or integration tests for critical workflows if the existing project setup supports them.
+
+Test at least the following complete user journey:
+
+1. Open the application.
+2. Load a valid dataset.
+3. Inspect the uploaded data.
+4. Review data-quality results.
+5. Verify the KPI calculations.
+6. Apply a filter.
+7. Confirm that applicable charts and metrics update.
+8. Inspect customer segmentation.
+9. Run an analytical SQL query.
+10. Generate or inspect an AI insight.
+11. Test the application with invalid or insufficient data.
+
+Report which tests actually ran and which require manual verification.
+
+Never claim that a test passed if it was not executed.
+
+---
+
+## 15. CODE QUALITY AND ARCHITECTURE
+
+Improve maintainability without overengineering the project.
+
+* Remove duplicated calculation logic where practical.
+* Use consistent naming conventions.
+* Keep components focused on specific responsibilities.
+* Reuse shared KPI and formatting utilities.
+* Avoid unnecessary global state.
+* Add clear error and loading states.
+* Remove unused imports and dead code when safe.
+* Keep Python analysis reproducible.
+* Keep frontend, backend, and analytics responsibilities clearly documented.
+* Avoid introducing unnecessary dependencies.
+* Preserve existing working functionality.
+
+Use a single, documented source of truth for important business metric definitions wherever practical.
+
+---
+
+## 16. GITHUB README AND PORTFOLIO PRESENTATION
+
+Improve the existing README so that it accurately reflects the final application.
+
+Include:
+
+1. Project title.
+2. Concise project description.
+3. Business problem.
+4. Key features.
+5. Technology stack.
+6. Architecture diagram.
+7. Data-processing workflow.
+8. Dataset schema and sample data.
+9. KPI formulas.
+10. RFM methodology.
+11. SQL analytics examples.
+12. Forecasting methodology and evaluation.
+13. Screenshots of the actual application.
+14. Installation instructions.
+15. Environment variable setup.
+16. Test instructions.
+17. Deployment instructions, if applicable.
+18. Known limitations.
+
+Use professional Markdown formatting.
+
+Add screenshots from the actual running application rather than illustrative images.
+
+Include a short demo GIF if practical.
+
+Do not invent users, performance improvements, revenue increases, model accuracy, business impact, or deployment capabilities.
+
+Document limitations honestly.
+
+Ensure the project can be understood by a recruiter without reading the entire source code.
+
+---
+
+## 17. RESUME-READY PROJECT STANDARD
+
+Optimize the project for Data Analyst, Business Intelligence Analyst, Product Analyst, and entry-level Analytics Engineer opportunities.
+
+The project should demonstrate practical ability in:
+
+* Python.
+* Pandas and NumPy.
+* SQL.
+* Exploratory Data Analysis.
+* Data cleaning.
+* Data visualization.
+* KPI development.
+* Customer segmentation.
+* Time-series analysis.
+* Business interpretation.
+* Data validation.
+* Dashboard development.
+* Testing and documentation.
+
+Prioritize analytical depth over adding unnecessary AI features.
+
+A recruiter should be able to understand:
+
+1. What business problem RetailIQ solves.
+2. What data it accepts.
+3. How the data is processed.
+4. How important metrics are calculated.
+5. What analytical methods are used.
+6. How users interpret the results.
+7. How correctness is tested.
+
+Do not add technologies just to make the technology stack look larger.
+
+---
+
+## 18. IMPLEMENTATION STRATEGY
+
+Implement the project improvements in the following phases.
+
+### Phase 1 — Correctness
+
+* Audit KPI calculations.
+* Fix CSV validation issues.
+* Handle missing costs and returns correctly.
+* Verify duplicate handling.
+* Add calculation tests.
+
+### Phase 2 — Analytics
+
+* Improve EDA.
+* Validate RFM segmentation.
+* Improve SQL examples.
+* Evaluate forecasting.
+* Improve data-quality reporting.
+
+### Phase 3 — User Experience
+
+* Refine typography.
+* Improve KPI hierarchy.
+* Improve chart readability.
+* Improve responsive layout.
+* Add consistent loading, error, and empty states.
+
+### Phase 4 — Reliability and Security
+
+* Validate API configuration.
+* Protect secrets.
+* Improve error handling.
+* Restrict unsafe SQL operations.
+* Fix dependency issues.
+* Test critical workflows.
+
+### Phase 5 — Portfolio Readiness
+
+* Improve the Python notebook.
+* Update README documentation.
+* Add actual screenshots.
+* Verify installation instructions.
+* Run available tests and production builds.
+
+Do not attempt a massive rewrite in one operation if the environment has implementation or context limitations.
+
+Complete each phase incrementally, preserving working changes.
+
+After each phase, summarize what changed and which checks were performed.
+
+---
+
+## 19. FINAL ACCEPTANCE CRITERIA
+
+The project is ready for portfolio presentation only when the following criteria have been checked:
+
+* Existing working features are preserved.
+* CSV upload validates data and explains errors.
+* KPI formulas are documented and tested.
+* Missing cost does not produce misleading profit.
+* Distinct orders are counted correctly.
+* Returns and duplicates are handled intentionally.
+* Filters update relevant analytics consistently.
+* RFM calculations are tested.
+* SQL examples match the actual database engine.
+* AI insights are grounded in real analytical results.
+* API secrets are not exposed in frontend code.
+* Forecasting is evaluated against a baseline when sufficient data exists.
+* The UI is readable and responsive.
+* The Python notebook contains reproducible analysis.
+* Automated tests run successfully.
+* Build and lint checks are performed where available.
+* The README accurately describes the implementation.
+* Actual screenshots are included in the repository.
+
+If an item cannot be verified because the environment lacks the required tools, files, credentials, or execution access, state that limitation clearly.
+
+Do not fabricate completion.
+
+---
+
+## 20. YOUR FIRST ACTION
+
+Start by inspecting the complete existing RetailIQ project.
+
+Identify the most important correctness issues first.
+
+Then implement the improvements in phases, starting with KPI accuracy, CSV validation, missing-data handling, and automated tests.
+
+Preserve the existing dashboard and working features.
+
+Make the smallest reliable changes necessary to achieve a professional result.
+
+Do not stop after giving me recommendations or generating a plan. Implement the changes that the current environment supports.
+
+If a change requires a decision that materially affects the architecture, explain the options briefly and choose the safest approach consistent with the existing application.
+
+At the end, provide:
+
+1. A summary of the changes actually implemented.
+2. The files changed.
+3. The tests and builds actually executed.
+4. Any failures that remain.
+5. Any features requiring manual verification.
+6. A short checklist for publishing the final project on GitHub.
+
+**Final objective: Turn RetailIQ into a reliable, polished, technically credible Data Analytics and Business Intelligence portfolio project that I can confidently demonstrate during internship and placement interviews.**

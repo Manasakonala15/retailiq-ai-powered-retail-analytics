@@ -251,6 +251,9 @@ export const DataManagement: React.FC<DataManagementProps> = ({
                 <div className="flex items-center gap-2">
                   <Terminal className="w-4 h-4 text-blue-600" />
                   <h3 className="text-sm font-semibold text-slate-900">SQLite Query Editor</h3>
+                  <span className="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-100 text-slate-600 border border-slate-200">
+                    Read-Only Protected
+                  </span>
                 </div>
                 <div className="flex items-center gap-2">
                   {sqlResult && (

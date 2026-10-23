@@ -7,11 +7,12 @@ RetailIQ is an enterprise-grade retail business intelligence and decision suppor
 ## 1. Project Overview & Business Problem
 
 Retail businesses often face disparate transaction logs plagued by duplicate entries, negative quantities (returns), and extreme outliers. Business owners struggle to address core strategic questions:
-- What factors drive net profitability versus top-line revenue?
-- Which high-margin categories should receive additional working capital?
-- Which loyal customer cohorts contribute the vast majority of cash flow?
-- Which previously active accounts show declining recency and are at risk of churning?
-- Are specific products operating as negative-margin loss leaders?
+- **Profitability vs. Volume**: What factors drive net operating profit versus top-line sales volume?
+- **Working Capital**: Which high-margin categories should receive additional inventory investment?
+- **Customer Lifetime Value**: Which loyal customer cohorts contribute the vast majority of cash flow?
+- **Churn Risk**: Which previously active accounts show declining recency (>60 days) and require targeted re-engagement?
+- **Catalog Health**: Are specific products operating as negative-margin loss leaders?
+- **Multi-Line Order Integrity**: How can orders with multiple line items be analyzed without artificially inflating order counts or deflating Average Order Value (AOV)?
 
 RetailIQ addresses these challenges through a unified data engineering and decision intelligence platform.
 
@@ -34,7 +35,8 @@ RetailIQ addresses these challenges through a unified data engineering and decis
                                     ▼
                        ┌─────────────────────────┐
                        │  Data Quality Audit     │
-                       │  (IQR, Dups, Returns)   │
+                       │  (IQR, Dups, Returns,   │
+                       │   Missing-Cost Coverage)│
                        └────────────┬────────────┘
                                     │
             ┌───────────────────────┼───────────────────────┐
@@ -43,6 +45,7 @@ RetailIQ addresses these challenges through a unified data engineering and decis
 ┌───────────────────────┐ ┌───────────────────┐ ┌───────────────────────┐
 │ Executive KPIs &      │ │ Customer RFM      │ │ SQLite Engine (Wasm)  │
 │ Multi-Dim Filters     │ │ Quintile Scoring  │ │ 12 Analytical Queries │
+│ (Cost-Safe Guard)     │ │ & Inactivity Risk │ │ (Read-Only Guardrail) │
 └───────────┬───────────┘ └─────────┬─────────┘ └───────────┬───────────┘
             │                       │                       │
             └───────────────────────┼───────────────────────┘
@@ -62,25 +65,26 @@ RetailIQ addresses these challenges through a unified data engineering and decis
 ```
 
 The application spans 9 core navigation modules:
-1. **Executive Overview**: Total Revenue, Profit, Orders, Units, AOV, Gross Margin, and monthly timeline progression.
+1. **Executive Overview**: Total Revenue, Net Profit, Profit Margin %, Total Distinct Orders, Average Order Value (AOV), Units Sold, Unique Customers, Average Revenue per Customer (ARPC), Average Selling Price (ASP), Return Rate %, and monthly timeline progression.
 2. **Sales Analytics**: Revenue and profit trends, category margin analysis, payment method ticket sizes, and top 10 products.
 3. **Customer Intelligence**: Recency, Frequency, Monetary (RFM) quintile segmentation, spending histograms, and VIP account rosters.
 4. **Product Performance**: Catalog profitability, wholesale cost structures, and negative-margin alerts.
 5. **Regional Analytics**: Geographic revenue share, regional AOV, and territory product mix.
 6. **Exploratory Data Analysis (EDA)**: Descriptive statistics, box plots with 1.5x IQR outlier fences, and bivariate Pearson correlation matrix.
-7. **Data Quality & Validation**: Non-destructive cleaning pipeline with preview and reversible reload.
-8. **AI Business Insights & Forecasting**: Gemini 3.8 Flash grounded in verified statistics with an integrated Holt's linear trend forecasting model.
-9. **Data Management & SQL Studio**: Interactive SQLite query runner with 12 predefined queries, custom query editor, and CSV upload.
+7. **Data Quality & Validation**: Non-destructive cleaning pipeline with preview, missing-cost coverage audit, return detection, and downloadable Markdown validation report.
+8. **AI Business Insights & Forecasting**: Gemini 3.8 Flash grounded in verified statistics with an integrated Holt's linear trend forecasting model and baseline MAE evaluation.
+9. **Data Management & SQL Studio**: Interactive SQLite query runner with 12 predefined queries, custom query editor with read-only guardrails, schema DDL viewer, and CSV upload.
 
 ---
 
 ## 3. Technology Stack
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS, Recharts, Lucide Icons
-- **Database**: SQLite running in WebAssembly (`sql.js`) for in-browser SQL execution (supporting CTEs, JOINs, and Window Functions)
-- **Backend / API**: Express 4 server with Vite development middleware
-- **AI Intelligence**: Google Gemini 3.8 Flash via `@google/genai` TypeScript SDK (server-side only) with rule-based analytical fallback
-- **Analytical Python Suite**: Python 3.10, Pandas, NumPy, Matplotlib, Seaborn, SQLite3, Unittest
+- **Database**: SQLite running in WebAssembly (`sql.js/dist/sql-wasm-inline.js`) for hermetic, in-browser SQL execution (supporting CTEs, JOINs, and Window Functions)
+- **Backend / API**: Express 4 server with Vite development middleware (`tsx server.ts`)
+- **AI Intelligence**: Google Gemini 3.8 Flash via `@google/genai` TypeScript SDK (server-side proxy route `/api/gemini/insights`) with a deterministic rule-based analytical fallback
+- **Analytical Python Suite**: Python 3.10, SQLite3, Unittest
+- **Data Science Notebook**: Jupyter Notebook (`notebooks/retail_eda.ipynb`) with reproducible data processing pipeline
 
 ---
 
@@ -98,7 +102,16 @@ $$\text{Average Order Value (AOV)} = \frac{\text{Total Revenue}}{\text{Total Ord
 
 $$\text{Gross Profit Margin (\%)} = \left(\frac{\text{Total Profit}}{\text{Total Revenue}}\right) \times 100$$
 
-$$\text{Average Customer Spending} = \frac{\text{Total Revenue}}{\text{Count}(\text{DISTINCT Customer ID})}$$
+$$\text{Average Revenue Per Customer (ARPC)} = \frac{\text{Total Revenue}}{\text{Count}(\text{DISTINCT Customer ID})}$$
+
+$$\text{Average Selling Price (ASP)} = \frac{\text{Net Revenue}}{\text{Net Units Sold}}$$
+
+$$\text{Customer Return Rate (\%)} = \left(\frac{\text{Return Units}}{\text{Sold Units} + \text{Return Units}}\right) \times 100$$
+
+### Missing Cost Integrity Rule
+If cost data is missing across $>50\%$ of dataset rows, RetailIQ **never synthesizes a false cost of 0** (which would falsely report 100% profit margin). Instead:
+- Net Profit and Profit Margin are explicitly marked as **"Unavailable"**.
+- A prominent advisory banner is rendered guiding the user to map their COGS field in Data Management.
 
 ---
 
@@ -121,11 +134,32 @@ Customer records are analyzed across three dimensions against the dataset refere
 
 ---
 
-## 6. Installation & Execution
+## 6. SQL Analytics Studio & Security Guardrails
+
+RetailIQ provides 12 pre-tested retail SQL queries demonstrating ANSI SQL capabilities:
+1. High-level aggregates with safe division (`CASE WHEN SUM(sales) = 0 THEN 1 ELSE ... END`).
+2. Monthly revenue and profit growth trends.
+3. Top 10 best-performing products by revenue.
+4. Category performance and revenue share via subqueries.
+5. Regional revenue, profit, and regional AOV.
+6. Top 15 highest-spending customer accounts.
+7. Payment method distribution and average ticket size.
+8. Customer purchase frequency cohorts using `CASE WHEN`.
+9. At-risk customer inactivity analysis via Julian day date arithmetic.
+10. Product profitability ranking & loss-leader identification.
+11. Product revenue contribution percentages.
+12. Category product rankings using SQL Window Functions (`DENSE_RANK() OVER (PARTITION BY category ORDER BY sales DESC)`).
+
+### Strict Read-Only Guardrails
+Custom query execution strictly validates that queries begin with `SELECT`, `WITH`, or `EXPLAIN`. Any attempt to execute `DROP`, `DELETE`, `INSERT`, `UPDATE`, `ALTER`, `TRUNCATE`, or `ATTACH` commands (including multi-statement injection via semicolons) is blocked by the security parser with a clear advisory error.
+
+---
+
+## 7. Installation & Execution
 
 ### Prerequisites
 - Node.js >= 18.0.0
-- Python 3.10+ (for optional Python backend scripts & tests)
+- Python 3.10+ (for analytical unit test suite and Jupyter notebook)
 
 ### Running the Full-Stack Application
 ```bash
@@ -146,13 +180,22 @@ python3 backend/tests/test_analytics.py
 ```
 Output:
 ```
-Ran 6 tests in 0.005s
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.004s
+
 OK
+```
+
+### Running the Jupyter EDA Notebook
+```bash
+jupyter notebook notebooks/retail_eda.ipynb
 ```
 
 ---
 
-## 7. Data Quality & Privacy Governance
+## 8. Data Quality & Privacy Governance
 - **No Hallucinated Data**: AI decision intelligence receives only aggregated, verified mathematical totals.
 - **No Secret Leakage**: `GEMINI_API_KEY` is accessed strictly in `server.ts` and never exposed to the client.
+- **Hermetic WASM Loading**: SQLite runs using inline WebAssembly, eliminating external CDN dependencies and browser CSP blocks.
 - **Non-Destructive Cleaning**: Uploaded raw datasets are stored immutably. Cleaned views can be reverted at any time with a single click.

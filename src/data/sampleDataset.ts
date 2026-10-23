@@ -137,6 +137,8 @@ export function generateSyntheticTransactions(recordCount = 1250): Transaction[]
         sales,
         cost,
         profit,
+        costAvailable: true,
+        isReturn: quantity < 0,
         region,
         state,
         paymentMethod,

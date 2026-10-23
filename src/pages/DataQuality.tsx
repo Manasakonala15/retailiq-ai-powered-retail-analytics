@@ -8,6 +8,7 @@ import {
   auditDataQuality,
   previewCleaning,
   applyCleaning,
+  generateValidationReport,
 } from '../services/dataProcessor';
 import { CleaningOptions, DataQualityIssue, Transaction } from '../types/retail';
 import {
@@ -103,6 +104,17 @@ export const DataQuality: React.FC<DataQualityProps> = ({
     URL.revokeObjectURL(url);
   };
 
+  const handleDownloadValidationReport = () => {
+    const reportMd = generateValidationReport(audit, isCleaned ? 'Cleaned Dataset' : 'Original Raw Dataset');
+    const blob = new Blob([reportMd], { type: 'text/markdown;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `retail_validation_report_${Date.now()}.md`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <div className="space-y-6">
       {/* Overview Card */}
@@ -124,6 +136,14 @@ export const DataQuality: React.FC<DataQualityProps> = ({
         </div>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={handleDownloadValidationReport}
+            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-md transition-colors"
+            title="Download full Markdown validation audit report"
+          >
+            <Download className="w-3.5 h-3.5 text-slate-600" />
+            <span>Validation Report (.md)</span>
+          </button>
           {isCleaned && (
             <button
               onClick={onRestoreOriginal}
@@ -143,35 +163,49 @@ export const DataQuality: React.FC<DataQualityProps> = ({
         </div>
       </div>
 
-      {/* Metrics Row */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-white border border-slate-200 rounded-lg p-4">
-          <span className="text-xs text-slate-500 font-medium block mb-1">Total Records Audited</span>
+      {/* Metrics Row — 6 Comprehensive Dimensions */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <span className="text-[11px] text-slate-500 font-medium block mb-1">Total Records</span>
           <span className="text-xl font-bold font-mono text-slate-900 tabular-nums">
             {audit.totalRows.toLocaleString()}
           </span>
-          <span className="text-[11px] text-slate-400 block mt-1">{audit.totalColumns} mapped columns</span>
+          <span className="text-[10px] text-slate-400 block mt-1">{audit.totalColumns} mapped cols</span>
         </div>
-        <div className="bg-white border border-slate-200 rounded-lg p-4">
-          <span className="text-xs text-slate-500 font-medium block mb-1">Duplicate Rows</span>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <span className="text-[11px] text-slate-500 font-medium block mb-1">Valid Clean Rows</span>
+          <span className="text-xl font-bold font-mono text-emerald-600 tabular-nums">
+            {audit.validRowsCount.toLocaleString()}
+          </span>
+          <span className="text-[10px] text-slate-400 block mt-1">Ready for analysis</span>
+        </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <span className="text-[11px] text-slate-500 font-medium block mb-1">Rows with Warnings</span>
           <span className="text-xl font-bold font-mono text-amber-600 tabular-nums">
-            {audit.duplicateRowsCount}
+            {audit.warningRowsCount}
           </span>
-          <span className="text-[11px] text-slate-400 block mt-1">Identical order line items</span>
+          <span className="text-[10px] text-slate-400 block mt-1">Non-fatal anomalies</span>
         </div>
-        <div className="bg-white border border-slate-200 rounded-lg p-4">
-          <span className="text-xs text-slate-500 font-medium block mb-1">Invalid / Null Dates</span>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <span className="text-[11px] text-slate-500 font-medium block mb-1">Rejected Rows</span>
           <span className="text-xl font-bold font-mono text-rose-600 tabular-nums">
-            {audit.invalidDatesCount}
+            {audit.rejectedRowsCount}
           </span>
-          <span className="text-[11px] text-slate-400 block mt-1">Unparseable timestamps</span>
+          <span className="text-[10px] text-slate-400 block mt-1">Unparseable dates</span>
         </div>
-        <div className="bg-white border border-slate-200 rounded-lg p-4">
-          <span className="text-xs text-slate-500 font-medium block mb-1">Negative Values</span>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <span className="text-[11px] text-slate-500 font-medium block mb-1">Cost Coverage</span>
+          <span className={`text-base font-bold font-mono tabular-nums block mt-1 ${audit.costDataAvailable ? 'text-emerald-700' : 'text-amber-700'}`}>
+            {audit.costDataAvailable ? 'Sufficient' : 'Incomplete'}
+          </span>
+          <span className="text-[10px] text-slate-400 block mt-1">Profitability integrity</span>
+        </div>
+        <div className="bg-white border border-slate-200 rounded-lg p-3.5">
+          <span className="text-[11px] text-slate-500 font-medium block mb-1">Returns / Negatives</span>
           <span className="text-xl font-bold font-mono text-slate-800 tabular-nums">
             {audit.negativeQuantitiesCount}
           </span>
-          <span className="text-[11px] text-slate-400 block mt-1">Returns / adjustments</span>
+          <span className="text-[10px] text-slate-400 block mt-1">Customer return lines</span>
         </div>
       </div>
 
