@@ -1,0 +1,6 @@
+{
+  "name": "RetailIQ — AI-Powered Retail Analytics & Decision Intelligence",
+  "description": "Full-stack enterprise retail analytics platform with customer RFM segmentation, SQL querying, exploratory data analysis, data quality auditing, and AI-assisted decision intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
